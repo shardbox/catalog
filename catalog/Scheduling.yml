@@ -1,0 +1,11 @@
+---
+name: Scheduling
+shards:
+- github: kostya/cron_scheduler
+  description: Job scheduler with crontab patterns
+- gitlab: crystallabs/crystime
+  description: Advanced time, calendar, schedule, and remind library
+- github: hugoabonizio/schedule.cr
+  description: Run periodic tasks
+- github: spider-gazelle/tasker
+  description: A high precision scheduler including timezone aware cron jobs

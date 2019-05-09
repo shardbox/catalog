@@ -1,0 +1,22 @@
+---
+name: Converters
+shards:
+- github: Sija/base62.cr
+  description: Base62 encoder/decoder, well suited for url-shortening
+- github: crystal-money/money
+  description: Handling money and currency conversion with ease (almost complete port
+    of [RubyMoney](https://github.com/RubyMoney/money))
+- github: dorkrawk/moola
+  description: Library for dealing with money and conversion (inspired by [RubyMoney](https://github.com/RubyMoney/money))
+- github: SuperPaintman/ms
+  description: Library to easily convert various time formats to milliseconds and
+    milliseconds to human readable format
+- github: straight-shoota/sass.cr
+  description: Compile SASS/SCSS to CSS ([libsass](https://github.com/sass/libsass/)
+    binding)
+- github: vladfaust/time_format.cr
+  description: Convert time in human readable format with ease
+- github: izniburak/turkish-number
+  description: Turn integers into the Turkish words
+- github: blocknotes/wkhtmltopdf-crystal
+  description: Bindings / wrapper for libwkhtmltox (HTML to PDF / image converter)

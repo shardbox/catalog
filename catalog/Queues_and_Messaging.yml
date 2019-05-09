@@ -1,0 +1,11 @@
+---
+name: Queues and Messaging
+shards:
+- github: datanoise/amqp.cr
+  description: AMQP 0.9.1 client with RabbitMQ extensions
+- github: bmulvihill/dispatch
+  description: In memory asynchronous job processing
+- github: robacarp/mosquito
+  description: Redis backed periodic and ad hoc job processing
+- github: mperham/sidekiq.cr
+  description: Simple, efficient job processing

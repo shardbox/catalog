@@ -1,0 +1,17 @@
+---
+name: Game Development
+shards:
+- gitlab: Zatherz/cray
+  description: Bindings for [raylib](http://www.raylib.com/), an easy-to-use game
+    development library
+- github: oprypin/crsfml
+  description: Bindings to [SFML](https://www.sfml-dev.org/) multimedia/game library
+- github: oprypin/crystal-chipmunk
+  description: Bindings for [Chipmunk](http://chipmunk-physics.net/), a fast and lightweight
+    2D game physics library
+- github: ddfreyne/glove
+  description: A library for gaming development
+- github: ddfreyne/inari
+  description: A collection of games using Glove as the game engine
+- github: bararchy/mos_game
+  description: Mini Offline Singleplayer game

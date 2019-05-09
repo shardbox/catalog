@@ -1,0 +1,17 @@
+---
+name: CLI Builders
+shards:
+- github: jwaldrip/admiral.cr
+  description: A robust DSL for writing command line interfaces
+- github: mosop/cli
+  description: Library for building command-line interface applications
+- github: j8r/clicr
+  description: ' A simple declarative command line interface builder'
+- github: at-grandpa/clim
+  description: Slim command line interface builder
+- github: mrrooijen/commander
+  description: Command-line interface builder
+- github: f/completion
+  description: Easy command line completion engine
+- github: mosop/optarg
+  description: Yet another library for parsing command-line options and arguments

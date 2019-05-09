@@ -1,0 +1,13 @@
+---
+name: Machine Learning
+shards:
+- github: drhuffman12/ai4cr
+  description: Artificial Intelligence (based on https://github.com/SergioFierens/ai4r)
+- github: NeuraLegion/crystal-fann
+  description: FANN (Fast Artifical Neural Network) binding
+- github: pbrusco/crystal-learn
+  description: Sklearn-like machine-learning library
+- github: NeuraLegion/shainet
+  description: SHAInet (Neural Network in pure crystal)
+- github: fazibear/tensorflow.cr
+  description: Bindings for [TensorFlow](https://github.com/tensorflow/tensorflow)

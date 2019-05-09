@@ -1,0 +1,7 @@
+---
+name: Feature Flipping
+shards:
+- github: rodrigopinto/can_use
+  description: It is a minimalist feature toggle/flag for crystal based on yaml
+- github: metaware/flipper
+  description: Feature flipping/flags/rollouts. Supports multiple backends

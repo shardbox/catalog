@@ -1,0 +1,16 @@
+---
+name: Template Engine
+shards:
+- github: straight-shoota/crinja
+  description: An implementation of the [Jinja2 template engine](http://jinja.pocoo.org/)
+- github: MakeNowJust/crustache
+  description: '[{{Mustache}}](https://mustache.github.io) for Crystal'
+- github: jeromegn/kilt
+  description: Abstraction layer for template engines
+- github: jeromegn/slang
+  description: Lightweight, terse, templating language inspired by Ruby's Slim
+- github: mosop/teeplate
+  description: A library for rendering multiple template files
+- github: f/temel
+  description: Extensible HTML::Builder alternative for Crystal, supports custom tag
+    definitions

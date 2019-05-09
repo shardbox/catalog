@@ -1,0 +1,36 @@
+---
+name: Framework Components
+shards:
+- github: gdotdesign/cr-melon
+  description: Class based Http APIs
+- github: funk-yourself/crystal-di
+  description: Lightweight DI Container
+- github: spalger/crystal-mime
+  description: Mimetypes for Crystal
+- github: creadone/device_detector
+  description: Shard for detect device by user agent string
+- github: crystal-loot/exception_page
+  description: An exceptional exception page for Crystal web libraries and frameworks
+- github: ziprandom/graphql-crystal
+  description: '[Graphql](http://graphql.org) implementation'
+- github: jwoertink/kave
+  description: Kemal API Version Extension
+- github: akwiatkowski/kemal-auth-token
+  description: Kemal middleware to authentication via HTTP header token using JWT
+- github: puppetpies/kemal-monetdb
+  description: MonetDB Data connection for Kemal
+- github: kemalcr/kemal-session
+  description: Session handler for Kemal
+- github: jwaldrip/mime-types.cr
+  description: A port of the Ruby MIME-types library
+- github: msa7/multi_auth
+  description: Standardized multi-provider OAuth2 authentication (inspired by omniauth)
+- github: ilanusse/praetorian
+  description: Minimalist authorization library inspired by Pundit
+- github: SuperPaintman/request-id
+  description: Middleware for generates / pick up a unique request ID for Crystal
+    servers
+- github: SuperPaintman/response-time
+  description: Response time for Crystal servers (pure http server, kemal, etc.)
+- github: kemalcr/spec-kemal
+  description: Easy testing for Kemal

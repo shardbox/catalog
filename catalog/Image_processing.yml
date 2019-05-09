@@ -1,0 +1,10 @@
+---
+name: Image processing
+shards:
+- github: blocknotes/magickwand-crystal
+  description: Bindings for [MagickWand](https://www.imagemagick.org/script/magick-wand.php),
+    the C interface for ImageMagick processing libraries
+- github: stumpycr/stumpy_gif
+  description: Write (animated) GIF images
+- github: stumpycr/stumpy_png
+  description: Read and write PNG images

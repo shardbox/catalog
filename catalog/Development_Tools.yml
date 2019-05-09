@@ -1,0 +1,15 @@
+---
+name: Development Tools
+shards:
+- github: f/guardian
+  description: File change watcher for Crystal and Non-Crystal libs
+- github: faustinoaq/kemal-watcher
+  description: Kemal plugin to watch files and live-reload the browser
+- github: samueleaton/sentry
+  description: Watches src files, rebuilds/reruns application on file changes
+- github: faustinoaq/sentry-run
+  description: Reload code changes using Sentry.run
+- github: diggersheep/warden
+  description: Watches files, run command and a git command if succeed on file changes
+- github: faustinoaq/watcher
+  description: Watch file changes using File.stat

@@ -1,0 +1,28 @@
+---
+name: Testing
+shards:
+- github: anykeyh/crystal-coverage
+  description: Generate cover report for your crystal code
+- github: emancu/crotest
+  description: A tiny and simple test framework
+- github: Groogy/crystal-clear
+  description: Design by Contract Library
+- github: hanneskaeufler/crytic
+  description: Mutation testing framework
+- github: luckyframework/lucky_flow
+  description: Automated browser tests similar to Capybara
+- github: c910335/mass-spec
+  description: Web API testing library
+- github: Ragmaanir/microtest
+  description: Small opinionated testing library focusing on power asserts
+- github: ysbaddaden/minitest.cr
+  description: Library for unit tests and assertions
+- github: waterlink/mocks.cr
+  description: Mocking library for Crystal
+- github: crystal-community/timecop.cr
+  description: Library for mocking with `Time.now`. Inspired by the [timecop ruby
+    gem](https://github.com/travisjeffery/timecop)
+- github: bwilczek/webdriver_pump
+  description: Page Object library. Inspired by Ruby's [WatirPump](https://github.com/bwilczek/watir_pump)
+- github: manastech/webmock.cr
+  description: Library for stubbing `HTTP::Client` requests

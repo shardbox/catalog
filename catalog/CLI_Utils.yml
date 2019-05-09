@@ -1,0 +1,14 @@
+---
+name: CLI Utils
+shards:
+- github: j8r/cride
+  description: A light CLI text editor/IDE
+- github: TPei/progress_bar.cr
+  description: A simple and customizable progress bar
+- github: epoch/tallboy
+  description: Generate ASCII character tables with support for spanning cells over
+    multiple columns
+- github: benoist/terminal_table.cr
+  description: Simple ASCII table generator
+- git: https://git.sceptique.eu/Sceptique/todo
+  description: Todo list working in command line

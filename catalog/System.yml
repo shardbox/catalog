@@ -1,0 +1,10 @@
+---
+name: System
+shards:
+- github: schovi/baked_file_system
+  description: Virtual file system implementation
+- github: crystal-community/hardware
+  description: Get CPU, Memory and Network informations of the running OS and its
+    processes
+- github: ddfreyne/rcpu
+  description: A virtual machine emulator and assembler

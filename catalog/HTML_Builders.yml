@@ -1,0 +1,8 @@
+---
+name: HTML Builders
+shards:
+- github: westonganger/form_builder.cr
+  description: Dead simple HTML form builder for Crystal with built-in support for
+    many popular UI libraries such as Bootstrap
+- github: crystal-lang/html_builder
+  description: DSL for creating HTML

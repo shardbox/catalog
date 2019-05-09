@@ -1,0 +1,13 @@
+---
+name: Email
+shards:
+- github: luckyframework/carbon
+  description: Fun, testable, and adapter-based email library
+- github: arcage/crystal-email
+  description: Simple e-mail sending library
+- git: https://git.sceptique.eu/Sceptique/CrystalEmail
+  description: A RFC compliant Email validator
+- github: tijn/devmail
+  description: A combined SMTP/POP3-server with volatile mail storage
+- github: dlanileonardo/sendgrid.cr
+  description: Simple Sendgrid Client

@@ -1,0 +1,23 @@
+---
+name: Network Protocols
+shards:
+- github: jeromegn/bson.cr
+  description: Native BSON implementation
+- github: Meoowww/Crirc
+  description: IRC protocol implementation (Client, Server, Bots)
+- github: foi/crystal-json-socket
+  description: JSON-socket client & server implementation. Inspired by and compatible
+    with [node-json-socket](https://github.com/sebastianseilund/node-json-socket/)
+    and [ruby-json-socket](https://github.com/foi/ruby-json-socket)
+- github: RX14/fast_irc.cr
+  description: Fast IRC parser/generator
+- github: anicholson/gopher.cr
+  description: Gopher server toolkit
+- github: crystal-community/jwt
+  description: Implementation of JWT (JSON Web Token)
+- github: crystal-community/msgpack-crystal
+  description: MessagePack library
+- github: wontruefree/socks
+  description: SOCKS proxy
+- git: https://git.sceptique.eu/Sceptique/transfer_more
+  description: Clone of transfer.sh to uploads files

@@ -1,0 +1,26 @@
+---
+name: ORM/ODM Extensions
+shards:
+- github: anykeyh/clear
+  description: ORM specialized to PostgreSQL only but with advanced features
+- github: Crecto/crecto
+  description: Database wrapper, based on Ecto
+- github: amberframework/granite
+  description: ORM for Postgres, Mysql, Sqlite
+- github: imdrasil/jennifer.cr
+  description: Active Record pattern implementation with flexible query chainable
+    builder and migration system
+- github: soveran/ohm-crystal
+  description: Object-hash mapping library for Redis
+- github: onyxframework/sql
+  description: DB-agnostic SQL ORM with beautiful DSL and type-safe Query builder
+- github: luckyframework/record
+  description: Type safe querying, saving and updating
+- github: maiha/redis-tsv.cr
+  description: Import and export data from Redis in TSV format
+- github: spider-gazelle/rethinkdb-orm
+  description: ORM for RethinkDB / RebirthDB
+- github: soveran/stal-crystal
+  description: Set algebra solver for Redis
+- github: topaz-crystal/topaz
+  description: A simple and useful db wrapper

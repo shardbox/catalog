@@ -1,0 +1,12 @@
+---
+name: Database Tools
+shards:
+- github: Crecto/crecto-admin
+  description: Admin dashboard for Crecto and your database
+- github: juanedi/micrate
+  description: Database migration tool
+- github: vladfaust/migrate.cr
+  description: A simpler database migration tool with transactions
+- github: aisrael/migro
+  description: A database migration tool that allows migrations to be specified in
+    either YAML or raw SQL

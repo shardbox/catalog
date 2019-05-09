@@ -1,0 +1,8 @@
+---
+name: Markdown/Text Processors
+shards:
+- github: huacnlee/html-pipeline
+  description: HTML processing filters and utilities
+- github: icyleaf/markd
+  description: Yet another markdown parser built for speed, Compliant to CommonMark
+    specification

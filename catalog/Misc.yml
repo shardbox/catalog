@@ -1,0 +1,53 @@
+---
+name: Misc
+shards:
+- github: veelenga/aasm.cr
+  description: Easy to use finite state machine for Crystal classes
+- github: Sija/any_hash.cr
+  description: Recursive Hash with better JSON::Any included
+- github: chris-huxtable/atomic_write.cr
+  description: Library for writing or apppending files atomically
+- github: vnbrs/burocracia.cr
+  description: burocracia.cr the dependecyless shard to validate, generate and format
+    Brazilian burocracias such as CPF, CNPJ and CEP
+- github: vladfaust/callbacks.cr
+  description: Expressive callbacks module
+- github: TPei/circuit_breaker
+  description: Implementation of the circuit breaker pattern
+- github: elorest/compiled_license
+  description: Compiles licenses into binary for complience with MIT when copying
+    binary to system or container without the code
+- github: DanSnow/crystal-binary_parser
+  description: Binary parser
+- github: dhruvrajvanshi/crz
+  description: Functional programming library
+- github: veelenga/emoji.cr
+  description: Emoji library
+- github: 0x73/hoop
+  description: Building native OSX apps
+- github: crystal-lang/html_builder
+  description: DSL for creating HTML
+- github: vladfaust/i18n.cr
+  description: Internationalization shard
+- github: lucaong/immutable
+  description: Implementation of thread-safe, persistent, immutable collections
+- github: phoffer/inflector.cr
+  description: Singularize, pluralize, camelize, etc (port from ActiveSupport)
+- github: lirith-engine/lirith
+  description: Graphics engine
+- github: akiicat/m3u8
+  description: Generate and parse m3u8 playlists for HTTP Live Streaming
+- github: blocknotes/manual-generator
+  description: Tool to generate PDF manuals from documentation sites
+- github: danielwestendorf/message_verifier.cr
+  description: Verify and generate Rails `ActiveSupport::MessageVerifier` signed tokens
+- github: isaced/pangu.cr
+  description: Paranoid text spacing in Crystal
+- github: l3kn/raytracer
+  description: CPU Raytracer with examples
+- github: Sija/retriable.cr
+  description: Simple DSL to retry failed code blocks
+- github: sdogruyol/tren
+  description: Give your SQL some love
+- github: SuperPaintman/ulid
+  description: Universally Unique Lexicographically Sortable Identifier (ULID)

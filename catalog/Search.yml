@@ -1,0 +1,11 @@
+---
+name: Search
+shards:
+- github: imdrasil/hermes.cr
+  description: Data Mapper pattern implementation for ElastiSearch
+- github: izniburak/query-builder
+  description: Sql Query Builder library
+- github: waterlink/query.cr
+  description: Query abstraction
+- github: Ragmaanir/soegen
+  description: Elasticsearch client for Crystal similar to the stretcher gem for ruby

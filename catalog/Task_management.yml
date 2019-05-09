@@ -1,0 +1,7 @@
+---
+name: Task management
+shards:
+- github: axvm/cake
+  description: Production-ready Make-like utility tool
+- github: imdrasil/sam.cr
+  description: Another one Rake-like task manager with namespacing and arguments system

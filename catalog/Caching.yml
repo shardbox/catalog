@@ -1,0 +1,13 @@
+---
+name: Caching
+shards:
+- github: crystal-community/bloom_filter
+  description: Implementation of Bloom filter
+- github: marceloboeira/bojack
+  description: A non-reliable in-memory key-value store
+- github: samueleaton/cache-hash
+  description: A key/value store where entries expire after a specified interval
+- github: comandeo/crystal-memcached
+  description: Implementation of a memcached client
+- github: CodeSteak/Nuummite
+  description: A tiny persistent embedded key-value store

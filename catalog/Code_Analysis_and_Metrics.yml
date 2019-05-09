@@ -1,0 +1,7 @@
+---
+name: Code Analysis and Metrics
+shards:
+- github: veelenga/ameba
+  description: A static code analysis tool
+- github: Groogy/trashman
+  description: A simple memory profiler for Crystal applications

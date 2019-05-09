@@ -1,0 +1,7 @@
+---
+name: Package Management
+shards:
+- github: elorest/crelease
+  description: Version and git tag manager that makes shard releases easy
+- github: crystal-lang/shards
+  description: Dependency manager for the Crystal

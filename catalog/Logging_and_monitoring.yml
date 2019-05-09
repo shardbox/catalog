@@ -1,0 +1,17 @@
+---
+name: Logging and monitoring
+shards:
+- gitlab: ezrast/crometheus
+  description: A [Prometheus](https://prometheus.io/) client library
+- github: arcage/crystal-logreader
+  description: Tailing log file
+- github: TobiasGSmollett/fluent-logger-crystal
+  description: A structured logger for [Fluentd](https://www.fluentd.org/)
+- github: instana/crystal-sensor
+  description: A metrics and distributed trace collector for [Instana](https://www.instana.com/)
+- github: guvencenanguvenal/katip
+  description: JSONbase logger
+- github: miketheman/statsd.cr
+  description: '[Statsd](https://github.com/etsy/statsd) client library'
+- github: comandeo/syslog.cr
+  description: Implementation of Syslog client

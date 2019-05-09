@@ -1,0 +1,11 @@
+---
+name: Processes and Threads
+shards:
+- github: anykeyh/await_async
+  description: Add keywords await & async in Crystal Lang
+- github: dhruvrajvanshi/crystal-futures
+  description: Future type implementation
+- github: tbrand/neph
+  description: A modern command line job processor that can execute jobs concurrently
+- github: spider-gazelle/promise
+  description: A Promise implementation with type inference

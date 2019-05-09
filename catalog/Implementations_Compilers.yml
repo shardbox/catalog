@@ -1,0 +1,26 @@
+---
+name: Implementations/Compilers
+shards:
+- github: charly-lang/charly
+  description: Charly Programming Language
+- github: senselogic/CIBYL
+  description: Lightweight curly-bracket language which compiles to Ruby and Crystal
+- github: ziprandom/cltk
+  description: A crystal port of the Ruby Language Toolkit
+- github: unn4m3d/cppize
+  description: Crystal-to-C++ transpiler
+- github: rhysd/Crisp
+  description: Lisp dialect implemented with Crystal
+- github: geppetto-apps/crow
+  description: Transpile/compile Crystal to [Flow](https://flow.org/)
+- github: LinCAS-lang/LinCAS
+  description: A programming language for scientific computation
+- github: mint-lang/mint
+  description: A refreshing programming language for the front-end web
+- github: myst-lang/myst
+  description: A practical, dynamic language designed to be written and understood
+    as easily and efficiently as possible
+- github: TheKernelCorp/NuummiteOS
+  description: An OS written in Crystal as a Proof of Concept
+- github: runic-lang/runic
+  description: In-design toy language

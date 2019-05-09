@@ -1,0 +1,49 @@
+---
+name: Third-party APIs
+shards:
+- github: beanieboi/aws-signer.cr
+  description: This library signs your HTTP requests using AWS v4
+- github: taylorfinnell/awscr-s3
+  description: AWS S3 interface
+- github: taylorfinnell/awscr-signer
+  description: Sign HTTP::Request objects and generate presigned post forms
+- github: gewo/bugsnag.cr
+  description: Bugsnag exception notifier and sidekiq middleware
+- github: sb89/crystal-darksky
+  description: Wrapper for the [Dark Sky](https://darksky.net) API
+- github: felipeelias/crystal-github
+  description: Wrapper for the [Github](https://github.com/) API
+- github: barisbalic/crystal-monzo
+  description: A client for the [Monzo API](https://monzo.com/docs/)
+- github: sb89/crystal-swapi
+  description: Star Wars API (SWAPI) wrapper
+- github: manastech/crystal_slack
+  description: A tool that parses Slack slash commands or send incoming web hooks
+- github: meew0/discordcr
+  description: A minimalist Discord API library
+- github: mccallofthewild/gdax
+  description: GDAX REST and WebSocket API Wrapper with request signing
+- github: icyleaf/gitlab.cr
+  description: GitLab API wrapper
+- github: fridgerator/google_maps_api
+  description: Google Maps API
+- github: Gangwolf/hncr
+  description: A Hacker News API wrapper
+- github: petoem/mixpanel-crystal
+  description: A library for sending events to Mixpanel
+- github: timcraft/nexmo-crystal
+  description: '[Nexmo REST API](https://developer.nexmo.com/) client'
+- github: osfx/open_exchange_rates
+  description: A library to access [Open Exchange Rates](https://openexchangerates.org/)
+    API
+- github: oz/pinboard.cr
+  description: '[Pinboard](https://pinboard.in) API'
+- github: sija/raven.cr
+  description: Raven is a client for [Sentry](https://github.com/getsentry/sentry)
+- github: DougEverly/slack.cr
+  description: A Slack [Real Time Messaging API](https://api.slack.com/rtm) WebSocket
+    client library
+- github: hangyas/telegram_bot
+  description: A wrapper for the Telegram Bot API
+- github: sferik/twitter-crystal
+  description: A library to access the Twitter API

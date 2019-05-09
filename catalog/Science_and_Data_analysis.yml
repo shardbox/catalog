@@ -1,0 +1,9 @@
+---
+name: Science and Data analysis
+shards:
+- github: konovod/linalg
+  description: Linear algebra library inspired by MATLAB and SciPy.linalg
+- github: RX14/predict.cr
+  description: Satellite prediction library using the sgp4 model
+- git: https://git.sceptique.eu/Sceptique/stats
+  description: An expressive implementation of statistical distributions

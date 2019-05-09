@@ -1,0 +1,33 @@
+---
+name: HTTP
+shards:
+- github: crystal-community/cossack
+  description: Simple flexible HTTP client
+- github: mamantoha/crest
+  description: Simple HTTP and REST client, inspired by the Ruby's RestClient gem
+- github: porras/crul
+  description: Command line HTTP client
+- github: sdogruyol/cryload
+  description: HTTP benchmarking tool
+- github: icyleaf/halite
+  description: Crystal HTTP Requests with a chainable REST API, built-in sessions
+    and loggers
+- github: EvanHahn/crystal-helmet
+  description: Set security-related HTTP headers
+- github: vladfaust/http-multiserver.cr
+  description: Mounting multiple servers via routes (a.k.a. URL mapping)
+- github: vladfaust/http-params-serializable
+  description: HTTP params (de)serialization, applicable to URL queries and URL-encoded
+    forms
+- github: rogeriozambon/http-protection
+  description: Protection against typical web attacks
+- github: ysbaddaden/http2
+  description: HTTP/2 Protocol Implementation
+- github: danielpclark/keyer_cr
+  description: Adds HTTP GET/POST parameter parsing as a Hash-like object
+- github: watzon/ngrok.cr
+  description: Ngrok wrapper
+- github: vladfaust/params.cr
+  description: The strongly-typed HTTP params parsing module
+- github: soveran/resp-crystal
+  description: Lightweight RESP client

@@ -1,0 +1,9 @@
+---
+name: GUI library
+shards:
+- github: Qwerp-Derp/hedron
+  description: An extendable GUI library, with markup language capabilities
+- github: Fusion/libui.cr
+  description: Bindings for [libui](https://github.com/andlabs/libui)
+- github: Papierkorb/qt5.cr
+  description: Qt5 bindings for Crystal, based on Bindgen

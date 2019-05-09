@@ -1,0 +1,45 @@
+---
+name: C bindings
+shards:
+- github: TamasSzekeres/asound-cr
+  description: Bindings for ALSA/libasound
+- github: TamasSzekeres/cairo-cr
+  description: Bindings for [Cairo](https://cairographics.org/) graphics library
+- github: ysbaddaden/clang.cr
+  description: Libclang bindings
+- github: vonKingsley/crass
+  description: Bindings for libsass
+- github: maiha/crt.cr
+  description: Bindings for libncursesw and crt
+- github: ruivieira/crystal-gsl
+  description: GNU Scientific Library bindings
+- github: blocknotes/curl-crystal
+  description: Bindings for [libcurl](https://curl.haxx.se/libcurl/)
+- github: jessedoyle/duktape.cr
+  description: Bindings for the [Duktape](https://github.com/svaarala/duktape) javascript
+    engine
+- github: Sija/gphoto2.cr
+  description: Bindings for the [libgphoto2](http://www.gphoto.org/) library
+- github: olbat/icu.cr
+  description: Bindings for the [ICU](http://site.icu-project.org/) library
+- github: splattael/libnotify.cr
+  description: Bindings for Libnotify
+- github: maiha/pcap.cr
+  description: Bindings for libpcap
+- github: chris-huxtable/pledge.cr
+  description: Bindings for OpenBSD's `pledge(2)`
+- github: ysbaddaden/posix
+  description: POSIX/C bindings
+- github: mjago/soundfile
+  description: Bindings for [libsndfile](http://www.mega-nerd.com/libsndfile/) library
+- github: spider-gazelle/ssh2.cr
+  description: Bindings for libssh2 library
+- github: chris-huxtable/syslog.cr
+  description: Bindings for `syslog`
+- github: andrewsuzuki/termbox-crystal
+  description: Bindings and extension library for [termbox](https://github.com/nsf/termbox)
+    (terminal UI library)
+- github: TamasSzekeres/x11-cr
+  description: X11 bindings
+- github: woodruffw/x_do.cr
+  description: Bindings for libxdo ([`xdotool`](https://github.com/jordansissel/xdotool))

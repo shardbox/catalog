@@ -1,0 +1,7 @@
+---
+name: Data Generators
+shards:
+- github: askn/faker
+  description: A library for generating fake data
+- github: splattael/hashids.cr
+  description: A library to generate YouTube-like ids from one or many numbers

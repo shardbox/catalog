@@ -1,0 +1,12 @@
+---
+name: Validation
+shards:
+- github: neovintage/accord
+  description: Shareable validation library for Crystal Objects
+- github: blacksmoke16/CrSerializer
+  description: Extensible annotation based serialization/deserialization/validation
+    library
+- github: izniburak/denetmen
+  description: Micro check library that patches Crystal stdlib
+- github: vladfaust/validations.cr
+  description: Validations mixin

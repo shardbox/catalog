@@ -1,0 +1,11 @@
+---
+name: Configuration
+shards:
+- github: gdotdesign/cr-dotenv
+  description: Loads .env file
+- github: philnash/envyable.cr
+  description: ' A simple YAML to ENV config loader'
+- github: luckyframework/habitat
+  description: Type safe configuration for your classes and modules
+- github: icyleaf/totem
+  description: Load and parse a configuration in JSON, YAML, dotenv formats

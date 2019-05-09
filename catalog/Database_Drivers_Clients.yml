@@ -1,0 +1,33 @@
+---
+name: Database Drivers/Clients
+shards:
+- github: TechMagister/couchdb.cr
+  description: CouchDB client
+- github: crystal-lang/crystal-db
+  description: Common db api
+- github: puppetpies/crystal-monetdb-libmapi
+  description: Bindings for MonetDB
+- github: crystal-lang/crystal-mysql
+  description: MySQL connector for Crystal
+- github: will/crystal-pg
+  description: A Postgres driver
+  legacy:
+  - github: asterite/crystal-pg
+- github: stefanwille/crystal-redis
+  description: Full featured Redis client
+- github: kingsleyh/crystal-rethinkdb
+  description: Driver for RethinkDB / RebirthDB
+- github: crystal-lang/crystal-sqlite3
+  description: SQLite3 bindings
+- github: measurechina/eventql-crystal
+  description: EventQL driver
+- github: crystal-community/leveldb
+  description: Crystal bindings for LevelDB
+- github: ambercommunity/mongo.cr
+  description: Binding for MongoDB C driver
+  legacy:
+    github: datanoise/mongo.cr
+- github: maiha/rocksdb.cr
+  description: RocksDB client
+- github: vladfaust/tarantool-crystal
+  description: Tarantool driver

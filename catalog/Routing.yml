@@ -1,0 +1,11 @@
+---
+name: Routing
+shards:
+- github: jreinert/crouter
+  description: A standalone router
+- github: obsidian/orion
+  description: A minimal, rails-esque routing library
+- github: tbrand/router.cr
+  description: Minimum but powerful http router for HTTP::Server
+- github: soveran/toro
+  description: Tree Oriented Routing

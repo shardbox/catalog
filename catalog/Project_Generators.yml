@@ -1,0 +1,16 @@
+---
+name: Project Generators
+shards:
+- github: TechMagister/bindgencr
+  description: Generator of bindings based on castxml output
+- github: crystal-lang/crystal_lib
+  description: Automatic binding generator for native libraries
+- github: jwoertink/fez
+  description: A Kemal application generator
+- github: kemalyst/kemalyst-generator
+  description: Kemalyst command line tool for console, init, generate (scaffolding),
+    and watch.
+- github: olbat/libgen
+  description: Automatic bindings generator configured using JSON/YAML files
+- github: icyleaf/wasp
+  description: Static Site Generator

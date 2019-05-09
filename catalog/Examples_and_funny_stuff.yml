@@ -1,0 +1,59 @@
+---
+name: Examples and funny stuff
+shards:
+- github: nbw/battlesnake_crystal
+  description: Tron snake for [battlesnake](https://www.battlesnake.io/) competition
+- github: gdonald/blackjack-cr
+  description: Console Blackjack
+- github: petoem/breakout.cr
+  description: Breakout game written using crsfml
+- github: codenoid/chuck-norris-holy-quotes
+  description: Chuck Norris holy quotes
+- github: johnjansen/clamp
+  description: Clamp any Comparable
+- github: oprypin/crsfml-examples
+  description: Simple games made with CrSFML
+- github: kostya/crystal-benchmarks-game
+  description: The Computer Language Benchmarks Game
+- github: askn/crystal-by-example
+  description: Crystal By Example
+- github: Demonstrandum/Crystal-Maze
+  description: A* Path finding for PNG mazes
+- github: codenoid/crystal-mysql-crud-example
+  description: Crystal MySQL CRUD example
+- github: crystal-community/crystal-patterns
+  description: Examples of GOF patters
+- github: phoffer/crystalized_ruby
+  description: Native Ruby extensions written in Crystal
+- github: vladfaust/crystalworld
+  description: '[realworld.io](https://realworld.io) back-end API implementation'
+- github: exercism/crystal
+  description: Exercism exercises
+- github: codenoid/jihantoro-cr-mysql
+  description: Crystal MySQL from scratch sample app
+- github: codenoid/jihantoro.sd
+  description: Crystal & Kemal version of Serdar Dogruyol blog
+- github: sdogruyol/kemal-chat
+  description: Build realtime applications with Kemal and WebSocket
+- github: cagataycali/kemal-heroku-example
+  description: This repository shows, how you can publish your open source apps which
+    powered kemal framework publish as heroku app in seconds
+- github: codenoid/kemal-mysql-blog
+  description: Blog written with Crystal, Kemal and MySQL
+- github: f/kemal-react-chat
+  description: Build Realtime Web applications with Kemal and React
+- github: ChangJoo-Park/kemal-vue-chat
+  description: Build Realtime Web applications with Kemal and Vue.js
+- github: jasonl99/card_game
+  description: A demo web app for (WebSocket-based) lattice-core
+- github: jwoertink/medley
+  description: A mixture of music related methods
+- github: lbguilherme/os-crystal
+  description: x86 Kernel implemented in Crystal
+- github: Angarsk8/realtime-todo-app
+  description: Realtime Todo application developed with Kemal, Websockets, React,
+    ES2015 and PostgreSQL
+- github: codingphasedotcom/rocky
+  description: React Over Crystal Kemal and Yarn
+- github: maiha/try.cr
+  description: Try monad

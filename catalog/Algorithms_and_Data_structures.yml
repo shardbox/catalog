@@ -1,0 +1,44 @@
+---
+name: Algorithms and Data structures
+shards:
+- github: chenkovsky/aho_corasick
+  description: AhoCorasick algorithm
+- github: spider-gazelle/bisect
+  description: Inserting values into a sorted array
+- github: elorest/bitfields
+  description: Pure Crystal implementation of BitFields. Handles encoding/decoding
+    of bytes.
+- github: philnash/crotp
+  description: HOTP and TOTP implementation for two factor authentication
+- github: MakeNowJust/crystal-diff
+  description: A Crystal sequence differencing implementation
+- github: abvdasker/crystal-linked-list
+  description: Implementation of Linked List
+- github: unn4m3d/crystaledge
+  description: A pure Vector Math library
+- github: TobiasGSmollett/crystalg
+  description: A Generic Algorithm Library
+- github: jtomschroeder/crystalline
+  description: A collection of containers and algorithms
+- github: drujensen/delimiter_tree
+  description: A tree structure that is built using a delimiter
+- github: tcrouch/edits.cr
+  description: Collection of edit distance algorithms
+- github: mettuaditya/graphlb
+  description: Collection of graph datastructure and algorithms
+- github: TobiasGSmollett/hash_ring
+  description: An Implementation of Consistent Hash Ring
+- github: Sija/ksuid.cr
+  description: K-Sortable Globally Unique IDs
+- github: mccallofthewild/markov
+  description: Build Markov Chains and run Markov Processes
+- github: tcrouch/multiset.cr
+  description: Implementation of a multiset
+- github: kuende/murmur3
+  description: Implementation of Murmur3 hash algorithm used by Cassandra
+- github: obsidian/oak
+  description: A flexible Radix Tree implementation
+- github: luislavena/radix
+  description: Radix Tree implementation
+- github: johnjansen/ternary_search_tree
+  description: Ternary Search Tree

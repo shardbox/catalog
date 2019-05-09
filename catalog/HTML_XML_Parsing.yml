@@ -1,0 +1,13 @@
+---
+name: HTML/XML Parsing
+shards:
+- github: madeindjs/Crystagiri
+  description: An Html Reader / parser like [Nokogiri](https://github.com/sparklemotion/nokogiri)
+    Ruby gem
+- github: blocknotes/gumbo-crystal
+  description: Bindings for [Gumbo](https://github.com/google/gumbo-parser), an HTML5
+    parsing library made by Google
+- github: maiha/hq.cr
+  description: Simple wrapper for crystal-xml
+- github: kostya/myhtml
+  description: Fast HTML5 Parser that includes CSS selectors
