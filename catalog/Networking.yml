@@ -3,3 +3,4 @@ name: Networking
 shards:
 - github: Sija/ipaddress.cr
   description: Library to handle IPv4 and IPv6 addresses
+- github: ysbaddaden/pool

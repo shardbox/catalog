@@ -22,7 +22,7 @@ shards:
 - github: kemalcr/kemal-session
   description: Session handler for Kemal
 - github: jwaldrip/mime-types.cr
-  description: A port of the Ruby MIME-types library
+  description: MIME::Types Registry for Crystal
 - github: msa7/multi_auth
   description: Standardized multi-provider OAuth2 authentication (inspired by omniauth)
 - github: ilanusse/praetorian

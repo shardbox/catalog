@@ -1,6 +1,7 @@
 ---
 name: Routing
 shards:
+- github: amberframework/amber-router
 - github: jreinert/crouter
   description: A standalone router
 - github: obsidian/orion

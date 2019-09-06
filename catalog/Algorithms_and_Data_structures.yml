@@ -11,7 +11,7 @@ shards:
 - github: philnash/crotp
   description: HOTP and TOTP implementation for two factor authentication
 - github: MakeNowJust/crystal-diff
-  description: A Crystal sequence differencing implementation
+  description: Crystal sequence differencing implementation
 - github: abvdasker/crystal-linked-list
   description: Implementation of Linked List
 - github: unn4m3d/crystaledge

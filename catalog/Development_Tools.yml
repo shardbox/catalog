@@ -5,6 +5,7 @@ shards:
   description: Docker wrapper for the Crystal CLI
 - github: f/guardian
   description: File change watcher for Crystal and Non-Crystal libs
+- github: crystal-community/icr
 - github: faustinoaq/kemal-watcher
   description: Kemal plugin to watch files and live-reload the browser
 - github: samueleaton/sentry

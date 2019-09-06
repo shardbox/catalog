@@ -1,6 +1,7 @@
 ---
 name: ORM/ODM Extensions
 shards:
+- github: luckyframework/avram
 - github: anykeyh/clear
   description: ORM specialized to PostgreSQL only but with advanced features
 - github: Crecto/crecto
