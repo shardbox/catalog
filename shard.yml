@@ -1,0 +1,14 @@
+name: shardbox-catalog
+version: 0.1.0
+
+authors:
+  - Johannes Müller <straightshoota@gmail.com>
+
+description: |
+   The shard catalog for https://shardbox.org
+
+development_dependencies:
+  shardbox-core:
+    github: shardbox/shardbox-core
+
+license: MIT

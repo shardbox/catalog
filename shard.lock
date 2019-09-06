@@ -1,0 +1,38 @@
+version: 1.0
+shards:
+  any_hash:
+    github: Sija/any_hash.cr
+    version: 0.2.3
+
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.6.0
+
+  git:
+    github: smacker/libgit2.cr
+    commit: 64120f8f33dd04b8871fe180e2d00f5a8c6e7397
+
+  github-cr:
+    github: arnavb/github-cr
+    commit: 119df4c747a81260b37af0878b24eab9345a94f4
+
+  pg:
+    github: will/crystal-pg
+    version: 0.18.1
+
+  raven:
+    github: Sija/raven.cr
+    version: 1.5.0
+
+  shardbox-core:
+    github: shardbox/shardbox-core
+    commit: 2e2be89e195724a4d88c43a3259ed4dc9293122f
+
+  shards:
+    github: crystal-lang/shards
+    commit: 81ea69333b0b020eccdfd6c8f6f427e9724e135a
+
+  taskmaster:
+    github: straight-shoota/taskmaster
+    commit: b2ef6a93ab5f85e2412aad5e1385563228e5fa06
+
