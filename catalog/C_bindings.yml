@@ -5,8 +5,10 @@ shards:
   description: Bindings for ALSA/libasound
 - github: TamasSzekeres/cairo-cr
   description: Bindings for [Cairo](https://cairographics.org/) graphics library
-- github: ysbaddaden/clang.cr
+- github: crystal-lang/clang.cr
   description: Libclang bindings
+  legacy:
+  - github: ysbaddaden/clang.cr
 - github: vonKingsley/crass
   description: Bindings for libsass
 - github: maiha/crt.cr

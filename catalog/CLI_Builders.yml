@@ -13,6 +13,8 @@ shards:
   description: Command-line interface builder
 - github: f/completion
   description: Easy command line completion engine
+  mirror:
+  - github: porras/completion
 - github: luckyframework/lucky_cli
 - github: mosop/optarg
   description: Yet another library for parsing command-line options and arguments

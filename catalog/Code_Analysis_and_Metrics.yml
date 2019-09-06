@@ -3,5 +3,7 @@ name: Code Analysis and Metrics
 shards:
 - github: crystal-ameba/ameba
   description: A static code analysis tool
+  legacy:
+  - github: veelenga/ameba
 - github: Groogy/trashman
   description: A simple memory profiler for Crystal applications
