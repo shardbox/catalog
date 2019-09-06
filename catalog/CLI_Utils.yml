@@ -10,5 +10,7 @@ shards:
     multiple columns
 - github: benoist/terminal_table.cr
   description: Simple ASCII table generator
+- github: aca-labs/terminimal
+  description: A tiny CLI toolkit for building terminal apps for humans
 - git: https://git.sceptique.eu/Sceptique/todo
   description: Todo list working in command line

@@ -9,6 +9,8 @@ shards:
   description: JSON-socket client & server implementation. Inspired by and compatible
     with [node-json-socket](https://github.com/sebastianseilund/node-json-socket/)
     and [ruby-json-socket](https://github.com/foi/ruby-json-socket)
+- github: spider-gazelle/crystal-snmp
+  description: An SNMP implementation with version 1, 2c and 3 support
 - github: RX14/fast_irc.cr
   description: Fast IRC parser/generator
 - github: anicholson/gopher.cr

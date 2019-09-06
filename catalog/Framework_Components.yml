@@ -34,3 +34,5 @@ shards:
   description: Response time for Crystal servers (pure http server, kemal, etc.)
 - github: kemalcr/spec-kemal
   description: Easy testing for Kemal
+- github: watzon/tourmaline
+  description: Telegram bot framework with an API loosely based on [telegraf.js](https://telegraf.js.org/)

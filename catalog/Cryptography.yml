@@ -1,0 +1,7 @@
+---
+name: Cryptography
+shards:
+- github: z64/openssl.cr
+  description: This library provides binding for OpenSSL library
+- github: didactic-drunk/sodium.cr
+  description: Crystal wrapper for the libsodium crypto API

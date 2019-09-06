@@ -8,6 +8,8 @@ shards:
   description: Easy to use configuration format parser
 - github: c910335/crinder
   description: Class based json renderer
+- github: naqvis/crystar
+  description: Readers and writers of Tar archive format
 - github: chris-huxtable/front_matter.cr
   description: Separates a files front matter from its content
 - github: delef/geoip2.cr

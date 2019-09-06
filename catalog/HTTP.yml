@@ -1,6 +1,11 @@
 ---
 name: HTTP
 shards:
+- github: watzon/arachnid
+  description: Powerful web scraping framework
+- github: cable-cr/cable
+  description: An ActionCable "port" to Crystal, framework agnostic, 100% compatible
+    with the ActionCable JS Client
 - github: crystal-community/cossack
   description: Simple flexible HTTP client
 - github: mamantoha/crest
@@ -31,3 +36,6 @@ shards:
   description: The strongly-typed HTTP params parsing module
 - github: soveran/resp-crystal
   description: Lightweight RESP client
+- github: y2k2mt/sse.cr
+  description: '[Server-Sent Events](https://www.w3.org/TR/2009/WD-eventsource-20090421)
+    client'

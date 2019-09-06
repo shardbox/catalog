@@ -3,6 +3,8 @@ name: Machine Learning
 shards:
 - github: drhuffman12/ai4cr
   description: Artificial Intelligence (based on https://github.com/SergioFierens/ai4r)
+- github: watzon/cadmium
+  description: NLP library based heavily on [natural](https://github.com/NaturalNode/natural)
 - github: NeuraLegion/crystal-fann
   description: FANN (Fast Artifical Neural Network) binding
 - github: pbrusco/crystal-learn

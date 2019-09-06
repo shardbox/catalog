@@ -1,6 +1,8 @@
 ---
 name: Development Tools
 shards:
+- github: aca-labs/docker-crystal
+  description: Docker wrapper for the Crystal CLI
 - github: f/guardian
   description: File change watcher for Crystal and Non-Crystal libs
 - github: faustinoaq/kemal-watcher

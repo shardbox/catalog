@@ -1,0 +1,5 @@
+---
+name: Dependency Injection
+shards:
+- github: Bonemind/syringe
+  description: A simple and basic dependency injection shard for crystal

@@ -1,6 +1,8 @@
 ---
 name: Logging and monitoring
 shards:
+- github: spoved/crafana.cr
+  description: A [Grafana](https://grafana.com/) library to help autogenerate dashboards
 - gitlab: ezrast/crometheus
   description: A [Prometheus](https://prometheus.io/) client library
 - github: arcage/crystal-logreader

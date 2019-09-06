@@ -26,7 +26,7 @@ shards:
 - github: ambercommunity/mongo.cr
   description: Binding for MongoDB C driver
   legacy:
-    github: datanoise/mongo.cr
+  - github: datanoise/mongo.cr
 - github: maiha/rocksdb.cr
   description: RocksDB client
 - github: vladfaust/tarantool-crystal

@@ -1,6 +1,8 @@
 ---
 name: Third-party APIs
 shards:
+- github: y2k2mt/aws-credentials
+  description: Get AWS credentials in various ways
 - github: beanieboi/aws-signer.cr
   description: This library signs your HTTP requests using AWS v4
 - github: taylorfinnell/awscr-s3
@@ -9,6 +11,8 @@ shards:
   description: Sign HTTP::Request objects and generate presigned post forms
 - github: gewo/bugsnag.cr
   description: Bugsnag exception notifier and sidekiq middleware
+- github: rogerwelin/crystal-consul
+  description: Consul API client
 - github: sb89/crystal-darksky
   description: Wrapper for the [Dark Sky](https://darksky.net) API
 - github: felipeelias/crystal-github
@@ -29,6 +33,8 @@ shards:
   description: Google Maps API
 - github: Gangwolf/hncr
   description: A Hacker News API wrapper
+- github: spoved/kube-client.cr
+  description: Kubernetes API Client
 - github: petoem/mixpanel-crystal
   description: A library for sending events to Mixpanel
 - github: timcraft/nexmo-crystal
@@ -47,3 +53,5 @@ shards:
   description: A wrapper for the Telegram Bot API
 - github: sferik/twitter-crystal
   description: A library to access the Twitter API
+- github: jaredsmithse/ynab.cr
+  description: A library to interact with your YNAB data

@@ -13,6 +13,8 @@ shards:
   description: Bindings for libncursesw and crt
 - github: ruivieira/crystal-gsl
   description: GNU Scientific Library bindings
+- github: mamantoha/crystal-hunspell
+  description: Bindings for [Hunspell](https://hunspell.github.io/)
 - github: blocknotes/curl-crystal
   description: Bindings for [libcurl](https://curl.haxx.se/libcurl/)
 - github: jessedoyle/duktape.cr
@@ -43,3 +45,6 @@ shards:
   description: X11 bindings
 - github: woodruffw/x_do.cr
   description: Bindings for libxdo ([`xdotool`](https://github.com/jordansissel/xdotool))
+- github: BlackHabanero/zstd-cr
+  description: Bindings for [Zstandard](https://github.com/facebook/zstd) compression
+    library

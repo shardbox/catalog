@@ -19,9 +19,13 @@ shards:
   description: Library for unit tests and assertions
 - github: waterlink/mocks.cr
   description: Mocking library for Crystal
+- gitlab: arctic-fox/spectator
+  description: Feature rich spec framework that uses the modern expect syntax
 - github: crystal-community/timecop.cr
   description: Library for mocking with `Time.now`. Inspired by the [timecop ruby
     gem](https://github.com/travisjeffery/timecop)
+- github: spoved/vcr.cr
+  description: A HTTP capture and replay implementation for crystal
 - github: bwilczek/webdriver_pump
   description: Page Object library. Inspired by Ruby's [WatirPump](https://github.com/bwilczek/watir_pump)
 - github: manastech/webmock.cr
