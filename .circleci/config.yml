@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: crystallang/crystal:latest
+
+    steps:
+      - checkout
+
+      - run:
+          name: Install shards
+          command: shards install
+
+      - run:
+          name: Run formatter
+          command: crystal run src/format_catalog.cr
