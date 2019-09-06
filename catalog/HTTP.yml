@@ -14,11 +14,11 @@ shards:
   description: Command line HTTP client
 - github: sdogruyol/cryload
   description: HTTP benchmarking tool
+- github: EvanHahn/crystal-helmet
+  description: Set security-related HTTP headers
 - github: icyleaf/halite
   description: Crystal HTTP Requests with a chainable REST API, built-in sessions
     and loggers
-- github: EvanHahn/crystal-helmet
-  description: Set security-related HTTP headers
 - github: vladfaust/http-multiserver.cr
   description: Mounting multiple servers via routes (a.k.a. URL mapping)
 - github: vladfaust/http-params-serializable

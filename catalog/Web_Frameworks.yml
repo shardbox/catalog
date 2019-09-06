@@ -13,10 +13,10 @@ shards:
 - github: luckyframework/lucky
   description: Catch bugs early, forget about most performance issues, and spend more
     time on code instead of debugging and writing tests
+- github: samueleaton/raze
+  description: Modular, light web framework
 - github: onyxframework/rest
   description: REST API framework with type-safe params and separate business and
     rendering layers, based on [onyx-http](https://github.com/onyxframework/http)
-- github: samueleaton/raze
-  description: Modular, light web framework
 - github: spider-gazelle/spider-gazelle
   description: A Rails esque web framework with a focus on speed and extensibility

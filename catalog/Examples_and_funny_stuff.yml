@@ -7,12 +7,16 @@ shards:
   description: Console Blackjack
 - github: petoem/breakout.cr
   description: Breakout game written using crsfml
+- github: jasonl99/card_game
+  description: A demo web app for (WebSocket-based) lattice-core
 - github: codenoid/chuck-norris-holy-quotes
   description: Chuck Norris holy quotes
 - github: johnjansen/clamp
   description: Clamp any Comparable
 - github: oprypin/crsfml-examples
   description: Simple games made with CrSFML
+- github: exercism/crystal
+  description: Exercism exercises
 - github: kostya/crystal-benchmarks-game
   description: The Computer Language Benchmarks Game
 - github: askn/crystal-by-example
@@ -27,8 +31,6 @@ shards:
   description: Native Ruby extensions written in Crystal
 - github: vladfaust/crystalworld
   description: '[realworld.io](https://realworld.io) back-end API implementation'
-- github: exercism/crystal
-  description: Exercism exercises
 - github: codenoid/jihantoro-cr-mysql
   description: Crystal MySQL from scratch sample app
 - github: codenoid/jihantoro.sd
@@ -44,8 +46,6 @@ shards:
   description: Build Realtime Web applications with Kemal and React
 - github: ChangJoo-Park/kemal-vue-chat
   description: Build Realtime Web applications with Kemal and Vue.js
-- github: jasonl99/card_game
-  description: A demo web app for (WebSocket-based) lattice-core
 - github: jwoertink/medley
   description: A mixture of music related methods
 - github: lbguilherme/os-crystal

@@ -12,14 +12,14 @@ shards:
     builder and migration system
 - github: soveran/ohm-crystal
   description: Object-hash mapping library for Redis
-- github: onyxframework/sql
-  description: DB-agnostic SQL ORM with beautiful DSL and type-safe Query builder
 - github: luckyframework/record
   description: Type safe querying, saving and updating
 - github: maiha/redis-tsv.cr
   description: Import and export data from Redis in TSV format
 - github: spider-gazelle/rethinkdb-orm
   description: ORM for RethinkDB / RebirthDB
+- github: onyxframework/sql
+  description: DB-agnostic SQL ORM with beautiful DSL and type-safe Query builder
 - github: soveran/stal-crystal
   description: Set algebra solver for Redis
 - github: topaz-crystal/topaz

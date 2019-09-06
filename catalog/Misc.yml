@@ -21,6 +21,8 @@ shards:
   description: Binary parser
 - github: isaced/crystal-web-framework-stars
   description: Web frameworks for Crystal, most starred on Github
+- github: jimm/crystal_port_midi
+  description: Crystal C bindings for the PortMIDI cross-platform MIDI I/O library
 - github: dhruvrajvanshi/crz
   description: Functional programming library
 - github: veelenga/emoji.cr
@@ -49,8 +51,6 @@ shards:
   description: Paranoid text spacing in Crystal
 - github: spider-gazelle/pinger
   description: Ping IP addresses and DNS entries without requiring sudo
-- github: jimm/crystal_port_midi
-  description: Crystal C bindings for the PortMIDI cross-platform MIDI I/O library
 - github: l3kn/raytracer
   description: CPU Raytracer with examples
 - github: Sija/retriable.cr

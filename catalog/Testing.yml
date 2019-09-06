@@ -1,12 +1,12 @@
 ---
 name: Testing
 shards:
-- github: anykeyh/crystal-coverage
-  description: Generate cover report for your crystal code
 - github: emancu/crotest
   description: A tiny and simple test framework
 - github: Groogy/crystal-clear
   description: Design by Contract Library
+- github: anykeyh/crystal-coverage
+  description: Generate cover report for your crystal code
 - github: hanneskaeufler/crytic
   description: Mutation testing framework
 - github: luckyframework/lucky_flow
