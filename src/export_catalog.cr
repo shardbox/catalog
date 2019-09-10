@@ -7,7 +7,7 @@ catalog_path = "catalog"
 ShardsDB.transaction do |db|
   categories = db.all_categories
   categories.each do |category|
-    puts category
+    puts "Exporting #{category.slug}"
 
     catalog_category = Catalog::Category.new(category.name, category.description)
 
@@ -29,6 +29,8 @@ ShardsDB.transaction do |db|
 
       catalog_category.shards << entry
     end
+
+    catalog_category.shards.sort! { |a, b| a.repo_ref.name.compare(b.repo_ref.name, case_insensitive: true) }
 
     path = File.join(catalog_path, "#{category.slug}.yml")
     File.open(path, "w") do |file|
