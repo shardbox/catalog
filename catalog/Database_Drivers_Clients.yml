@@ -4,7 +4,7 @@ shards:
 - github: TechMagister/couchdb.cr
   description: CouchDB client
 - github: crystal-lang/crystal-db
-  description: Common db api
+  description: Common database API
 - github: puppetpies/crystal-monetdb-libmapi
   description: Bindings for MonetDB
 - github: crystal-lang/crystal-mysql

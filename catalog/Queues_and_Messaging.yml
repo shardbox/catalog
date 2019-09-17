@@ -7,5 +7,7 @@ shards:
   description: In memory asynchronous job processing
 - github: robacarp/mosquito
   description: Redis backed periodic and ad hoc job processing
+- github: nats-io/nats.cr
+  description: NATS client
 - github: mperham/sidekiq.cr
   description: Simple, efficient job processing

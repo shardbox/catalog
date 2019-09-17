@@ -8,15 +8,14 @@ shards:
     conversion
 - github: kemalcr/kemal
   description: Lightning Fast, Super Simple web framework. Inspired by Sinatra
-  legacy:
-  - github: sdogruyol/kemal
   mirror:
   - github: maiha/kemal
+  legacy:
+  - github: sdogruyol/kemal
 - github: jasonl99/lattice-core
   description: A WebSocket-first object-oriented framework (based on Kemal)
 - github: luckyframework/lucky
-  description: Catch bugs early, forget about most performance issues, and spend more
-    time on code instead of debugging and writing tests
+  description: Full-featured Crystal web framework
 - github: samueleaton/raze
   description: Modular, light web framework
 - github: onyxframework/rest
