@@ -3,6 +3,8 @@ name: CLI Utils
 shards:
 - github: j8r/cride
   description: A light CLI text editor/IDE
+- github: askn/progress
+  description: Progress bar
 - github: TPei/progress_bar.cr
   description: A simple and customizable progress bar
 - github: epoch/tallboy

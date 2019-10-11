@@ -4,6 +4,8 @@ shards:
 - github: spider-gazelle/bindata
   description: Binary data parser helper with an [ASN.1](https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One)
     parser
+- github: Papierkorb/cannon
+  description: Lightning fast data serialization and RPC
 - github: chris-huxtable/config.cr
   description: Easy to use configuration format parser
 - github: c910335/crinder
@@ -20,5 +22,10 @@ shards:
   description: MaxMindDB reader
 - github: crystal-community/toml.cr
   description: TOML parser
+  mirror:
+  - github: maiha/crystal-toml
+  legacy:
+  - github: crystal-community/crystal-toml
+  - github: manastech/crystal-toml
 - github: colstrom/zq
   description: Command-line ZPL processor
