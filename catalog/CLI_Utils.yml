@@ -7,6 +7,8 @@ shards:
   description: Progress bar
 - github: TPei/progress_bar.cr
   description: A simple and customizable progress bar
+- github: hutou/tablo
+  description: A flexible terminal table generator
 - github: epoch/tallboy
   description: Generate ASCII character tables with support for spanning cells over
     multiple columns

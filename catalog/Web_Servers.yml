@@ -6,6 +6,6 @@ shards:
 - github: ysbaddaden/prax.cr
   description: Rack proxy server for development
 - github: icyleaf/salt
-  description: A Human Friendly Interface for HTTP server
+  description: A Human Friendly Interface for HTTP server (discontinued)
 - github: SuperPaintman/serve
   description: Command line static HTTP server

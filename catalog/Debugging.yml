@@ -1,0 +1,5 @@
+---
+name: Debugging
+shards:
+- github: Sija/debug.cr
+  description: "`debug!(\u2026)` macro for `pp`-style debugging"
