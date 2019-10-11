@@ -6,11 +6,11 @@ shards:
 
   db:
     github: crystal-lang/crystal-db
-    version: 0.6.0
+    version: 0.7.0
 
   git:
     github: smacker/libgit2.cr
-    commit: 64120f8f33dd04b8871fe180e2d00f5a8c6e7397
+    commit: 3426bf335e0970852e300f7602cf6e8dd21d0867
 
   github-cr:
     github: arnavb/github-cr
@@ -18,19 +18,19 @@ shards:
 
   pg:
     github: will/crystal-pg
-    version: 0.18.1
+    version: 0.19.0
 
   raven:
     github: Sija/raven.cr
-    version: 1.5.0
+    version: 1.5.1
 
   shardbox-core:
     github: shardbox/shardbox-core
-    commit: 2e2be89e195724a4d88c43a3259ed4dc9293122f
+    commit: 5d3727a8b7a95499e1dd3ec84f05a8d02ea6cf72
 
   shards:
     github: crystal-lang/shards
-    commit: 81ea69333b0b020eccdfd6c8f6f427e9724e135a
+    commit: a60c6947efbf436e0fde8532ae808e5b97795dda
 
   taskmaster:
     github: straight-shoota/taskmaster
