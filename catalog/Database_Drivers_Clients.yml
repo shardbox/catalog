@@ -19,6 +19,10 @@ shards:
   description: Driver for RethinkDB / RebirthDB
 - github: crystal-lang/crystal-sqlite3
   description: SQLite3 bindings
+  mirror:
+  - github: Zhomart/crystal-sqlite3
+  legacy:
+  - github: manastech/crystal-sqlite3
 - github: measurechina/eventql-crystal
   description: EventQL driver
 - github: crystal-community/leveldb
