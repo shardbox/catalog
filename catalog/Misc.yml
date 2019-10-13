@@ -7,6 +7,8 @@ shards:
   description: Recursive Hash with better JSON::Any included
 - github: chris-huxtable/atomic_write.cr
   description: Library for writing or apppending files atomically
+- github: klirix/boop
+  description: static site generator
 - github: vnbrs/burocracia.cr
   description: burocracia.cr the dependecyless shard to validate, generate and format
     Brazilian burocracias such as CPF, CNPJ and CEP
@@ -27,6 +29,8 @@ shards:
   description: Crystal C bindings for the PortMIDI cross-platform MIDI I/O library
 - github: dhruvrajvanshi/crz
   description: Functional programming library
+- github: GloverDonovan/dravite
+  description: onsistent and reliable static site generator for the web
 - github: veelenga/emoji.cr
   description: Emoji library
 - github: 0x73/hoop
@@ -61,5 +65,7 @@ shards:
   description: Give your SQL some love
 - github: SuperPaintman/ulid
   description: Universally Unique Lexicographically Sortable Identifier (ULID)
+- github: artworx/yakut
+  description: Dynamically configure your Kubernetes manifests with Jinja2 templates
 - github: szTheory/zaru_crystal
   description: Filename sanitization
