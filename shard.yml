@@ -10,5 +10,6 @@ description: |
 development_dependencies:
   shardbox-core:
     github: shardbox/shardbox-core
+    branch: feature/archived-shard
 
 license: MIT

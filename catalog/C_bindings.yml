@@ -48,7 +48,8 @@ shards:
 - github: woodruffw/x_do.cr
   description: Bindings for libxdo ([`xdotool`](https://github.com/jordansissel/xdotool))
 - github: BlackHabanero/zstd-cr
-  description: Bindings for [Zstandard](https://github.com/facebook/zstd) compression (discontinued)
+  description: Bindings for [Zstandard](https://github.com/facebook/zstd) compression
+  state: archived
 - github: didactic-drunk/zstd.cr
   description: Bindings for [Zstandard](https://github.com/facebook/zstd) compression
     library
