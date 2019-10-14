@@ -7,6 +7,10 @@ authors:
 description: |
    The shard catalog for https://shardbox.org
 
+targets:
+  format:
+    main: src/format_catalog.cr
+
 development_dependencies:
   shardbox-core:
     github: shardbox/shardbox-core

@@ -7,7 +7,7 @@ shards:
   description: Inserting values into a sorted array
 - github: elorest/bitfields
   description: Pure Crystal implementation of BitFields. Handles encoding/decoding
-    of bytes.
+    of bytes
 - github: philnash/crotp
   description: HOTP and TOTP implementation for two factor authentication
 - github: MakeNowJust/crystal-diff

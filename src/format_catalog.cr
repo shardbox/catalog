@@ -5,10 +5,22 @@ catalog_path = "catalog"
 
 Catalog.each_category(catalog_path) do |yaml_category, category_slug|
   shards = yaml_category.shards
-  shards.sort! { |a, b| a.repo_ref.name.compare(b.repo_ref.name, case_insensitive: true) }
-  shards.each do |shard|
-    shard.description = shard.description.try &.strip
+  if category_slug == "Uncategorized"
+    if !shards.empty?
+      warn "Category 'Uncategorized' must not contain any entries.", category_slug
+    end
   end
+
+  shards.sort! { |a, b| a.repo_ref.name.compare(b.repo_ref.name, case_insensitive: true) }
+
+  shards.map! do |shard|
+    if description = shard.description
+      shard.description = description.strip.rchop('.').rchop('!')
+    end
+
+    shard
+  end
+
   shards.dup.each_cons(2, reuse: true) do |cons|
     a, b = cons
     if a.repo_ref == b.repo_ref
@@ -23,7 +35,7 @@ Catalog.each_category(catalog_path) do |yaml_category, category_slug|
         end
       end
 
-      warn "Duplicate entry for #{cons[0].repo_ref.url}", category_slug
+      warn "Duplicate entry for #{cons[0].repo_ref.url}.", category_slug
     end
   end
 
