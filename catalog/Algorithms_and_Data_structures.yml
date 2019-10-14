@@ -20,6 +20,8 @@ shards:
   description: A Generic Algorithm Library
 - github: jtomschroeder/crystalline
   description: A collection of containers and algorithms
+- github: lbarasti/dataclass
+  description: Immutable classes whose main purpose is to hold data
 - github: drujensen/delimiter_tree
   description: A tree structure that is built using a delimiter
 - github: tcrouch/edits.cr

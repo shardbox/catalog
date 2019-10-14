@@ -1,6 +1,11 @@
 ---
 name: Markdown/Text Processors
 shards:
+- github: amauryt/cr-cmark-gfm
+  description: C bindings for cmark-gfm to work with Commonmark and Github Flavored
+    Markdown
+- github: ysbaddaden/crystal-cmark
+  description: Crystal wrapper for libcmark, the reference CommonMark C library
 - github: huacnlee/html-pipeline
   description: HTML processing filters and utilities
 - github: icyleaf/markd

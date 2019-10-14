@@ -17,6 +17,9 @@ shards:
   description: GNU Scientific Library bindings
 - github: mamantoha/crystal-hunspell
   description: Bindings for [Hunspell](https://hunspell.github.io/)
+- github: fridgerator/crystal_talib
+  description: Bindings for TA-lib, which performs technical analysis of financial
+    market data.
 - github: blocknotes/curl-crystal
   description: Bindings for [libcurl](https://curl.haxx.se/libcurl/)
 - github: jessedoyle/duktape.cr
