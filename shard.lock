@@ -1,8 +1,8 @@
 version: 1.0
 shards:
   any_hash:
-    github: sija/any_hash.cr
-    commit: 1907068cdbfc3ef9759954194472b82f9f19c6e4
+    github: Sija/any_hash.cr
+    version: 0.2.3
 
   db:
     github: crystal-lang/crystal-db
@@ -26,11 +26,11 @@ shards:
 
   shardbox-core:
     github: shardbox/shardbox-core
-    commit: f46649c13d593910fff9874b991b2f6f040bf639
+    commit: 32c794f68e46f7cf81125036d69f030fd726aa1e
 
   shards:
     github: crystal-lang/shards
-    commit: a60c6947efbf436e0fde8532ae808e5b97795dda
+    commit: 43ae0adbad8d07776139b55ac69a3819008518cb
 
   taskmaster:
     github: straight-shoota/taskmaster
