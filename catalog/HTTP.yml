@@ -34,6 +34,8 @@ shards:
   description: Ngrok wrapper
 - github: vladfaust/params.cr
   description: The strongly-typed HTTP params parsing module
+- github: nbulaj/proxy-fetcher.cr
+  description: Proxy lists fetching & validating library
 - github: soveran/resp-crystal
   description: Lightweight RESP client
 - github: ysbaddaden/selenium-webdriver-crystal
