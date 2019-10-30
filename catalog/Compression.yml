@@ -1,0 +1,17 @@
+---
+name: Compression
+shards:
+- github: naqvis/brotli.cr
+  description: Bindings to the Google brotli compression library
+- github: naqvis/crystar
+  description: Readers and writers of Tar archive format
+- github: naqvis/snappy
+  description: Snappy compression format reader/writer for Crystal
+- github: naqvis/xz.cr
+  description: Bindings to the xz (lzma) compression library
+- github: BlackHabanero/zstd-cr
+  description: Bindings for [Zstandard](https://github.com/facebook/zstd) compression
+  state: archived
+- github: didactic-drunk/zstd.cr
+  description: Bindings for [Zstandard](https://github.com/facebook/zstd) compression
+    library

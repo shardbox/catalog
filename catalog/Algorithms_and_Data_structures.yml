@@ -8,6 +8,8 @@ shards:
 - github: elorest/bitfields
   description: Pure Crystal implementation of BitFields. Handles encoding/decoding
     of bytes
+- github: c910335/crie
+  description: Compile-time Trie
 - github: philnash/crotp
   description: HOTP and TOTP implementation for two factor authentication
 - github: MakeNowJust/crystal-diff

@@ -3,6 +3,8 @@ name: Network Protocols
 shards:
 - github: jeromegn/bson.cr
   description: Native BSON implementation
+- github: spider-gazelle/connect-proxy
+  description: Connect method style of HTTP tunnelling / HTTP proxy
 - github: naqvis/cr-xmpp
   description: XMPP/Jabber Library
 - github: Meoowww/Crirc
