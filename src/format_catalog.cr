@@ -25,7 +25,7 @@ Catalog.each_category(catalog_path) do |yaml_category, category_slug|
     a, b = cons
     if a.repo_ref == b.repo_ref
       # Try to remove duplicate entries automatically
-      if a.mirror == b.mirror && a.legacy == b.legacy
+      if a.mirrors == b.mirrors
         if a.description == b.description || a.description.nil?
           shards.delete(a)
           next
