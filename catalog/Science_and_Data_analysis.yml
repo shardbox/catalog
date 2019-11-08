@@ -1,6 +1,8 @@
 ---
 name: Science and Data analysis
 shards:
+- github: crystal-data/bottle
+  description: Numerical computing library supporting N-Dimensional data
 - github: konovod/linalg
   description: Linear algebra library inspired by MATLAB and SciPy.linalg
 - github: RX14/predict.cr

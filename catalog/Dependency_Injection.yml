@@ -1,5 +1,7 @@
 ---
 name: Dependency Injection
 shards:
+- github: funk-yourself/crystal-di
+  description: Lightweight DI Container
 - github: Bonemind/syringe
   description: A simple and basic dependency injection shard for crystal

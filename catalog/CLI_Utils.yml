@@ -3,6 +3,9 @@ name: CLI Utils
 shards:
 - github: j8r/cride
   description: A light CLI text editor/IDE
+- github: Blacksmoke16/oq
+  description: A performant, and portable [jq](https://github.com/stedolan/jq) wrapper
+    also supporting formats other than JSON
 - github: askn/progress
   description: Progress bar
 - github: TPei/progress_bar.cr

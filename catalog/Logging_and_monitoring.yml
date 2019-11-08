@@ -5,6 +5,8 @@ shards:
   description: A [Grafana](https://grafana.com/) library to help autogenerate dashboards
 - gitlab: ezrast/crometheus
   description: A [Prometheus](https://prometheus.io/) client library
+- github: blacksmoke16/crylog
+  description: Flexible logging framework based on Monolog
 - github: arcage/crystal-logreader
   description: Tailing log file
 - github: instana/crystal-sensor

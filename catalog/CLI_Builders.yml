@@ -18,3 +18,5 @@ shards:
 - github: luckyframework/lucky_cli
 - github: mosop/optarg
   description: Yet another library for parsing command-line options and arguments
+- github: shinzlet/phreak
+  description: A highly flexible Crystal CLI builder in the style of OptionParser
