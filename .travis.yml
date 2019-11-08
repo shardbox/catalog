@@ -1,4 +1,7 @@
 language: crystal
 
-script:
-- crystal run src/format_catalog.cr
+jobs:
+- stage: test
+  name: "Check format"
+  before_script: make build
+  script: make test
