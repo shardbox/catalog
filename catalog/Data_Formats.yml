@@ -20,10 +20,11 @@ shards:
   description: MaxMindDB reader
 - github: crystal-community/toml.cr
   description: TOML parser
-  mirror:
+  mirrors:
   - github: maiha/crystal-toml
-  legacy:
   - github: crystal-community/crystal-toml
+    role: legacy
   - github: manastech/crystal-toml
+    role: legacy
 - github: colstrom/zq
   description: Command-line ZPL processor

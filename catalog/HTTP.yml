@@ -40,7 +40,7 @@ shards:
   description: Lightweight RESP client
 - github: ysbaddaden/selenium-webdriver-crystal
   description: Selenium webdriver client
-  mirror:
+  mirrors:
   - github: paulcsmith/selenium-webdriver-crystal
 - github: y2k2mt/sse.cr
   description: '[Server-Sent Events](https://www.w3.org/TR/2009/WD-eventsource-20090421)

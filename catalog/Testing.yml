@@ -11,7 +11,7 @@ shards:
   description: Mutation testing framework
 - github: mosop/have_files
   description: Spec matcher for testing if two file trees are identical
-  mirror:
+  mirrors:
   - github: amberframework/have_files
 - github: luckyframework/lucky_flow
   description: Automated browser tests similar to Capybara
@@ -25,7 +25,7 @@ shards:
   description: Mocking library for Crystal
 - github: waterlink/spec2.cr
   description: Enhanced spec testing library
-  mirror:
+  mirrors:
   - github: watzon/spec2.cr
   - github: greyblake/spec2.cr
   - github: thelonelyghost/spec2.cr

@@ -11,26 +11,28 @@ shards:
   description: MySQL connector for Crystal
 - github: will/crystal-pg
   description: A Postgres driver
-  legacy:
+  mirrors:
   - github: asterite/crystal-pg
+    role: legacy
 - github: stefanwille/crystal-redis
   description: Full featured Redis client
 - github: kingsleyh/crystal-rethinkdb
   description: Driver for RethinkDB / RebirthDB
 - github: crystal-lang/crystal-sqlite3
   description: SQLite3 bindings
-  mirror:
+  mirrors:
   - github: Zhomart/crystal-sqlite3
-  legacy:
   - github: manastech/crystal-sqlite3
+    role: legacy
 - github: measurechina/eventql-crystal
   description: EventQL driver
 - github: crystal-community/leveldb
   description: Crystal bindings for LevelDB
 - github: ambercommunity/mongo.cr
   description: Binding for MongoDB C driver
-  legacy:
+  mirrors:
   - github: datanoise/mongo.cr
+    role: legacy
 - github: maiha/rocksdb.cr
   description: RocksDB client
 - github: vladfaust/tarantool-crystal

@@ -7,8 +7,9 @@ shards:
   description: Bindings for [Cairo](https://cairographics.org/) graphics library
 - github: crystal-lang/clang.cr
   description: Libclang bindings
-  legacy:
+  mirrors:
   - github: ysbaddaden/clang.cr
+    role: legacy
 - github: vonKingsley/crass
   description: Bindings for libsass
 - github: maiha/crt.cr

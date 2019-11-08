@@ -5,8 +5,9 @@ shards:
   description: Generator of bindings based on castxml output
 - github: crystal-lang/crystal_lib
   description: Automatic binding generator for native libraries
-  legacy:
+  mirrors:
   - github: manastech/crystal_lib
+    role: legacy
 - github: jwoertink/fez
   description: A Kemal application generator
 - github: kemalyst/kemalyst-generator

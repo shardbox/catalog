@@ -3,11 +3,21 @@ require "shardbox-core/catalog"
 
 catalog_path = "catalog"
 
+entries = {} of Repo::Ref => Catalog::Entry
+mirrors = Set(Repo::Ref).new
+
 Catalog.each_category(catalog_path) do |yaml_category, category_slug|
   shards = yaml_category.shards
   if category_slug == "Uncategorized"
     if !shards.empty?
       warn "Category 'Uncategorized' must not contain any entries.", category_slug
+    end
+  end
+
+  yaml_category.shards.each do |shard|
+    entries[shard.repo_ref] ||= shard
+    if duplicate_repo = Catalog.duplicate_mirror?(shard, mirrors, entries)
+      warn "duplicate mirror #{duplicate_repo}", category_slug
     end
   end
 
@@ -25,7 +35,7 @@ Catalog.each_category(catalog_path) do |yaml_category, category_slug|
     a, b = cons
     if a.repo_ref == b.repo_ref
       # Try to remove duplicate entries automatically
-      if a.mirror == b.mirror && a.legacy == b.legacy
+      if a.mirrors == b.mirrors
         if a.description == b.description || a.description.nil?
           shards.delete(a)
           next
