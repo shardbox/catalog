@@ -1,11 +1,12 @@
 language: crystal
 
 jobs:
-- stage: test
-  name: "Check format"
-  before_script: make build
-  script: make test
-- stage: deploy
-  name: "Run webhook to import catalog"
-  if: branch = master
-  script: curl https://shardbox.straight-shoota.de/webhook/import_catalog --user $WEBHOOK_AUTH_TOKEN
+  include:
+  - stage: test
+    name: "Check format"
+    before_script: make build
+    script: make test
+  - stage: deploy
+    name: "Run webhook to import catalog"
+    if: branch = master
+    script: curl https://shardbox.straight-shoota.de/webhook/import_catalog --user $WEBHOOK_AUTH_TOKEN
