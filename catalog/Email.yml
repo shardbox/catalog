@@ -9,5 +9,7 @@ shards:
   description: A RFC compliant Email validator
 - github: tijn/devmail
   description: A combined SMTP/POP3-server with volatile mail storage
+- github: crystallabs/maildir.cr
+  description: Reading and writing Maildir file structure
 - github: dlanileonardo/sendgrid.cr
   description: Simple Sendgrid Client
