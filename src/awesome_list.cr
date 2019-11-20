@@ -11,7 +11,8 @@ module Catalog::Tools
 
     FileUtils.mkdir_p(catalog_path)
     categories = {} of String => Catalog::Category
-    Catalog.each_category(catalog_path) do |category|
+    catalog = Catalog.new(catalog_path)
+    catalog.each_category do |category|
       categories[category.slug] = category
     end
 

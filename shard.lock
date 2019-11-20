@@ -22,17 +22,13 @@ shards:
 
   raven:
     github: Sija/raven.cr
-    version: 1.5.1
+    version: 1.5.3
 
   shardbox-core:
     github: shardbox/shardbox-core
-    commit: 753547aee23eb8d241ccd4761b7a7f38d9b743cc
+    commit: fd3798c5040e8644cb05e36f2348f4c10a40f05c
 
   shards:
     github: crystal-lang/shards
     commit: 43ae0adbad8d07776139b55ac69a3819008518cb
-
-  taskmaster:
-    github: straight-shoota/taskmaster
-    commit: b2ef6a93ab5f85e2412aad5e1385563228e5fa06
 

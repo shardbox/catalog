@@ -6,7 +6,8 @@ module Catalog::Tools
     all_entries = {} of Repo::Ref => Catalog::Entry
     all_mirrors = Set(Repo::Ref).new
 
-    Catalog.each_category(catalog_path) do |category|
+    catalog = Catalog.new(catalog_path)
+    catalog.each_category do |category|
       Catalog::Tools.normalize_category(category)
 
       category.shards.each do |shard|
