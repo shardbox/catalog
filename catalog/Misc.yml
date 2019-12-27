@@ -41,6 +41,8 @@ shards:
   description: DSL for creating HTML
 - github: vladfaust/i18n.cr
   description: Internationalization shard
+- github: TechMagister/i18n.cr
+  description: Internationalization API
 - github: lucaong/immutable
   description: Implementation of thread-safe, persistent, immutable collections
 - github: phoffer/inflector.cr
