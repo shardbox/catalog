@@ -14,6 +14,8 @@ shards:
   description: Separates a files front matter from its content
 - github: delef/geoip2.cr
   description: GeoIP2 reader
+- github: NeuraLegion/har
+  description: HAR (HTTP Archive) parser
 - github: impatienttraveller/json-tools
   description: An implementation of JSON Patch and Pointer RFC's
 - github: delef/maxminddb.cr
