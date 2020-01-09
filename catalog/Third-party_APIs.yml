@@ -56,4 +56,4 @@ shards:
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data
 - github: arubinofaux/hunter.cr
-  description: A Crystal-Lang wrapper for Hunter.io API V2
+  description: A [Hunter.io](https://hunter.io) API wrapper
