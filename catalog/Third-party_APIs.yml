@@ -55,3 +55,5 @@ shards:
   description: A library to access the Twitter API
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data
+- github: arubinofaux/hunter.cr
+  description: A Crystal-Lang wrapper for Hunter.io API V2
