@@ -19,3 +19,5 @@ shards:
   description: '[Statsd](https://github.com/etsy/statsd) client library'
 - github: comandeo/syslog.cr
   description: Implementation of Syslog client
+- github: luckyframework/dexter
+  description: A Logger that focuses on compatibility and flexible formats
