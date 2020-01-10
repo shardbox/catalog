@@ -13,7 +13,7 @@ module Catalog::Tools
       category.shards.each do |shard|
         all_entries[shard.repo_ref] ||= shard
         if duplicate_repo = Catalog.duplicate_mirror?(shard, all_mirrors, all_entries)
-          Catalog::Tools.warn "duplicate mirror #{duplicate_repo}", category
+          Catalog::Tools.warn "duplicate mirror #{duplicate_repo}", category.slug
         end
       end
 

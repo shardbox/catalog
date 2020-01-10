@@ -36,7 +36,7 @@ module Catalog::Tools
     end
   end
 
-  def self.warn(message, category_slug)
+  def self.warn(message, category_slug : String)
     list = WARNINGS[category_slug]
 
     if list.empty?

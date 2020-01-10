@@ -10,7 +10,7 @@ build: $(BIN)/catalog_tools
 $(BIN):
 	mkdir -p $(BIN)
 
-$(BIN)/catalog_tools: $(BIN)
+$(BIN)/catalog_tools: $(BIN) src/*
 	crystal build src/cli.cr -o $(BIN)/catalog_tools
 
 .PHONY: format
