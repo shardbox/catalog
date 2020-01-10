@@ -21,3 +21,5 @@ shards:
   description: A tiny CLI toolkit for building terminal apps for humans
 - git: https://git.sceptique.eu/Sceptique/todo
   description: Todo list working in command line
+- github: luckyframework/cli
+  description: A CLI to manage a Lucky project
