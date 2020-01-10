@@ -30,3 +30,5 @@ shards:
     role: legacy
 - github: colstrom/zq
   description: Command-line ZPL processor
+- github: manastech/crystal-toml
+  description: TOML parser
