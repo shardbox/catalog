@@ -6,6 +6,8 @@ shards:
 - github: blacksmoke16/athena
   description: Modular, annotation based, API oriented framework with built in param
     conversion
+- github: grkek/grip
+  description: An object-oriented framework based on Kemal with additional goodness
 - github: kemalcr/kemal
   description: Lightning Fast, Super Simple web framework. Inspired by Sinatra
   mirrors:
