@@ -3,9 +3,8 @@ name: Web Frameworks
 shards:
 - github: amberframework/amber
   description: Open source efficient and cohesive web application framework
-- github: blacksmoke16/athena
-  description: Modular, annotation based, API oriented framework with built in param
-    conversion
+- github: athena-framework/athena
+  description: A web framework comprised of reusable, independent components
 - github: grkek/grip
   description: An object-oriented framework based on Kemal with additional goodness
 - github: kemalcr/kemal
