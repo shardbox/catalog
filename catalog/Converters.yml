@@ -20,3 +20,5 @@ shards:
   description: Turn integers into the Turkish words
 - github: blocknotes/wkhtmltopdf-crystal
   description: Bindings / wrapper for libwkhtmltox (HTML to PDF / image converter)
+- github: q9f/rlp.cr
+  description: A native library implementing Recursive Length Prefixes purely for the crystal language.
