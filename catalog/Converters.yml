@@ -11,6 +11,8 @@ shards:
 - github: SuperPaintman/ms
   description: Library to easily convert various time formats to milliseconds and
     milliseconds to human readable format
+- github: q9f/rlp.cr
+  description: A library implementing Recursive Length Prefixes to encode arbitray data structures
 - github: straight-shoota/sass.cr
   description: Compile SASS/SCSS to CSS ([libsass](https://github.com/sass/libsass/)
     binding)
