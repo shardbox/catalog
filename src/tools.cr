@@ -1,10 +1,10 @@
 module Catalog::Tools
-  WARNINGS = Hash(String, Array(String)).new { |hash, k| hash[k] = [] of String }
-
   def self.normalize_category(category)
+    warnings = [] of String
+
     shards = category.shards
     if category.slug == "Uncategorized" && !shards.empty?
-      warn "Category 'Uncategorized' must not contain any entries.", category.slug
+      warnings << "Category 'Uncategorized' must not contain any entries."
     end
 
     shards.sort! { |a, b| a.repo_ref.name.compare(b.repo_ref.name, case_insensitive: true) }
@@ -17,36 +17,38 @@ module Catalog::Tools
       shard
     end
 
-    shards.dup.each_cons(2, reuse: true) do |cons|
-      a, b = cons
+    shards.dup.each_cons_pair do |a, b|
       if a.repo_ref == b.repo_ref
         # Try to remove duplicate entries automatically
         if a.mirrors == b.mirrors
           if a.description == b.description || a.description.nil?
-            shards.delete(a)
-            next
+            if a_index = shards.index(a)
+              shards.delete_at(a_index)
+            end
           elsif b.description.nil?
-            shards.delete(b)
-            next
+            if b_index = shards.index(b)
+              shards.delete_at(b_index)
+            end
           end
         end
 
-        warn "Duplicate entry for #{cons[0].repo_ref.url}.", category.slug
+        warnings << "Duplicate entry for #{a.repo_ref}."
       end
     end
+
+    warnings
   end
 
-  def self.warn(message, category_slug : String)
-    list = WARNINGS[category_slug]
+  @@last_slug : String? = nil
 
-    if list.empty?
-      puts "In #{category_slug}:"
+  def self.warn(message, category_slug : String)
+    if @@last_slug != category_slug
+      STDERR.puts "#{category_slug}.yml:"
+      @@last_slug = category_slug
     end
 
-    list << message
-
-    print "  "
-    puts message
+    STDERR.print "  "
+    STDERR.puts message
   end
 
   def self.write(catalog_path, category)

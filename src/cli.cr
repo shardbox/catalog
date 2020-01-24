@@ -9,7 +9,11 @@ end
 
 case command = ARGV.shift?
 when "format"
-  Catalog::Tools.command_format
+  if Catalog::Tools.command_format
+    exit 0
+  else
+    exit 1
+  end
 when "awesome_list"
   Catalog::Tools.command_awesome_list(ARGV)
 when nil, "help", "--help"
