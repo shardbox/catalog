@@ -33,6 +33,8 @@ shards:
   description: Google Maps API
 - github: Gangwolf/hncr
   description: A Hacker News API wrapper
+- github: arubinofaux/hunter.cr
+  description: A [Hunter.io](https://hunter.io) API wrapper
 - github: spoved/kube-client.cr
   description: Kubernetes API Client
 - github: petoem/mixpanel-crystal
@@ -55,5 +57,3 @@ shards:
   description: A library to access the Twitter API
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data
-- github: arubinofaux/hunter.cr
-  description: A [Hunter.io](https://hunter.io) API wrapper

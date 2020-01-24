@@ -7,7 +7,11 @@ module Catalog::Tools
       warnings << "Category 'Uncategorized' must not contain any entries."
     end
 
-    shards.sort! { |a, b| a.repo_ref.name.compare(b.repo_ref.name, case_insensitive: true) }
+    unordered_shards = shards.dup
+    shards.sort!
+    if shards != unordered_shards
+      warnings << "Entries are not in sort order."
+    end
 
     shards.map! do |shard|
       if description = shard.description

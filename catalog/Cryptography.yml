@@ -1,13 +1,13 @@
 ---
 name: Cryptography
 shards:
+- github: OscarBarrett/crystal-sha3
+  description: An SHA-3 implementation written in Crystal
 - github: z64/openssl.cr
   description: This library provides binding for OpenSSL library
 - github: ysbaddaden/scrypt-crystal
   description: Bindings for Colin Percival's scrypt key derivation function
 - github: q9f/secp256k1.cr
   description: A native library implementing Secp256k1 purely for the Crystal language
-- github: OscarBarrett/crystal-sha3
-  description: An SHA-3 implementation written in Crystal
 - github: didactic-drunk/sodium.cr
   description: Crystal wrapper for the libsodium crypto API

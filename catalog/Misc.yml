@@ -39,10 +39,10 @@ shards:
   description: Building native OSX apps
 - github: crystal-lang/html_builder
   description: DSL for creating HTML
-- github: vladfaust/i18n.cr
-  description: Internationalization shard
 - github: TechMagister/i18n.cr
   description: Internationalization API
+- github: vladfaust/i18n.cr
+  description: Internationalization shard
 - github: lucaong/immutable
   description: Implementation of thread-safe, persistent, immutable collections
 - github: phoffer/inflector.cr

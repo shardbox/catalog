@@ -12,6 +12,17 @@ describe Catalog::Tools do
       Catalog::Tools.normalize_category(category).should eq ["Category 'Uncategorized' must not contain any entries."]
     end
 
+    it "ensures sort order" do
+      category = Catalog::Category.new("Foos")
+      category.shards << Catalog::Entry.new(Repo::Ref.new("git", "bar"))
+      category.shards << Catalog::Entry.new(Repo::Ref.new("git", "foo"))
+      Catalog::Tools.normalize_category(category).should be_empty
+
+      category.shards << Catalog::Entry.new(Repo::Ref.new("git", "baz"))
+      Catalog::Tools.normalize_category(category).should eq ["Entries are not in sort order."]
+      category.shards.map(&.repo_ref.url).should eq %w(bar baz foo)
+    end
+
     describe "remove duplicate entries" do
       it "identical entries" do
         category = Catalog::Category.new("Foos")
