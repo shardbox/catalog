@@ -2,7 +2,11 @@ BIN ?= bin
 
 .PHONY: test
 test: format
-	crystal tool format src
+	# Ensure there are no changes after running the formatter
+	git diff --exit-code catalog
+
+	# format Crystal code as well
+	crystal tool format --check src spec
 
 .PHONY: build
 build: $(BIN)/catalog_tools
