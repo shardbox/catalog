@@ -1,4 +1,5 @@
 BIN ?= bin
+SHARDS := shards
 
 .PHONY: test
 test: format
@@ -11,11 +12,11 @@ test: format
 .PHONY: build
 build: $(BIN)/catalog_tools
 
-$(BIN):
-	mkdir -p $(BIN)
+$(BIN)/catalog_tools: src/* shard.lock
+	$(SHARDS) build catalog_tools
 
-$(BIN)/catalog_tools: $(BIN) src/*
-	crystal build src/cli.cr -o $(BIN)/catalog_tools
+shard.lock: shard.yml
+	$(SHARDS) update
 
 .PHONY: format
 format: $(BIN)/catalog_tools

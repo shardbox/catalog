@@ -8,8 +8,8 @@ description: |
    The shard catalog for https://shardbox.org
 
 targets:
-  format:
-    main: src/format_catalog.cr
+  catalog_tools:
+    main: src/cli.cr
 
 development_dependencies:
   shardbox-core:
