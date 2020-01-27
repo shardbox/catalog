@@ -1,0 +1,16 @@
+---
+name: Natural Language
+shards:
+- github: watzon/cadmium
+- github: veelenga/emoji.cr
+  description: Emoji library
+- github: mamantoha/humanize_time
+  description: Express time spans in natural language
+- github: TechMagister/i18n.cr
+  description: Internationalization API
+- github: vladfaust/i18n.cr
+  description: Internationalization shard
+- github: mamantoha/i18n_plural_rules
+  description: Custom pluralization rules support for i18n
+- github: phoffer/inflector.cr
+  description: Singularize, pluralize, camelize, etc (port from ActiveSupport)

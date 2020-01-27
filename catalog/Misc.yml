@@ -33,20 +33,12 @@ shards:
   description: Functional programming library
 - github: GloverDonovan/dravite
   description: onsistent and reliable static site generator for the web
-- github: veelenga/emoji.cr
-  description: Emoji library
 - github: 0x73/hoop
   description: Building native OSX apps
 - github: crystal-lang/html_builder
   description: DSL for creating HTML
-- github: TechMagister/i18n.cr
-  description: Internationalization API
-- github: vladfaust/i18n.cr
-  description: Internationalization shard
 - github: lucaong/immutable
   description: Implementation of thread-safe, persistent, immutable collections
-- github: phoffer/inflector.cr
-  description: Singularize, pluralize, camelize, etc (port from ActiveSupport)
 - github: lirith-engine/lirith
   description: Graphics engine
 - github: akiicat/m3u8
