@@ -1,3 +1,11 @@
 ---
 name: Uncategorized
+description: 'The shards in this category are missing from the [catalog](https://github.com/shardbox/catalog).
+  They''ve entered the database being referenced as a dependency by another shard.
+
+  You can [help categorizing](https://shardbox.org/contribute#catalog) them. This
+  can be done either by adding a new shard entry in a fitting [category](https://shardbox.org/categories),
+  or as a [mirror](https://github.com/shardbox/catalog#mirror) to an existing shard.
+  To help idenitfy mirrors, a list of shards with the same name is attached for each
+  entry.'
 shards: []
