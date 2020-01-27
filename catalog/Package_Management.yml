@@ -1,7 +1,13 @@
 ---
 name: Package Management
 shards:
+- github: shardbox/catalog
+  description: Catalog for [Shardbox](https://shardbox.org)
 - github: elorest/crelease
   description: Version and git tag manager that makes shard releases easy
+- github: shardbox/shardbox-core
+  description: Shards database, collecting shard repositories, releases and dependencies
+- github: shardbox/shardbox-web
+  description: Web application powering [shardbox.org](https://shardbox.org)
 - github: crystal-lang/shards
   description: Dependency manager for the Crystal

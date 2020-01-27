@@ -29,6 +29,8 @@ shards:
   description: Google Text-To-Speech API client
 - github: mccallofthewild/gdax
   description: GDAX REST and WebSocket API Wrapper with request signing
+- github: arnavb/github-cr
+  description: Wrapper to GitHub API
 - github: icyleaf/gitlab.cr
   description: GitLab API wrapper
 - github: fridgerator/google_maps_api

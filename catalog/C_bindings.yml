@@ -30,6 +30,8 @@ shards:
   description: Bindings for the [libgphoto2](http://www.gphoto.org/) library
 - github: olbat/icu.cr
   description: Bindings for the [ICU](http://site.icu-project.org/) library
+- github: smacker/libgit2.cr
+  description: Bindings for libgit2
 - github: splattael/libnotify.cr
   description: Bindings for Libnotify
 - github: maiha/pcap.cr
