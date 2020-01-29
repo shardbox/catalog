@@ -57,3 +57,5 @@ shards:
   description: A library to access the Twitter API
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data
+- github: krthr/gcp-tts.cr
+  description: Crystal Google Text-To-Speech API client
