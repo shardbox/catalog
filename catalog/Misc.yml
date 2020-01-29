@@ -33,6 +33,9 @@ shards:
   description: Functional programming library
 - github: GloverDonovan/dravite
   description: onsistent and reliable static site generator for the web
+- github: krthr/haye.cr
+  description: Expressive string syntax to Array/Hash and Vice-Versa parser for Crystal.
+    Based on the javascript version
 - github: 0x73/hoop
   description: Building native OSX apps
 - github: crystal-lang/html_builder
