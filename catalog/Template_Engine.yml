@@ -18,3 +18,5 @@ shards:
 - github: f/temel
   description: Extensible HTML::Builder alternative for Crystal, supports custom tag
     definitions
+- github: krthr/pope.cr
+  description: Micro templating engine for strings only.
