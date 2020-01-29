@@ -1,0 +1,8 @@
+# Thanks for contributing to the shardbox catalog!
+#
+# When you're adding a shard, please make sure its inserted lexically.
+# See https://github.com/shardbox/catalog#how-to-add-a-new-shard
+#
+# When you're updating a shard's location, make sure to keep the previous
+# location as a mirror.
+# See https://github.com/shardbox/catalog#how-to-update-a-shards-location
