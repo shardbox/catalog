@@ -1,7 +1,11 @@
 ---
 name: Natural Language
 shards:
-- github: watzon/cadmium
+- github: cadmiumcr/cadmium
+  description: Collection of NLP libraries for just about everything
+  mirrors:
+  - github: watzon/cadmium
+    role: legacy
 - github: veelenga/emoji.cr
   description: Emoji library
 - github: mamantoha/humanize_time
