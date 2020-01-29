@@ -8,7 +8,35 @@ The shardbox database is regularly synced with the definitions of this catalog.
 
 Pull requests against this repo are welcome.
 
-You can use this catalog to announce new shards to shardbox.org.
+## How to add a new shard
+
+You can use this catalog to announce a new shard to shardbox.org.
+
+1. Select which category it should go into (`catalog/` folder).
+   If it doesn't fit anywhere else, it should go into `Misc.yml`.
+2. Add an entry into the shards list in the category file.
+   It should be inserted alphabetically, ordered by repository name
+   (that's the last component of the URL). For example `github: a/z`
+   is sorted after `github: z/a`.
+   See [`shard` format](#Shard) for details.
+3. The description should explain the purpose of the shard in as few
+   words as possible and should be understandable without expert knowledge.
+   Please avoid mentioning that it's a Crystal implementation. All shards
+   in this catalog are Crystal implementations.
+
+## How to update a shard's location
+
+When a shard is moved to a different location, its canonical repository needs
+to be updated. This is for example the case when moving from a user to org
+namespace on GitHub.
+
+1. Identify the category and respective YAML file where the shard is registered.
+2. Add the new canonical repository location.
+   See [`shard` format](#Shard) for details.
+3. Move the previous canonical repo to the [`mirrors` section](#Mirror) with
+   `role: legacy` property. This is necessary because existing releases of other
+   shards still reference the old location. Whether its still available at that
+   location or not doesn't matter, but the reference should stay intact.
 
 ## Guidelines
 
