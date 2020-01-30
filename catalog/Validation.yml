@@ -12,3 +12,5 @@ shards:
   description: Micro check library that patches Crystal stdlib
 - github: vladfaust/validations.cr
   description: Validations mixin
+- github: nicolab/crystal-validator
+  description: Data check and validation for Crystal 
