@@ -12,7 +12,7 @@ shards:
 - github: TechMagister/liquid.cr
   description: Kind of liquid template engine
 - github: krthr/pope.cr
-  description: Micro templating engine for strings only.
+  description: Micro templating engine for strings only
 - github: jeromegn/slang
   description: Lightweight, terse, templating language inspired by Ruby's Slim
 - github: mosop/teeplate
