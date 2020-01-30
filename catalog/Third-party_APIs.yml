@@ -25,6 +25,8 @@ shards:
   description: A tool that parses Slack slash commands or send incoming web hooks
 - github: meew0/discordcr
   description: A minimalist Discord API library
+- github: krthr/gcp-tts.cr
+  description: Google Text-To-Speech API client
 - github: mccallofthewild/gdax
   description: GDAX REST and WebSocket API Wrapper with request signing
 - github: icyleaf/gitlab.cr
@@ -57,5 +59,3 @@ shards:
   description: A library to access the Twitter API
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data
-- github: krthr/gcp-tts.cr
-  description: Crystal Google Text-To-Speech API client
