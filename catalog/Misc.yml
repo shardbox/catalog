@@ -21,8 +21,6 @@ shards:
     binary to system or container without the code
 - github: naqvis/containerregistry.cr
   description: Library for working with container registries
-- github: blacksmoke16/CrSerializer
-  description: Extensible annotation based serialization/deserialization library
 - github: DanSnow/crystal-binary_parser
   description: Binary parser
 - github: isaced/crystal-web-framework-stars
@@ -38,8 +36,6 @@ shards:
     Based on the javascript version
 - github: 0x73/hoop
   description: Building native OSX apps
-- github: crystal-lang/html_builder
-  description: DSL for creating HTML
 - github: lucaong/immutable
   description: Implementation of thread-safe, persistent, immutable collections
 - github: lirith-engine/lirith

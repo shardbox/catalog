@@ -3,8 +3,6 @@ name: Framework Components
 shards:
 - github: gdotdesign/cr-melon
   description: Class based Http APIs
-- github: funk-yourself/crystal-di
-  description: Lightweight DI Container
 - github: spalger/crystal-mime
   description: Mimetypes for Crystal
 - github: creadone/device_detector
