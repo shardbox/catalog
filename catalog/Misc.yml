@@ -21,6 +21,8 @@ shards:
     binary to system or container without the code
 - github: naqvis/containerregistry.cr
   description: Library for working with container registries
+- github: firejox/CrSignals
+  description: Signals/slots notification library
 - github: DanSnow/crystal-binary_parser
   description: Binary parser
 - github: isaced/crystal-web-framework-stars

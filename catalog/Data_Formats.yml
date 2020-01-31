@@ -18,6 +18,8 @@ shards:
   description: HAR (HTTP Archive) parser
 - github: impatienttraveller/json-tools
   description: An implementation of JSON Patch and Pointer RFC's
+- github: anykeyh/json_on_steroids
+  description: Handle and mutate JSON documents easily
 - github: delef/maxminddb.cr
   description: MaxMindDB reader
 - github: crystal-community/toml.cr

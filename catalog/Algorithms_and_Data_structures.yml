@@ -32,8 +32,12 @@ shards:
   description: Collection of graph datastructure and algorithms
 - github: TobiasGSmollett/hash_ring
   description: An Implementation of Consistent Hash Ring
+- github: geocrystal/haversine
+  description: An Implementation of the Haversine formula
 - github: mamantoha/haversine
   description: An Implementation of the Haversine formula
+- github: geocrystal/kd_tree
+  description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
 - github: mamantoha/kd_tree
   description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
 - github: Sija/ksuid.cr

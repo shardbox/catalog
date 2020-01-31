@@ -1,5 +1,7 @@
 ---
 name: Blockchain
 shards:
+- github: cocol-project/cocol
+  description: A minimal blockchain testbed
 - github: SushiChain/SushiChain
   description: A custom blockchain platform

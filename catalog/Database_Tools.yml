@@ -10,3 +10,5 @@ shards:
 - github: aisrael/migro
   description: A database migration tool that allows migrations to be specified in
     either YAML or raw SQL
+- github: hugopl/queryit
+  description: A setupless terminal based SQL query runner
