@@ -5,6 +5,8 @@ shards:
   description: Catalog for [Shardbox](https://shardbox.org)
 - github: elorest/crelease
   description: Version and git tag manager that makes shard releases easy
+- github: DFabric/dppm
+  description: Dedicated Platform Package Manager for server applications
 - github: shardbox/shardbox-core
   description: Shards database, collecting shard repositories, releases and dependencies
 - github: shardbox/shardbox-web

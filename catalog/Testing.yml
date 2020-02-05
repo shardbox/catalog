@@ -15,6 +15,9 @@ shards:
   - github: amberframework/have_files
 - github: luckyframework/lucky_flow
   description: Automated browser tests similar to Capybara
+- github: watzon/marionette
+  description: API for controlling head-less Firefox browser. Selenium without the
+    Java overhead
 - github: c910335/mass-spec
   description: Web API testing library
 - github: Ragmaanir/microtest

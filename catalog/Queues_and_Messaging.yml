@@ -3,6 +3,8 @@ name: Queues and Messaging
 shards:
 - github: datanoise/amqp.cr
   description: AMQP 0.9.1 client with RabbitMQ extensions
+- github: cloudamqp/amqproxy
+  description: An intelligent AMQP proxy, with connection and channel pooling/reusing
 - github: bmulvihill/dispatch
   description: In memory asynchronous job processing
 - github: robacarp/mosquito

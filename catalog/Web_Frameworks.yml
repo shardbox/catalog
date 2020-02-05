@@ -1,13 +1,29 @@
 ---
 name: Web Frameworks
 shards:
+- github: werner/amatista
+  description: Web Framework
 - github: amberframework/amber
   description: Open source efficient and cohesive web application framework
+- github: amethyst-framework/amethyst
+  description: Rails inspired web-framework
+- github: ysbaddaden/artanis
+  description: Sinatra-like DSL (abusing macros)
 - github: athena-framework/athena
   description: A web framework comprised of reusable, independent components
   mirrors:
   - github: blacksmoke16/athena
     role: legacy
+- github: benoist/carbon-crystal
+  description: Web framework
+- github: repomaa/crouter
+  description: A standalone router
+- github: noahlh/crystal-vue
+  description: Build server-rendered Vue.js apps with a Crystal backend
+- github: akwiatkowski/crystal_api
+  description: Simple PostgreSQL REST API with devise-like auth
+- github: ysbaddaden/frost
+  description: Full Featured Web Framework
 - github: grkek/grip
   description: An object-oriented framework based on Kemal with additional goodness
 - github: kemalcr/kemal
@@ -16,10 +32,15 @@ shards:
   - github: maiha/kemal
   - github: sdogruyol/kemal
     role: legacy
+- github: kemalyst/kemalyst
+  description: A rails-like web framework based on kemal
 - github: jasonl99/lattice-core
   description: A WebSocket-first object-oriented framework (based on Kemal)
 - github: luckyframework/lucky
   description: Full-featured Crystal web framework
+- github: dhruvrajvanshi/Moonshine
+  description: Web framework
+  state: archived
 - github: samueleaton/raze
   description: Modular, light web framework
 - github: onyxframework/rest

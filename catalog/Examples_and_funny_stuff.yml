@@ -21,6 +21,8 @@ shards:
   description: The Computer Language Benchmarks Game
 - github: askn/crystal-by-example
   description: Crystal By Example
+- github: bthachdev/crystal-design-patterns
+  description: Design Patterns in Crystal
 - github: Demonstrandum/Crystal-Maze
   description: A* Path finding for PNG mazes
 - github: codenoid/crystal-mysql-crud-example
@@ -31,6 +33,8 @@ shards:
   description: Native Ruby extensions written in Crystal
 - github: vladfaust/crystalworld
   description: '[realworld.io](https://realworld.io) back-end API implementation'
+- github: maxfierke/fincher
+  description: A steganography tool for text
 - github: codenoid/jihantoro-cr-mysql
   description: Crystal MySQL from scratch sample app
 - github: codenoid/jihantoro.sd

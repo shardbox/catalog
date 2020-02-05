@@ -14,6 +14,8 @@ shards:
   description: Bindings for libsass
 - github: maiha/crt.cr
   description: Bindings for libncursesw and crt
+- github: jhass/crystal-gobject
+  description: Gobject introspection
 - github: ruivieira/crystal-gsl
   description: GNU Scientific Library bindings
 - github: mamantoha/crystal-hunspell
@@ -34,6 +36,8 @@ shards:
   description: Bindings for libgit2
 - github: splattael/libnotify.cr
   description: Bindings for Libnotify
+- github: veelenga/lua.cr
+  description: Lua bridge
 - github: maiha/pcap.cr
   description: Bindings for libpcap
 - github: chris-huxtable/pledge.cr

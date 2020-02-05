@@ -22,6 +22,12 @@ shards:
   description: Handle and mutate JSON documents easily
 - github: delef/maxminddb.cr
   description: MaxMindDB reader
+- github: denysvitali/megadecrypter
+  description: Decrypt `mega://enc2` links
+- github: jeromegn/protobuf.cr
+  description: Protobuf generator, encoder and decoder
+- github: kostya/simple_rpc
+  description: Remote Procedure Call Server and Client implementing msgpack-rpc protocall
 - github: crystal-community/toml.cr
   description: TOML parser
   mirrors:

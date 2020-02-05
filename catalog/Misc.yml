@@ -7,8 +7,9 @@ shards:
   description: Recursive Hash with better JSON::Any included
 - github: chris-huxtable/atomic_write.cr
   description: Library for writing or apppending files atomically
-- github: klirix/boop
-  description: static site generator
+- github: articulate/biplane
+  description: A configuration-based management and automation tool for [Kong](https://konghq.com/)
+  state: archived
 - github: vnbrs/burocracia.cr
   description: burocracia.cr the dependecyless shard to validate, generate and format
     Brazilian burocracias such as CPF, CNPJ and CEP
@@ -21,25 +22,23 @@ shards:
     binary to system or container without the code
 - github: naqvis/containerregistry.cr
   description: Library for working with container registries
-- github: firejox/CrSignals
-  description: Signals/slots notification library
 - github: DanSnow/crystal-binary_parser
   description: Binary parser
 - github: isaced/crystal-web-framework-stars
   description: Web frameworks for Crystal, most starred on Github
+- github: werner/crystal_on_steroids
+  description: A group of methods to make Crystal more programmer friendly
 - github: jimm/crystal_port_midi
   description: Crystal C bindings for the PortMIDI cross-platform MIDI I/O library
 - github: dhruvrajvanshi/crz
   description: Functional programming library
-- github: GloverDonovan/dravite
-  description: onsistent and reliable static site generator for the web
+- github: f/equiv
+  description: Recommendation engine
 - github: krthr/haye.cr
   description: Expressive string syntax to Array/Hash and Vice-Versa parser for Crystal.
     Based on the javascript version
 - github: 0x73/hoop
   description: Building native OSX apps
-- github: lucaong/immutable
-  description: Implementation of thread-safe, persistent, immutable collections
 - github: lirith-engine/lirith
   description: Graphics engine
 - github: akiicat/m3u8

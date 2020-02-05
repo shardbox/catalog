@@ -13,5 +13,7 @@ shards:
   description: A library for gaming development
 - github: ddfreyne/inari
   description: A collection of games using Glove as the game engine
+- github: tfcat/Leafgem
+  description: The humble beginnings of a 2D game engine
 - github: bararchy/mos_game
   description: Mini Offline Singleplayer game

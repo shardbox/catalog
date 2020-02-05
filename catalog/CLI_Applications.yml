@@ -1,0 +1,5 @@
+---
+name: CLI Applications
+shards:
+- github: askn/fikri
+  description: Simple CLI To-Do App

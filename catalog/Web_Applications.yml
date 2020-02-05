@@ -1,5 +1,13 @@
 ---
 name: Web Applications
 shards:
+- github: jhass/carc.in
+  description: Compile & run code in. Online playground
+- github: dgodd/concourse-summary
+- github: yahoojapan/hosted-danger
+  description: Code review automation with [Danger](https://github.com/danger/danger)
+    as a service
 - github: omarroth/invidious
   description: Alternative front-end to YouTube
+- github: psykube/psykube
+  description: Manages Kubernetes configuration and deployment

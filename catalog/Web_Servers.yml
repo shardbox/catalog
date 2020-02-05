@@ -1,8 +1,16 @@
 ---
 name: Web Servers
 shards:
+- github: alternatelabs/bifrost
+  description: Simple and fast websocket server
+- github: klirix/boop
+  description: static site generator
+- github: GloverDonovan/dravite
+  description: Consistent and reliable static site generator for the web
 - github: sdogruyol/fast-http-server
   description: Super fast, zero configuration command line HTTP Server
+- github: f/kamber
+  description: Static site server for blogs
 - github: ysbaddaden/prax.cr
   description: Rack proxy server for development
 - github: icyleaf/salt

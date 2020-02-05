@@ -1,0 +1,12 @@
+---
+name: Concurrency
+shards:
+- github: firejox/CrSignals
+  description: Signals/slots notification library
+- github: ysbaddaden/earl
+  description: 'Service Objects: Agents, Artists, Supervisors, Pools'
+- github: lucaong/immutable
+  description: Implementation of thread-safe, persistent, immutable collections
+- github: RX14/parallel.cr
+  description: Parallelism for crystal as a shard
+  state: archived

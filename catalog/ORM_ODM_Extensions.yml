@@ -1,6 +1,8 @@
 ---
 name: ORM/ODM Extensions
 shards:
+- github: waterlink/active_record.cr
+  description: Active Record pattern implementation
 - github: luckyframework/avram
   description: A database wrapper for reading, writing, and migrating Postgres databases
 - github: anykeyh/clear

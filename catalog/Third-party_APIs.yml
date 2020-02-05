@@ -1,6 +1,10 @@
 ---
 name: Third-party APIs
 shards:
+- github: omarroth/audible.cr
+  description: Interface for Audible's internal API
+- github: sdogruyol/aws
+  description: Unofficial AWS SDK
 - github: y2k2mt/aws-credentials
   description: Get AWS credentials in various ways
 - github: beanieboi/aws-signer.cr
@@ -11,6 +15,8 @@ shards:
   description: Sign HTTP::Request objects and generate presigned post forms
 - github: gewo/bugsnag.cr
   description: Bugsnag exception notifier and sidekiq middleware
+- github: dgodd/concourse-summary
+  description: Summary for pipelines on [concourse-ci.org](https://concourse-ci.org/)
 - github: rogerwelin/crystal-consul
   description: Consul API client
 - github: sb89/crystal-darksky
@@ -23,6 +29,8 @@ shards:
   description: Star Wars API (SWAPI) wrapper
 - github: manastech/crystal_slack
   description: A tool that parses Slack slash commands or send incoming web hooks
+- github: discordcr/discordcr
+  description: Minimalist Discord library
 - github: meew0/discordcr
   description: A minimalist Discord API library
 - github: krthr/gcp-tts.cr
@@ -50,6 +58,8 @@ shards:
     API
 - github: oz/pinboard.cr
   description: '[Pinboard](https://pinboard.in) API'
+- github: Hentioe/policr
+  description: Telegram bot
 - github: sija/raven.cr
   description: Raven is a client for [Sentry](https://github.com/getsentry/sentry)
 - github: DougEverly/slack.cr

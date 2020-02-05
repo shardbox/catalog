@@ -15,11 +15,15 @@ shards:
   description: Transpile/compile Crystal to [Flow](https://flow.org/)
 - github: LinCAS-lang/LinCAS
   description: A programming language for scientific computation
+- github: jemc/mare
+  description: A reimagining of the Pony language
 - github: mint-lang/mint
   description: A refreshing programming language for the front-end web
 - github: myst-lang/myst
   description: A practical, dynamic language designed to be written and understood
     as easily and efficiently as possible
+- github: romeroadrian/nes.cr
+  description: A NES emulator written in Crystal
 - github: TheKernelCorp/NuummiteOS
   description: An OS written in Crystal as a Proof of Concept
 - github: runic-lang/runic
