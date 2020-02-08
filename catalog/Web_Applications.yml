@@ -4,6 +4,13 @@ shards:
 - github: jhass/carc.in
   description: Compile & run code in. Online playground
 - github: dgodd/concourse-summary
+- github: nya/cpomf
+  description: '[Pomf API](https://github.com/pomf/pomf) compatible file host'
+  state: archived
+- github: zamith/crystalshards
+  description: A listing of all Crystal repos on GitHub
+- github: docelic/fluence
+  description: WYSIWYG wiki powered by Crystal, markdown, and Git
 - github: yahoojapan/hosted-danger
   description: Code review automation with [Danger](https://github.com/danger/danger)
     as a service

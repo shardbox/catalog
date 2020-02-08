@@ -9,6 +9,8 @@ shards:
   description: FANN (Fast Artifical Neural Network) binding
 - github: pbrusco/crystal-learn
   description: Sklearn-like machine-learning library
+- github: mathieulaporte/machine
+  description: Simple machine learning algorithm
 - github: NeuraLegion/shainet
   description: SHAInet (Neural Network in pure crystal)
 - github: fazibear/tensorflow.cr

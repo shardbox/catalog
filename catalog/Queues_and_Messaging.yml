@@ -5,11 +5,19 @@ shards:
   description: AMQP 0.9.1 client with RabbitMQ extensions
 - github: cloudamqp/amqproxy
   description: An intelligent AMQP proxy, with connection and channel pooling/reusing
+- github: crystalmq/crystalmq
+  description: Message Queue similar to NSQ
 - github: bmulvihill/dispatch
   description: In memory asynchronous job processing
+- github: calebuharrison/faktory.cr
+  description: '[Faktory](https://github.com/contribsys/faktory) worker client'
+- github: maiha/kafka.cr
+  description: kafka utilities
 - github: robacarp/mosquito
   description: Redis backed periodic and ad hoc job processing
 - github: nats-io/nats.cr
   description: NATS client
 - github: mperham/sidekiq.cr
   description: Simple, efficient job processing
+- github: crystal-community/zeromq-crystal
+  description: Bindings for [ZeroMQ](http://zero.mq)

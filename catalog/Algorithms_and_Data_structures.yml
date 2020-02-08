@@ -16,6 +16,8 @@ shards:
   description: Crystal sequence differencing implementation
 - github: abvdasker/crystal-linked-list
   description: Implementation of Linked List
+- github: dhruvrajvanshi/crystal-parsec
+  description: Parsing DSL inspired by Haskell library Parsec
 - github: unn4m3d/crystaledge
   description: A pure Vector Math library
 - github: TobiasGSmollett/crystalg
@@ -50,6 +52,8 @@ shards:
   description: Implementation of Murmur3 hash algorithm used by Cassandra
 - github: obsidian/oak
   description: A flexible Radix Tree implementation
+- github: DanilaFe/pegasus
+  description: A parser generator for C and Crystal
 - github: luislavena/radix
   description: Radix Tree implementation
 - github: johnjansen/ternary_search_tree

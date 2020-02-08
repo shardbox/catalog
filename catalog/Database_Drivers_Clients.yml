@@ -24,8 +24,12 @@ shards:
   - github: Zhomart/crystal-sqlite3
   - github: manastech/crystal-sqlite3
     role: legacy
+- github: paktek123/elasticsearch-crystal
+  description: Elasticsearch Library
 - github: measurechina/eventql-crystal
   description: EventQL driver
+- github: crystal-community/kiwi
+  description: A unified Crystal interface for key-value stores
 - github: crystal-community/leveldb
   description: Crystal bindings for LevelDB
 - github: ambercommunity/mongo.cr
@@ -33,6 +37,13 @@ shards:
   mirrors:
   - github: datanoise/mongo.cr
     role: legacy
+- github: sam0x17/mongo_orm
+  description: Simple ORM for MongoDB supporting Rails-esque models, associations
+    and embedded documents
+- github: lbguilherme/rethinkdb-lite
+  description: A RethinkDB-compatible database
+- github: cubos/rethinkdb.cr
+  description: RethinkDB Driver
 - github: maiha/rocksdb.cr
   description: RocksDB client
 - github: vladfaust/tarantool-crystal

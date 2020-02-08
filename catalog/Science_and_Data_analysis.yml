@@ -3,6 +3,9 @@ name: Science and Data analysis
 shards:
 - github: crystal-data/bottle
   description: Numerical computing library supporting N-Dimensional data
+- github: mverzilli/crystalla
+  description: Library for Numerical Methods. It binds to LAPACK and is unashamedly
+    inspired by Numpy
 - github: konovod/linalg
   description: Linear algebra library inspired by MATLAB and SciPy.linalg
 - github: crystal-data/num.cr

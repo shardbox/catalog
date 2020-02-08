@@ -22,10 +22,14 @@ shards:
   description: Build server-rendered Vue.js apps with a Crystal backend
 - github: akwiatkowski/crystal_api
   description: Simple PostgreSQL REST API with devise-like auth
+- github: defense-cr/defense
+  description: An HTTP handler for throttling, blocking and tracking malicious requests
 - github: ysbaddaden/frost
   description: Full Featured Web Framework
 - github: grkek/grip
   description: An object-oriented framework based on Kemal with additional goodness
+- github: adlerhsieh/iceberg
+  description: A full-stack web framework
 - github: kemalcr/kemal
   description: Lightning Fast, Super Simple web framework. Inspired by Sinatra
   mirrors:
@@ -36,11 +40,15 @@ shards:
   description: A rails-like web framework based on kemal
 - github: jasonl99/lattice-core
   description: A WebSocket-first object-oriented framework (based on Kemal)
+- github: jgaskins/live_view
+  description: Server-rendering for client-side interactions
 - github: luckyframework/lucky
   description: Full-featured Crystal web framework
 - github: dhruvrajvanshi/Moonshine
   description: Web framework
   state: archived
+- github: guvencenanguvenal/mustafa
+  description: Simple and Fast MVC Framework
 - github: samueleaton/raze
   description: Modular, light web framework
 - github: onyxframework/rest

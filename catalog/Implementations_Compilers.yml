@@ -28,3 +28,5 @@ shards:
   description: An OS written in Crystal as a Proof of Concept
 - github: runic-lang/runic
   description: In-design toy language
+- github: KCreate/stackvm
+  description: Virtual Machine with a 240x160 VRAM display

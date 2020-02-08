@@ -50,6 +50,8 @@ shards:
   description: Build Realtime Web applications with Kemal and React
 - github: ChangJoo-Park/kemal-vue-chat
   description: Build Realtime Web applications with Kemal and Vue.js
+- github: f/lambda.cr
+  description: Uniformed function call syntax
 - github: jwoertink/medley
   description: A mixture of music related methods
 - github: lbguilherme/os-crystal

@@ -13,3 +13,5 @@ shards:
   description: Web application powering [shardbox.org](https://shardbox.org)
 - github: crystal-lang/shards
   description: Dependency manager for the Crystal
+- github: nedpals/sharn
+  description: Managing shards made easier

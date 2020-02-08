@@ -65,6 +65,8 @@ shards:
 - github: DougEverly/slack.cr
   description: A Slack [Real Time Messaging API](https://api.slack.com/rtm) WebSocket
     client library
+- github: marceloboeira/spotify.cr
+  description: Wrapper for the Spotify Web API
 - github: hangyas/telegram_bot
   description: A wrapper for the Telegram Bot API
 - github: sferik/twitter-crystal

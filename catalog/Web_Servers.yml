@@ -5,10 +5,15 @@ shards:
   description: Simple and fast websocket server
 - github: klirix/boop
   description: static site generator
+- github: RX14/camo.cr
+  description: A crystal version of atmos/camo, faster and with better request lifecycle
+    tracing
 - github: GloverDonovan/dravite
   description: Consistent and reliable static site generator for the web
 - github: sdogruyol/fast-http-server
   description: Super fast, zero configuration command line HTTP Server
+- github: LeChatErrant/ftp
+  description: lightweight RFC959 FTP server
 - github: f/kamber
   description: Static site server for blogs
 - github: ysbaddaden/prax.cr
@@ -18,3 +23,5 @@ shards:
   state: archived
 - github: SuperPaintman/serve
   description: Command line static HTTP server
+- github: hackervera/unix-web
+  description: Unix Philosophy Webserve

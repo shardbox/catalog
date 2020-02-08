@@ -39,8 +39,11 @@ shards:
     Based on the javascript version
 - github: 0x73/hoop
   description: Building native OSX apps
-- github: lirith-engine/lirith
+- github: eltanin-engine/lirith
   description: Graphics engine
+  mirrors:
+  - github: lirith-engine/lirith
+    role: legacy
 - github: akiicat/m3u8
   description: Generate and parse m3u8 playlists for HTTP Live Streaming
 - github: blocknotes/manual-generator
@@ -49,6 +52,8 @@ shards:
   description: Verify and generate Rails `ActiveSupport::MessageVerifier` signed tokens
 - github: alex-lairan/monads
   description: Monad implementation
+- github: mamantoha/nanoid.cr
+  description: Secure URL-friendly unique ID generator
 - github: isaced/pangu.cr
   description: Paranoid text spacing in Crystal
 - github: spider-gazelle/pinger

@@ -3,6 +3,10 @@ name: CLI Utils
 shards:
 - github: j8r/cride
   description: A light CLI text editor/IDE
+- github: Papierkorb/fancyline
+  description: Readline-esque library with fancy features
+- github: r00ster91/lime
+  description: A library for drawing graphics on the console screen
 - github: Blacksmoke16/oq
   description: A performant, and portable [jq](https://github.com/stedolan/jq) wrapper
     also supporting formats other than JSON

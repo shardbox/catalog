@@ -34,6 +34,8 @@ shards:
   - github: thelonelyghost/spec2.cr
 - gitlab: arctic-fox/spectator
   description: Feature rich spec framework that uses the modern expect syntax
+- github: icy-arctic-fox/spectator
+  description: Feature-rich testing framework based on RSpec
 - github: crystal-community/timecop.cr
   description: Library for mocking with `Time.now`. Inspired by the [timecop ruby
     gem](https://github.com/travisjeffery/timecop)

@@ -1,6 +1,8 @@
 ---
 name: Game Development
 shards:
+- github: Groogy/boleite
+  description: Framework for developing Games
 - gitlab: Zatherz/cray
   description: Bindings for [raylib](http://www.raylib.com/), an easy-to-use game
     development library

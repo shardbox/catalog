@@ -5,8 +5,12 @@ shards:
   description: Signals/slots notification library
 - github: ysbaddaden/earl
   description: 'Service Objects: Agents, Artists, Supervisors, Pools'
+- github: krisleech/evented
+  description: Publish and Subscribe library
 - github: lucaong/immutable
   description: Implementation of thread-safe, persistent, immutable collections
+- github: ysbaddaden/panzer
+  description: Multi-process, zero-downtime service monitor
 - github: RX14/parallel.cr
   description: Parallelism for crystal as a shard
   state: archived

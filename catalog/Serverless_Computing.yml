@@ -1,6 +1,8 @@
 ---
 name: Serverless Computing
 shards:
+- github: lambci/crambda
+  description: Custom AWS Lambda runtime for Crystal
 - github: TPei/crystal_openfaas
   description: Template to enable crystal as first class citizens in OpenFaaS
 - github: sam0x17/gcf.cr

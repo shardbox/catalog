@@ -1,6 +1,8 @@
 ---
 name: GUI library
 shards:
+- github: calebuharrison/CrystGLFW
+  description: An object-oriented API for GLFW
 - github: Qwerp-Derp/hedron
   description: An extendable GUI library, with markup language capabilities
 - github: hedron-crystal/hedron
