@@ -18,8 +18,11 @@ shards:
   description: Web framework
 - github: repomaa/crouter
   description: A standalone router
-- github: noahlh/crystal-vue
-  description: Build server-rendered Vue.js apps with a Crystal backend
+- github: noahlh/celestite
+  description: Build reactive, server-side rendered Vue & Svelte apps w/ a Crystal backend
+  mirrors:
+  - github: noahlh/crystal-vue
+    role: legacy
 - github: akwiatkowski/crystal_api
   description: Simple PostgreSQL REST API with devise-like auth
 - github: ysbaddaden/frost
