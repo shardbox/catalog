@@ -20,3 +20,5 @@ shards:
 - github: f/temel
   description: Extensible HTML::Builder alternative for Crystal, supports custom tag
     definitions
+- github: shootingfly/water
+  description: A library for writing HTML in plain Crystal

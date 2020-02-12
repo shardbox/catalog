@@ -12,6 +12,8 @@ shards:
   description: XMPP/Jabber Library
 - github: Meoowww/Crirc
   description: IRC protocol implementation (Client, Server, Bots)
+- gitlab: jgillich/crystal-dns
+  description: DNS protocol implementation and resolver
 - github: foi/crystal-json-socket
   description: JSON-socket client & server implementation. Inspired by and compatible
     with [node-json-socket](https://github.com/sebastianseilund/node-json-socket/)
