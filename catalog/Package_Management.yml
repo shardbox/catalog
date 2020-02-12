@@ -13,5 +13,7 @@ shards:
   description: Web application powering [shardbox.org](https://shardbox.org)
 - github: crystal-lang/shards
   description: Dependency manager for the Crystal
+- github: mamantoha/shards-info
+  description: View of all repositories on GitHub that have Crystal code in them
 - github: nedpals/sharn
   description: Managing shards made easier

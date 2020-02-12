@@ -1,6 +1,9 @@
 ---
 name: Data Formats
 shards:
+- github: kostya/auto_json
+  description: Auto JSON convertations for classes and structs, based on auto_constructor
+    fields
 - github: spider-gazelle/bindata
   description: Binary data parser helper with an [ASN.1](https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One)
     parser
@@ -8,6 +11,8 @@ shards:
   description: Lightning fast data serialization and RPC
 - github: chris-huxtable/config.cr
   description: Easy to use configuration format parser
+- github: WeTransfer/cr_zip_tricks
+  description: Alternate ZIP writer, ported from zip_tricks for Ruby
 - github: c910335/crinder
   description: Class based json renderer
 - github: chris-huxtable/front_matter.cr
@@ -24,8 +29,12 @@ shards:
   description: MaxMindDB reader
 - github: denysvitali/megadecrypter
   description: Decrypt `mega://enc2` links
+- github: marceloboeira/pdf.cr
+  description: PDF writer
 - github: jeromegn/protobuf.cr
   description: Protobuf generator, encoder and decoder
+- github: teodor-pripoae/protokol
+  description: Protocol buffers
 - github: kostya/simple_rpc
   description: Remote Procedure Call Server and Client implementing msgpack-rpc protocall
 - github: crystal-community/toml.cr

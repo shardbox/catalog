@@ -1,10 +1,16 @@
 ---
 name: Image processing
 shards:
+- github: imdrasil/crymagick
+  description: Wrapper for ImageMagick command line
+- github: obskyr/dazzlie
+  description: Encode and decode graphics from a variety of retro video game systems
 - github: libpixel/libpixel.cr
 - github: blocknotes/magickwand-crystal
   description: Bindings for [MagickWand](https://www.imagemagick.org/script/magick-wand.php),
     the C interface for ImageMagick processing libraries
+- github: woodruffw/qrencode.cr
+  description: Library for QR code generation based on libqrencode
 - github: stumpycr/stumpy_gif
   description: Write (animated) GIF images
 - github: stumpycr/stumpy_png

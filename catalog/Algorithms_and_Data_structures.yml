@@ -18,6 +18,8 @@ shards:
   description: Implementation of Linked List
 - github: dhruvrajvanshi/crystal-parsec
   description: Parsing DSL inspired by Haskell library Parsec
+- github: Demonstrandum/crystal_maze
+  description: A* Path finding for PNG mazes using StumpyPNG
 - github: unn4m3d/crystaledge
   description: A pure Vector Math library
 - github: TobiasGSmollett/crystalg

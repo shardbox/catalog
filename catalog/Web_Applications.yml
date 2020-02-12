@@ -11,10 +11,16 @@ shards:
   description: A listing of all Crystal repos on GitHub
 - github: docelic/fluence
   description: WYSIWYG wiki powered by Crystal, markdown, and Git
+- github: jessehorne/hackerviews
+  description: A social platform inspired by Hacker News
 - github: yahoojapan/hosted-danger
   description: Code review automation with [Danger](https://github.com/danger/danger)
     as a service
 - github: omarroth/invidious
   description: Alternative front-end to YouTube
+- github: thewalkingtoast/mpngin
+  description: A simple and fast URL shortener with built in stats
 - github: psykube/psykube
   description: Manages Kubernetes configuration and deployment
+- github: Nephos/wikicr
+  description: Wiki in crystal, using Markdown and Git, inspired by dokuwiki

@@ -1,6 +1,8 @@
 ---
 name: Science and Data analysis
 shards:
+- github: crystal-data/aquaplot
+  description: Data visualization library
 - github: crystal-data/bottle
   description: Numerical computing library supporting N-Dimensional data
 - github: mverzilli/crystalla
@@ -8,9 +10,15 @@ shards:
     inspired by Numpy
 - github: konovod/linalg
   description: Linear algebra library inspired by MATLAB and SciPy.linalg
+- github: Exilor/matrix
+  description: A Matrix class
 - github: crystal-data/num.cr
   description: Numerical computing library supporting N-Dimensional data
 - github: RX14/predict.cr
   description: Satellite prediction library using the sgp4 model
 - git: https://git.sceptique.eu/Sceptique/stats
-  description: An expressive implementation of statistical distributions
+  description: An expressive implementation of statistical distributions and usual
+    math functions
+  mirrors:
+  - github: Nephos/stats
+    role: legacy

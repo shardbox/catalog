@@ -1,10 +1,14 @@
 ---
 name: Database Drivers/Clients
 shards:
+- github: solisoft/arangocr
+  description: ArangoDB client
 - github: TechMagister/couchdb.cr
   description: CouchDB client
 - github: crystal-lang/crystal-db
   description: Common database API
+- github: maiha/crystal-examples
+  description: Automatic validation of Crystal code samples
 - github: puppetpies/crystal-monetdb-libmapi
   description: Bindings for MonetDB
 - github: crystal-lang/crystal-mysql
@@ -28,10 +32,14 @@ shards:
   description: Elasticsearch Library
 - github: measurechina/eventql-crystal
   description: EventQL driver
+- github: jeromegn/influxdb.cr
+  description: InfluxDB driver
 - github: crystal-community/kiwi
   description: A unified Crystal interface for key-value stores
 - github: crystal-community/leveldb
   description: Crystal bindings for LevelDB
+- github: kostya/memory_cache
+  description: Super simple in memory key-value storage with expires
 - github: ambercommunity/mongo.cr
   description: Binding for MongoDB C driver
   mirrors:
@@ -40,6 +48,10 @@ shards:
 - github: sam0x17/mongo_orm
   description: Simple ORM for MongoDB supporting Rails-esque models, associations
     and embedded documents
+- github: jgaskins/neo4j.cr
+  description: Pure-Crystal implementation of Neo4j's Bolt protocol
+- github: kostya/redisoid
+  description: Redis client with auto-reconnection and pool
 - github: lbguilherme/rethinkdb-lite
   description: A RethinkDB-compatible database
 - github: cubos/rethinkdb.cr

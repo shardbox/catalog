@@ -1,15 +1,26 @@
 ---
 name: Development Tools
 shards:
+- github: ysbaddaden/android.cr
+  description: Create Android applications using Crystal and the NDK
 - github: TechMagister/cracker
   description: Auto-completion client/server
+- github: Val/crun
+  description: 'Crystal Run: shebang wrapper for Crystal'
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
 - github: f/guardian
   description: File change watcher for Crystal and Non-Crystal libs
 - github: crystal-community/icr
+- github: ysbaddaden/java.cr
+  description: Java Native Interface (JNI) bindings (and generator)
 - github: faustinoaq/kemal-watcher
   description: Kemal plugin to watch files and live-reload the browser
+- github: foca/mpp
+  description: 'The mini pre processor parses files and resolves C-style #include
+    and #define macros'
+- github: faustinoaq/ruby2crystal
+  description: A proof of concept tool to help porting gems to shards
 - github: samueleaton/sentry
   description: Watches src files, rebuilds/reruns application on file changes
 - github: faustinoaq/sentry-run

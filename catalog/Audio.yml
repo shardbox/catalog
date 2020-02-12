@@ -1,0 +1,9 @@
+---
+name: Audio
+shards:
+- github: TamasSzekeres/asound-cr
+  description: Bindings for ALSA/libasound
+- github: mjago/sonicri
+  description: Audio Player
+- github: mjago/soundfile
+  description: Bindings for [libsndfile](http://www.mega-nerd.com/libsndfile/) library

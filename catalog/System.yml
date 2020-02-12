@@ -6,5 +6,7 @@ shards:
 - github: crystal-community/hardware
   description: Get CPU, Memory and Network informations of the running OS and its
     processes
+- github: aablinov/psutil.cr
+  description: Library for accessing information from the system for statistical purposes
 - github: ddfreyne/rcpu
   description: A virtual machine emulator and assembler

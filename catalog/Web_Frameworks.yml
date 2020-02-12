@@ -22,8 +22,8 @@ shards:
   mirrors:
   - github: noahlh/crystal-vue
     role: legacy
-- github: repomaa/crouter
-  description: A standalone router
+- github: bcardiff/crystal-routing
+  description: Extensible library to deal with http request and string based routing
 - github: akwiatkowski/crystal_api
   description: Simple PostgreSQL REST API with devise-like auth
 - github: defense-cr/defense
@@ -40,10 +40,14 @@ shards:
   - github: maiha/kemal
   - github: sdogruyol/kemal
     role: legacy
+- github: sdogruyol/kemal-pg
+  description: Easily add Postgresql database to Kemal
 - github: kemalyst/kemalyst
   description: A rails-like web framework based on kemal
 - github: jasonl99/lattice-core
   description: A WebSocket-first object-oriented framework (based on Kemal)
+- github: kostya/limiter
+  description: Rate limiter, Memory and Redis based
 - github: jgaskins/live_view
   description: Server-rendering for client-side interactions
 - github: luckyframework/lucky
@@ -60,3 +64,6 @@ shards:
     rendering layers, based on [onyx-http](https://github.com/onyxframework/http)
 - github: spider-gazelle/spider-gazelle
   description: A Rails esque web framework with a focus on speed and extensibility
+- github: icyleaf/swagger
+  description: Swagger contains a OpenAPI / Swagger universal documentation generator
+    and server handler

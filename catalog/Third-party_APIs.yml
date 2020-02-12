@@ -33,6 +33,10 @@ shards:
   description: Minimalist Discord library
 - github: meew0/discordcr
   description: A minimalist Discord API library
+- github: greenbigfrog/discordtipbot
+  description: A tip bot for use on discordapp.com
+- github: jeromegn/docker.cr
+  description: Docker API client
 - github: krthr/gcp-tts.cr
   description: Google Text-To-Speech API client
 - github: mccallofthewild/gdax
@@ -62,6 +66,9 @@ shards:
   description: Telegram bot
 - github: sija/raven.cr
   description: Raven is a client for [Sentry](https://github.com/getsentry/sentry)
+- github: chendo/sense-api.cr
+  description: An API for accessing the data available from a Hello Sense sleep tracking
+    device
 - github: DougEverly/slack.cr
   description: A Slack [Real Time Messaging API](https://api.slack.com/rtm) WebSocket
     client library

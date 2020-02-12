@@ -5,6 +5,14 @@ shards:
   description: Simple CLI To-Do App
 - github: tbrand/mssh
   description: Simple and powerful job executor on remote nodes
+- github: mjago/sonicri
+- github: sferik/spellout
+  description: A command-line tool that converts input into the International Radiotelephony
+    Spelling Alphabet
+- github: porras/tlcr
+  description: Simple terminal-based client for TLDR
+- github: geolessel/trello-cli
+  description: It's Trello, but snappy
 - github: mamantoha/zipstream
   description: A command line tool that allows you to easily share files and directories
     over the network

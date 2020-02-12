@@ -26,6 +26,8 @@ shards:
   description: Library for unit tests and assertions
 - github: waterlink/mocks.cr
   description: Mocking library for Crystal
+- github: rf-/roadshow
+  description: A language-agnostic tool for testing code in different environments
 - github: waterlink/spec2.cr
   description: Enhanced spec testing library
   mirrors:

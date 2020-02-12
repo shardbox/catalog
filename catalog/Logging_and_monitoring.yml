@@ -13,6 +13,8 @@ shards:
   description: A metrics and distributed trace collector for [Instana](https://www.instana.com/)
 - github: luckyframework/dexter
   description: A Logger that focuses on compatibility and flexible formats
+- github: molnarmark/epilog
+  description: Elegant, fancy console logger
 - github: TobiasGSmollett/fluent-logger-crystal
   description: A structured logger for [Fluentd](https://www.fluentd.org/)
 - github: guvencenanguvenal/katip

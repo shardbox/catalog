@@ -14,3 +14,6 @@ shards:
   description: Custom pluralization rules support for i18n
 - github: phoffer/inflector.cr
   description: Singularize, pluralize, camelize, etc (port from ActiveSupport)
+- github: johnjansen/text
+  description: A collection of phonetic algorithms including Porter-Stemmer, Soundex,
+    Metaphone, Double Metaphone & White Similarity

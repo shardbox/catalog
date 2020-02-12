@@ -1,6 +1,9 @@
 ---
 name: Network Protocols
 shards:
+- github: nilsding/AgentSmith
+  description: IRC server that is actually a Matrix client. Use your favourite IRC
+    client to communicate with the Matrix
 - github: jeromegn/bson.cr
   description: Native BSON implementation
 - github: spider-gazelle/connect-proxy
@@ -15,6 +18,9 @@ shards:
     and [ruby-json-socket](https://github.com/foi/ruby-json-socket)
 - github: spider-gazelle/crystal-snmp
   description: An SNMP implementation with version 1, 2c and 3 support
+- github: SushiChain/crystal-two-factor-auth
+  description: Two Factor Authentication implementing the Time-based One-time Password
+    Algorithm
 - github: RX14/fast_irc.cr
   description: Fast IRC parser/generator
 - github: anicholson/gopher.cr
@@ -23,13 +29,21 @@ shards:
   description: Implementation of JWT (JSON Web Token)
 - github: crystal-community/msgpack-crystal
   description: MessagePack library
+- github: picatz/packetz
+  description: Packet capturing library built with LibPcap
+- github: dtcristo/phoenix.cr
+  description: Client for Phoenix Channels
 - github: wontruefree/socks
   description: SOCKS proxy
 - github: datanoise/ssh2.cr
   description: libssh2 bindings
+- github: bararchy/sslscanner
+  description: SSL Scanner written
 - github: spider-gazelle/telnet.cr
   description: Telnet protocol
 - github: Papierkorb/torrent
   description: BitTorrent library
 - git: https://git.sceptique.eu/Sceptique/transfer_more
   description: Clone of transfer.sh to uploads files
+- github: Nephos/transfer_more
+  description: Fast and temporary file uploader

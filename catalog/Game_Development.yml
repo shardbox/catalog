@@ -11,6 +11,8 @@ shards:
 - github: oprypin/crystal-chipmunk
   description: Bindings for [Chipmunk](http://chipmunk-physics.net/), a fast and lightweight
     2D game physics library
+- github: spoved/entitas.cr
+  description: Entity Component System Framework
 - github: ddfreyne/glove
   description: A library for gaming development
 - github: ddfreyne/inari

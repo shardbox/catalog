@@ -2,7 +2,6 @@
 name: C bindings
 shards:
 - github: TamasSzekeres/asound-cr
-  description: Bindings for ALSA/libasound
 - github: TamasSzekeres/cairo-cr
   description: Bindings for [Cairo](https://cairographics.org/) graphics library
 - github: crystal-lang/clang.cr
@@ -45,7 +44,6 @@ shards:
 - github: ysbaddaden/posix
   description: POSIX/C bindings
 - github: mjago/soundfile
-  description: Bindings for [libsndfile](http://www.mega-nerd.com/libsndfile/) library
 - github: spider-gazelle/ssh2.cr
   description: Bindings for libssh2 library
 - github: chris-huxtable/syslog.cr

@@ -2,7 +2,11 @@
 name: Routing
 shards:
 - github: amberframework/amber-router
+- github: luislavena/beryl
+  description: Action-focused HTTP routing library
 - github: jreinert/crouter
+  description: A standalone router
+- github: repomaa/crouter
   description: A standalone router
 - github: obsidian/orion
   description: A minimal, rails-esque routing library
