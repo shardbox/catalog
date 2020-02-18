@@ -30,6 +30,8 @@ shards:
   description: An HTTP handler for throttling, blocking and tracking malicious requests
 - github: ysbaddaden/frost
   description: Full Featured Web Framework
+- gitlab: everbase/graphql
+  description: GraphQL server library for Crystal
 - github: grkek/grip
   description: An object-oriented framework based on Kemal with additional goodness
 - github: adlerhsieh/iceberg
