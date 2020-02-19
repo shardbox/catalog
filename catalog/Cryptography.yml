@@ -6,6 +6,8 @@ shards:
     (CMAC)
 - github: OscarBarrett/crystal-sha3
   description: An SHA-3 implementation written in Crystal
+- github: marcobellaccini/nanvault
+  description: Encrypt and decrypt files in the Ansible Vault format
 - github: z64/openssl.cr
   description: This library provides binding for OpenSSL library
 - github: watzon/ROT26
