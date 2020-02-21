@@ -4,7 +4,7 @@ shards:
 - github: chenkovsky/aho_corasick
   description: AhoCorasick algorithm
 - github: spider-gazelle/bisect
-  description: Inserting values into a sorted array
+  description: Library for maintaining sorted arrays
 - github: elorest/bitfields
   description: Pure Crystal implementation of BitFields. Handles encoding/decoding
     of bytes
@@ -56,6 +56,8 @@ shards:
   description: A flexible Radix Tree implementation
 - github: DanilaFe/pegasus
   description: A parser generator for C and Crystal
+- github: spider-gazelle/priority-queue
+  description: Priority Queue and Heap implementation
 - github: luislavena/radix
   description: Radix Tree implementation
 - github: johnjansen/ternary_search_tree

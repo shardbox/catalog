@@ -45,7 +45,6 @@ shards:
   description: POSIX/C bindings
 - github: mjago/soundfile
 - github: spider-gazelle/ssh2.cr
-  description: Bindings for libssh2 library
 - github: chris-huxtable/syslog.cr
   description: Bindings for `syslog`
 - github: andrewsuzuki/termbox-crystal

@@ -18,5 +18,9 @@ shards:
 - github: RX14/parallel.cr
   description: Parallelism for crystal as a shard
   state: archived
+- github: spider-gazelle/promise
+  description: Type-aware promises
+- github: spider-gazelle/readers-writer
+  description: Simple readers writer lock
 - github: kostya/run_with_fork
   description: Some simple parallelism for Crystal

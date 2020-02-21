@@ -6,6 +6,8 @@ shards:
 - github: cable-cr/cable
   description: An ActionCable "port" to Crystal, framework agnostic, 100% compatible
     with the ActionCable JS Client
+- github: spider-gazelle/connect-proxy
+  description: Connect method style of HTTP tunnelling / HTTP proxy
 - github: crystal-community/cossack
   description: Simple flexible HTTP client
 - github: mamantoha/crest

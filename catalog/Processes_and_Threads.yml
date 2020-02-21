@@ -9,5 +9,3 @@ shards:
   description: Future type implementation
 - github: tbrand/neph
   description: A modern command line job processor that can execute jobs concurrently
-- github: spider-gazelle/promise
-  description: A Promise implementation with type inference

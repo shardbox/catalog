@@ -1,6 +1,8 @@
 ---
 name: Web Frameworks
 shards:
+- github: spider-gazelle/action-controller
+  description: Rails-esque controller framework
 - github: werner/amatista
   description: Web Framework
 - github: amberframework/amber
@@ -65,7 +67,7 @@ shards:
   description: REST API framework with type-safe params and separate business and
     rendering layers, based on [onyx-http](https://github.com/onyxframework/http)
 - github: spider-gazelle/spider-gazelle
-  description: A Rails esque web framework with a focus on speed and extensibility
+  description: Rails-esque web framework with a focus on speed and extensibility
 - github: icyleaf/swagger
   description: Swagger contains a OpenAPI / Swagger universal documentation generator
     and server handler

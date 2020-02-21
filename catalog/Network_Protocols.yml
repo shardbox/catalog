@@ -6,8 +6,6 @@ shards:
     client to communicate with the Matrix
 - github: jeromegn/bson.cr
   description: Native BSON implementation
-- github: spider-gazelle/connect-proxy
-  description: Connect method style of HTTP tunnelling / HTTP proxy
 - github: naqvis/cr-xmpp
   description: XMPP/Jabber Library
 - github: Meoowww/Crirc
@@ -29,6 +27,8 @@ shards:
   description: Gopher server toolkit
 - github: crystal-community/jwt
   description: Implementation of JWT (JSON Web Token)
+- github: spider-gazelle/knx
+  description: KNX protocol support
 - github: crystal-community/msgpack-crystal
   description: MessagePack library
 - github: picatz/packetz
@@ -39,6 +39,8 @@ shards:
   description: SOCKS proxy
 - github: datanoise/ssh2.cr
   description: libssh2 bindings
+- github: spider-gazelle/ssh2.cr
+  description: libssh2 binding
 - github: bararchy/sslscanner
   description: SSL Scanner written
 - github: spider-gazelle/telnet.cr

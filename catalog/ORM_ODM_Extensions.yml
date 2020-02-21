@@ -1,6 +1,8 @@
 ---
 name: ORM/ODM Extensions
 shards:
+- github: spider-gazelle/active-model
+  description: Rails-esque model framework
 - github: waterlink/active_record.cr
   description: Active Record pattern implementation
 - github: luckyframework/avram

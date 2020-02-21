@@ -56,8 +56,6 @@ shards:
   description: Secure URL-friendly unique ID generator
 - github: isaced/pangu.cr
   description: Paranoid text spacing in Crystal
-- github: spider-gazelle/pinger
-  description: Ping IP addresses and DNS entries without requiring sudo
 - github: l3kn/raytracer
   description: CPU Raytracer with examples
 - github: Sija/retriable.cr

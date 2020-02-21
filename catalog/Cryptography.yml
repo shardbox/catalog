@@ -2,8 +2,7 @@
 name: Cryptography
 shards:
 - github: spider-gazelle/cmac
-  description: Crystal implementation of Cipher-based Message Authentication Code
-    (CMAC)
+  description: Implementation of the Cipher-based Message Authentication Code (CMAC)
 - github: OscarBarrett/crystal-sha3
   description: An SHA-3 implementation written in Crystal
 - github: marcobellaccini/nanvault
