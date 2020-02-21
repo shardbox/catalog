@@ -12,5 +12,9 @@ jobs:
           command: shards install
 
       - run:
-          name: Run formatter
-          command: crystal run src/format_catalog.cr
+          name: Build catalog tool
+          command: make build
+
+      - run:
+          name: Check format
+          command: make test
