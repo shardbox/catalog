@@ -37,6 +37,8 @@ shards:
   description: Packet capturing library built with LibPcap
 - github: dtcristo/phoenix.cr
   description: Client for Phoenix Channels
+- github: straight-shoota/rconcr
+  description: Client for the game server remote console protocol (RCON)
 - github: wontruefree/socks
   description: SOCKS proxy
 - github: datanoise/ssh2.cr
