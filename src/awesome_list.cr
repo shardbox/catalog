@@ -1,5 +1,3 @@
-#! /usr/bin/env crystal
-#
 require "http/client"
 require "file_utils"
 require "shardbox-core/catalog"
