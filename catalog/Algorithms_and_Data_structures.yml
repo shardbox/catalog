@@ -32,6 +32,8 @@ shards:
   description: A tree structure that is built using a delimiter
 - github: tcrouch/edits.cr
   description: Collection of edit distance algorithms
+- github: hugopl/fzy
+  description: A Crystal port of awesome Fzy project fuzzy finder algorithm
 - github: mettuaditya/graphlb
   description: Collection of graph datastructure and algorithms
 - github: TobiasGSmollett/hash_ring

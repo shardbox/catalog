@@ -8,6 +8,8 @@ shards:
 - github: blacksmoke16/CrSerializer
   description: Extensible annotation based serialization/deserialization/validation
     library
+- github: Nicolab/crystal-validator
+  description: Data check and validation
 - github: nicolab/crystal-validator
   description: Data check and validation for Crystal
 - github: izniburak/denetmen

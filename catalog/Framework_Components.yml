@@ -21,6 +21,9 @@ shards:
   description: Session handler for Kemal
 - github: jwaldrip/mime-types.cr
   description: MIME::Types Registry for Crystal
+- github: gitlato/mochi
+  description: 'Authentication shard inspired by Devise supporting: Authenticable,
+    Confirmable, Invitable & more'
 - github: msa7/multi_auth
   description: Standardized multi-provider OAuth2 authentication (inspired by omniauth)
 - github: ilanusse/praetorian

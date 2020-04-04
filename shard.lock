@@ -16,13 +16,17 @@ shards:
     github: arnavb/github-cr
     commit: 119df4c747a81260b37af0878b24eab9345a94f4
 
+  molinillo:
+    github: crystal-lang/crystal-molinillo
+    version: 0.1.0
+
   pg:
     github: will/crystal-pg
     version: 0.20.0
 
   raven:
     github: Sija/raven.cr
-    version: 1.5.5
+    version: 1.6.0
 
   shardbox-core:
     github: shardbox/shardbox-core

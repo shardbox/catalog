@@ -1,3 +1,5 @@
+#! /usr/bin/env crystal
+
 require "http"
 require "logger"
 require "shardbox-core/db"

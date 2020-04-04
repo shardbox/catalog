@@ -49,12 +49,17 @@ shards:
   description: Google Maps API
 - github: Gangwolf/hncr
   description: A Hacker News API wrapper
+- github: toddsundsted/host_meta
+  description: A Web Host Metadata (https://tools.ietf.org/html/rfc6415) client
 - github: arubinofaux/hunter.cr
   description: A [Hunter.io](https://hunter.io) API wrapper
 - github: spoved/kube-client.cr
   description: Kubernetes API Client
 - github: petoem/mixpanel-crystal
   description: A library for sending events to Mixpanel
+- github: tilishop/mollie.cr
+  description: '[Mollie](https://www.mollie.com/en/) Payments API wrapper (Creditcard,
+    PayPal, Apple Pay, Sofort, Klarna, ...)'
 - github: timcraft/nexmo-crystal
   description: '[Nexmo REST API](https://developer.nexmo.com/) client'
 - github: osfx/open_exchange_rates
@@ -78,5 +83,7 @@ shards:
   description: A wrapper for the Telegram Bot API
 - github: sferik/twitter-crystal
   description: A library to access the Twitter API
+- github: toddsundsted/web_finger
+  description: A WebFinger (https://tools.ietf.org/html/rfc7033) client
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data

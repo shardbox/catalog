@@ -4,6 +4,8 @@ shards:
 - github: nilsding/AgentSmith
   description: IRC server that is actually a Matrix client. Use your favourite IRC
     client to communicate with the Matrix
+- github: cloudamqp/amqp-client.cr
+  description: AMQP 0-9.1, a messaging protocol, implemented by eg. RabbitMQ
 - github: jeromegn/bson.cr
   description: Native BSON implementation
 - github: naqvis/cr-xmpp
