@@ -90,6 +90,8 @@ Properties:
   * `bitbucket` (string): Path of a repository on Bitbucket.
 * `description` (string, optional): Description of the shard.
 * `mirrors` (sequence, optional): A list of mirror repositories.
+* `state` (string, optional):
+  * `archived`: Mark this shard as archived
 
 ## Mirror
 
