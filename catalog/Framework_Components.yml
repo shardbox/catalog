@@ -28,11 +28,15 @@ shards:
   description: Standardized multi-provider OAuth2 authentication (inspired by omniauth)
 - github: ilanusse/praetorian
   description: Minimalist authorization library inspired by Pundit
+- github: WJWH/prorate-cr
+  description: Redis-based throttling and rate limiting for Crystal
 - github: SuperPaintman/request-id
   description: Middleware for generates / pick up a unique request ID for Crystal
     servers
 - github: SuperPaintman/response-time
   description: Response time for Crystal servers (pure http server, kemal, etc.)
+- github: porras/session
+  description: Cookie based sessions in Crystal HTTP applications
 - github: jetrockets/shrine.cr
   description: File Attachment toolkit for Crystal applications. Heavily inspired
     by Shrine for Ruby

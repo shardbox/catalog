@@ -1,6 +1,8 @@
 ---
 name: Logging and monitoring
 shards:
+- github: tbrand/awesome-logger
+  description: Simple and flexible logger
 - github: spoved/crafana.cr
   description: A [Grafana](https://grafana.com/) library to help autogenerate dashboards
 - gitlab: ezrast/crometheus
@@ -9,6 +11,8 @@ shards:
   description: Flexible logging framework based on Monolog
 - github: arcage/crystal-logreader
   description: Tailing log file
+- github: crystal-community/crystal-notifications
+  description: A library for notifications
 - github: instana/crystal-sensor
   description: A metrics and distributed trace collector for [Instana](https://www.instana.com/)
 - github: luckyframework/dexter

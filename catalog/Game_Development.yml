@@ -6,6 +6,8 @@ shards:
 - gitlab: Zatherz/cray
   description: Bindings for [raylib](http://www.raylib.com/), an easy-to-use game
     development library
+- github: jwoertink/crono
+  description: 2D Video Game framework
 - github: oprypin/crsfml
   description: Bindings to [SFML](https://www.sfml-dev.org/) multimedia/game library
 - github: oprypin/crystal-chipmunk
@@ -21,3 +23,7 @@ shards:
   description: The humble beginnings of a 2D game engine
 - github: bararchy/mos_game
   description: Mini Offline Singleplayer game
+- github: nya-engine/nya
+  description: Game Engine
+- github: AregevDev/raylib-cr
+  description: Crystal wrapper around raylib

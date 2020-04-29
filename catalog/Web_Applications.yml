@@ -3,6 +3,8 @@ name: Web Applications
 shards:
 - github: jhass/carc.in
   description: Compile & run code in. Online playground
+- github: Angarsk8/chat-app-demo
+  description: Chat application developed with Kemal, React, ES2015 and PostgreSQL
 - github: dgodd/concourse-summary
 - github: nya/cpomf
   description: '[Pomf API](https://github.com/pomf/pomf) compatible file host'
@@ -18,9 +20,13 @@ shards:
     as a service
 - github: omarroth/invidious
   description: Alternative front-end to YouTube
+- github: hkalexling/Mango
+  description: Mango is a self-hosted manga server and web reader
 - github: thewalkingtoast/mpngin
   description: A simple and fast URL shortener with built in stats
 - github: psykube/psykube
   description: Manages Kubernetes configuration and deployment
+- github: crystal-jp/slack-invite
+  description: Automatic inviting in Slack Team for Crystal-JP
 - github: Nephos/wikicr
   description: Wiki in crystal, using Markdown and Git, inspired by dokuwiki

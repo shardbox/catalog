@@ -6,5 +6,7 @@ shards:
   mirrors:
   - github: veelenga/ameba
     role: legacy
+- github: bcardiff/crystal-ast-helper
+  description: Helper tool to debug parser and formatter
 - github: Groogy/trashman
   description: A simple memory profiler for Crystal applications

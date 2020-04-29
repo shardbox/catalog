@@ -12,6 +12,10 @@ shards:
   description: XMPP/Jabber Library
 - github: Meoowww/Crirc
   description: IRC protocol implementation (Client, Server, Bots)
+- github: oprypin/critter
+  description: Chat bot relaying messages between IRC and Gitter
+- github: z64/cryogonal
+  description: Composable Discord API library and toolkit
 - gitlab: jgillich/crystal-dns
   description: DNS protocol implementation and resolver
 - github: foi/crystal-json-socket
@@ -41,6 +45,8 @@ shards:
   description: Client for the game server remote console protocol (RCON)
 - github: wontruefree/socks
   description: SOCKS proxy
+- github: wontruefree/sox
+  description: SOCKS client and server for Crystal
 - github: datanoise/ssh2.cr
   description: libssh2 bindings
 - github: spider-gazelle/ssh2.cr

@@ -5,3 +5,5 @@ shards:
   description: A minimal blockchain testbed
 - github: SushiChain/SushiChain
   description: A custom blockchain platform
+- github: oguzbilgic/zincir-crystal
+  description: Simple distributed blockchain experiment

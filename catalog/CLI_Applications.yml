@@ -1,8 +1,12 @@
 ---
 name: CLI Applications
 shards:
+- github: caravel-tool/caravel
+- github: crystallabs/crystime
+  description: Advanced time, calendar, schedule, and remind library for Crystal
 - github: askn/fikri
   description: Simple CLI To-Do App
+- github: jhass/github_desktop_notifications
 - github: tbrand/mssh
   description: Simple and powerful job executor on remote nodes
 - github: mjago/sonicri

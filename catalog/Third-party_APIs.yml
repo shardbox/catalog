@@ -17,6 +17,7 @@ shards:
   description: Bugsnag exception notifier and sidekiq middleware
 - github: dgodd/concourse-summary
   description: Summary for pipelines on [concourse-ci.org](https://concourse-ci.org/)
+- github: spinscale/crystal-aws-lambda
 - github: rogerwelin/crystal-consul
   description: Consul API client
 - github: sb89/crystal-darksky
@@ -43,6 +44,8 @@ shards:
   description: GDAX REST and WebSocket API Wrapper with request signing
 - github: arnavb/github-cr
   description: Wrapper to GitHub API
+- github: jhass/github_desktop_notifications
+  description: Display your Github notifications via libnotify
 - github: icyleaf/gitlab.cr
   description: GitLab API wrapper
 - github: fridgerator/google_maps_api
@@ -79,6 +82,10 @@ shards:
     client library
 - github: marceloboeira/spotify.cr
   description: Wrapper for the Spotify Web API
+- github: confact/stripe.cr
+  description: Stripe API Wrapper
+- github: vladfaust/tele.cr
+  description: A convenient Telegram Bot framework
 - github: hangyas/telegram_bot
   description: A wrapper for the Telegram Bot API
 - github: sferik/twitter-crystal

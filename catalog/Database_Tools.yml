@@ -12,3 +12,5 @@ shards:
     either YAML or raw SQL
 - github: hugopl/queryit
   description: A setupless terminal based SQL query runner
+- github: maiha/redis-cluster-benchmark.cr
+  description: Benchmark utils for Redis Cluster

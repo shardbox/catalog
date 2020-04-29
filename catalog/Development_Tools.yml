@@ -3,6 +3,8 @@ name: Development Tools
 shards:
 - github: ysbaddaden/android.cr
   description: Create Android applications using Crystal and the NDK
+- github: caravel-tool/caravel
+  description: Deploy your apps in production, effortlessly
 - github: TechMagister/cracker
   description: Auto-completion client/server
 - github: Val/crun
@@ -19,6 +21,9 @@ shards:
 - github: foca/mpp
   description: 'The mini pre processor parses files and resolves C-style #include
     and #define macros'
+- github: manastech/rancher-autoredeploy
+  description: Autoredeploy images on Docker Hub webhook pushes in Rancher
+  state: archived
 - github: faustinoaq/ruby2crystal
   description: A proof of concept tool to help porting gems to shards
 - github: samueleaton/sentry

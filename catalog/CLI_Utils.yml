@@ -5,6 +5,8 @@ shards:
   description: A light CLI text editor/IDE
 - github: azukiapp-labs/crystal-chalk-box
   description: Terminal string styling done right
+- github: crystallabs/crysterm
+  description: Console / terminal GUI toolkit
 - github: Papierkorb/fancyline
   description: Readline-esque library with fancy features
 - github: r00ster91/lime

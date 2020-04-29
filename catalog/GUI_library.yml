@@ -1,6 +1,8 @@
 ---
 name: GUI library
 shards:
+- github: Iainmon/Cocoa.cr
+  description: A framework for developing macOS apps with a GUI
 - github: calebuharrison/CrystGLFW
   description: An object-oriented API for GLFW
 - github: nilsmartel/Glass

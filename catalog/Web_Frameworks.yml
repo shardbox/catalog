@@ -69,11 +69,18 @@ shards:
 - github: onyxframework/rest
   description: REST API framework with type-safe params and separate business and
     rendering layers, based on [onyx-http](https://github.com/onyxframework/http)
+- github: ricr-web/ricr
+  description: Web framework with buit-in automatic OpenAPI/Swagger docs support
 - github: ujjwalguptaofficial/shivneri
   description: Component based MVC web framework for crystal targeting good code structures,
     modularity & performance
+- github: jwoertink/sitemapper
+  description: Sitemap generator for Crystal apps
 - github: spider-gazelle/spider-gazelle
   description: Rails-esque web framework with a focus on speed and extensibility
 - github: icyleaf/swagger
   description: Swagger contains a OpenAPI / Swagger universal documentation generator
     and server handler
+- github: gokmen/yeager
+  description: Simple router and http server implementation
+  state: archived

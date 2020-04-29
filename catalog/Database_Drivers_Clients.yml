@@ -13,6 +13,8 @@ shards:
   description: Bindings for MonetDB
 - github: crystal-lang/crystal-mysql
   description: MySQL connector for Crystal
+- github: naqvis/crystal-odbc
+  description: ODBC connector
 - github: will/crystal-pg
   description: A Postgres driver
   mirrors:
@@ -28,10 +30,14 @@ shards:
   - github: Zhomart/crystal-sqlite3
   - github: manastech/crystal-sqlite3
     role: legacy
+- github: manastech/crystal_redis
+  description: Redis client for Crystal
 - github: paktek123/elasticsearch-crystal
   description: Elasticsearch Library
 - github: measurechina/eventql-crystal
   description: EventQL driver
+- github: maiha/grafana-redis.cr
+  description: Grafana datasource for Redis storage
 - github: jeromegn/influxdb.cr
   description: InfluxDB driver
 - github: crystal-community/kiwi
@@ -60,3 +66,5 @@ shards:
   description: RocksDB client
 - github: vladfaust/tarantool-crystal
   description: Tarantool driver
+- github: vladfaust/tarantool.cr
+  description: The Tarantool driver

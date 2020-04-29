@@ -6,3 +6,5 @@ shards:
 - github: spider-gazelle/pinger
   description: Microlibrary to perform ping requests without requiring sudo
 - github: ysbaddaden/pool
+- github: watzon/subnet
+  description: Crystal library for working with IPv4 and IPv6 addresses

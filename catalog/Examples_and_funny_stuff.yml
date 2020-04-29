@@ -5,6 +5,8 @@ shards:
   description: Tron snake for [battlesnake](https://www.battlesnake.io/) competition
 - github: gdonald/blackjack-cr
   description: Console Blackjack
+- github: hanneskaeufler/blog
+  description: My personal blog
 - github: petoem/breakout.cr
   description: Breakout game written using crsfml
 - github: jasonl99/card_game
@@ -17,18 +19,26 @@ shards:
   description: Simple games made with CrSFML
 - github: exercism/crystal
   description: Exercism exercises
+- github: dantebronto/crystal-api-backend
+  description: Proof-of-concept JSON API written in Crystal
 - github: kostya/crystal-benchmarks-game
   description: The Computer Language Benchmarks Game
+- github: bradford-hamilton/crystal-blockchain
+  description: Source code for [Blockchain tutorial](https://medium.com/@bradford_hamilton/write-your-own-blockchain-and-pow-algorithm-using-crystal-d53d5d9d0c52)
 - github: askn/crystal-by-example
   description: Crystal By Example
 - github: bthachdev/crystal-design-patterns
   description: Design Patterns in Crystal
+- github: paulcsmith/crystal-mastery
+  description: Screencasts for learning Crystal
 - github: Demonstrandum/Crystal-Maze
   description: A* Path finding for PNG mazes
 - github: codenoid/crystal-mysql-crud-example
   description: Crystal MySQL CRUD example
 - github: crystal-community/crystal-patterns
   description: Examples of GOF patters
+- github: jgaskins/crystal_live_view_example
+  description: Proof of concept for a Crystal version of Phoenix Live View
 - github: phoffer/crystalized_ruby
   description: Native Ruby extensions written in Crystal
 - github: vladfaust/crystalworld

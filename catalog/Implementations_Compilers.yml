@@ -1,6 +1,8 @@
 ---
 name: Implementations/Compilers
 shards:
+- github: azula-lang/azula
+  description: A fast, statically typed compiled language
 - github: charly-lang/charly
   description: Charly Programming Language
 - github: senselogic/CIBYL

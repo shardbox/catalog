@@ -3,6 +3,8 @@ name: System
 shards:
 - github: schovi/baked_file_system
   description: Virtual file system implementation
+- github: DougEverly/daemonize.cr
+  description: Daemonize a crystal process
 - github: crystal-community/hardware
   description: Get CPU, Memory and Network informations of the running OS and its
     processes
@@ -10,3 +12,8 @@ shards:
   description: Library for accessing information from the system for statistical purposes
 - github: ddfreyne/rcpu
   description: A virtual machine emulator and assembler
+- github: busyloop/rucksack
+  description: Attach static files to your compiled crystal binary and access them
+    at runtime
+- github: kubo39/syscall.cr
+  description: syscall interface

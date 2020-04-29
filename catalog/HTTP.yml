@@ -18,6 +18,8 @@ shards:
   description: HTTP benchmarking tool
 - github: EvanHahn/crystal-helmet
   description: Set security-related HTTP headers
+- github: S-YOU/h2o.cr
+  description: h2o bindings for Crystal
 - github: icyleaf/halite
   description: Crystal HTTP Requests with a chainable REST API, built-in sessions
     and loggers

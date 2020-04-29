@@ -1,5 +1,7 @@
 ---
 name: Debugging
 shards:
+- github: evandrojr/awesome_print.cr
+  description: It dreams about becoming Ruby's `awesome_print` for Crystal
 - github: Sija/debug.cr
   description: '`debug!(…)` macro for `pp`-style debugging'
