@@ -8,10 +8,14 @@ shards:
 - github: elorest/bitfields
   description: Pure Crystal implementation of BitFields. Handles encoding/decoding
     of bytes
+- github: mosop/callback
+  description: A library for defining and invoking callbacks
 - github: c910335/crie
   description: Compile-time Trie
 - github: philnash/crotp
   description: HOTP and TOTP implementation for two factor authentication
+- github: ziprandom/crystal-dfa
+  description: Implementation of a Thompson NFA/DFA Regex Matcher
 - github: MakeNowJust/crystal-diff
   description: Crystal sequence differencing implementation
 - github: abvdasker/crystal-linked-list

@@ -3,8 +3,11 @@ name: Database Tools
 shards:
 - github: Crecto/crecto-admin
   description: Admin dashboard for Crecto and your database
-- github: juanedi/micrate
+- github: amberframework/micrate
   description: Database migration tool
+  mirrors:
+  - github: juanedi/micrate
+    role: legacy
 - github: vladfaust/migrate.cr
   description: A simpler database migration tool with transactions
 - github: aisrael/migro

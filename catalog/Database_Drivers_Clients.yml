@@ -13,6 +13,8 @@ shards:
   description: Bindings for MonetDB
 - github: crystal-lang/crystal-mysql
   description: MySQL connector for Crystal
+- github: waterlink/crystal-mysql
+  description: MySQL driver
 - github: naqvis/crystal-odbc
   description: ODBC connector
 - github: will/crystal-pg
@@ -44,6 +46,9 @@ shards:
   description: A unified Crystal interface for key-value stores
 - github: crystal-community/leveldb
   description: Crystal bindings for LevelDB
+- github: luckyframework/lucky_migrator
+  description: Database migration tool
+  state: archived
 - github: kostya/memory_cache
   description: Super simple in memory key-value storage with expires
 - github: ambercommunity/mongo.cr

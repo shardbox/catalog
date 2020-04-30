@@ -2,6 +2,9 @@
 name: Routing
 shards:
 - github: amberframework/amber-router
+  mirrors:
+  - github: amberframework/router
+    role: legacy
 - github: luislavena/beryl
   description: Action-focused HTTP routing library
 - github: jreinert/crouter

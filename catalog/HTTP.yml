@@ -32,6 +32,8 @@ shards:
   description: Protection against typical web attacks
 - github: ysbaddaden/http2
   description: HTTP/2 Protocol Implementation
+- github: mamantoha/http_proxy
+  description: A HTTP Proxy server and client written in Crystal
 - github: danielpclark/keyer_cr
   description: Adds HTTP GET/POST parameter parsing as a Hash-like object
 - github: watzon/ngrok.cr

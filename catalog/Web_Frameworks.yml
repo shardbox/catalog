@@ -39,6 +39,14 @@ shards:
     joy
 - github: grkek/grip
   description: An object-oriented framework based on Kemal with additional goodness
+- github: onyxframework/http
+  description: REST API framework with type-safe params and separate business and
+    rendering layers, based on [onyx-http](https://github.com/onyxframework/http)
+  mirrors:
+  - github: onyxframework/rest
+    role: legacy
+  - github: vladfaust/prism
+    role: legacy
 - github: adlerhsieh/iceberg
   description: A full-stack web framework
 - github: kemalcr/kemal
@@ -47,6 +55,10 @@ shards:
   - github: maiha/kemal
   - github: sdogruyol/kemal
     role: legacy
+- github: kemalcr/kemal-csrf
+  description: Add CSRF protection to your Kemal application
+- github: neovintage/kemal-flash
+  description: Temporary storage between actions in kemal
 - github: sdogruyol/kemal-pg
   description: Easily add Postgresql database to Kemal
 - github: kemalyst/kemalyst
@@ -59,16 +71,17 @@ shards:
   description: Server-rendering for client-side interactions
 - github: luckyframework/lucky
   description: Full-featured Crystal web framework
+- github: luckyframework/lucky_router
+  description: The router for the Lucky framework, can be used outside Lucky
 - github: dhruvrajvanshi/Moonshine
   description: Web framework
   state: archived
 - github: guvencenanguvenal/mustafa
   description: Simple and Fast MVC Framework
+- github: onyxframework/onyx
+  description: Powerful framework for modern applications
 - github: samueleaton/raze
   description: Modular, light web framework
-- github: onyxframework/rest
-  description: REST API framework with type-safe params and separate business and
-    rendering layers, based on [onyx-http](https://github.com/onyxframework/http)
 - github: ricr-web/ricr
   description: Web framework with buit-in automatic OpenAPI/Swagger docs support
 - github: ujjwalguptaofficial/shivneri

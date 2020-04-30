@@ -22,6 +22,8 @@ shards:
   state: archived
 - github: spider-gazelle/promise
   description: Type-aware promises
+- github: jwaldrip/promise.cr
+  description: A Promise Implementation in Crystal
 - github: spider-gazelle/readers-writer
   description: Simple readers writer lock
 - github: kostya/run_with_fork

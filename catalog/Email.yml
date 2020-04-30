@@ -17,3 +17,5 @@ shards:
   description: A library to get started in sending and receiving emails
 - github: dlanileonardo/sendgrid.cr
   description: Simple Sendgrid Client
+- github: raydf/smtp.cr
+  description: SMTP client implementation

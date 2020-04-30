@@ -5,6 +5,9 @@ shards:
   description: A framework for developing macOS apps with a GUI
 - github: calebuharrison/CrystGLFW
   description: An object-oriented API for GLFW
+- github: Papierkorb/cute
+  description: An event-centric publisher/subscribe model for objects inspired by
+    the Qt framework
 - github: nilsmartel/Glass
   description: Gui Library
 - github: Qwerp-Derp/hedron

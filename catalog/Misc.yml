@@ -10,6 +10,8 @@ shards:
 - github: articulate/biplane
   description: A configuration-based management and automation tool for [Kong](https://konghq.com/)
   state: archived
+- github: kostya/blank
+  description: method Object#blank?
 - github: vnbrs/burocracia.cr
   description: burocracia.cr the dependecyless shard to validate, generate and format
     Brazilian burocracias such as CPF, CNPJ and CEP
@@ -58,6 +60,8 @@ shards:
   description: Secure URL-friendly unique ID generator
 - github: isaced/pangu.cr
   description: Paranoid text spacing in Crystal
+- github: maiha/pretty.cr
+  description: Something attentive, conservative and pretty stuff
 - github: l3kn/raytracer
   description: CPU Raytracer with examples
 - github: Sija/retriable.cr

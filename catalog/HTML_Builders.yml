@@ -6,3 +6,5 @@ shards:
     many popular UI libraries such as Bootstrap
 - github: crystal-lang/html_builder
   description: DSL for creating HTML
+- github: amberframework/jasper-helpers
+  description: A library of helpers for working with html for apps

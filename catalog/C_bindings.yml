@@ -2,6 +2,8 @@
 name: C bindings
 shards:
 - github: TamasSzekeres/asound-cr
+- github: Papierkorb/bindgen
+  description: C/C++/Qt binding and wrapper generator
 - github: TamasSzekeres/cairo-cr
   description: Bindings for [Cairo](https://cairographics.org/) graphics library
 - github: crystal-lang/clang.cr
@@ -31,6 +33,8 @@ shards:
   description: Bindings for the [libgphoto2](http://www.gphoto.org/) library
 - github: olbat/icu.cr
   description: Bindings for the [ICU](http://site.icu-project.org/) library
+- github: petoem/inotify.cr
+  description: Bindings for libinotify
 - github: crystal-git/libgit2
   description: Manipulate Git repositories in an object-oriented way
 - github: smacker/libgit2.cr
@@ -45,6 +49,8 @@ shards:
   description: Bindings for OpenBSD's `pledge(2)`
 - github: ysbaddaden/posix
   description: POSIX/C bindings
+- github: ysbaddaden/sdl.cr
+  description: Simple DirectMedia Layer bindings (SDL2)
 - github: mjago/soundfile
 - github: spider-gazelle/ssh2.cr
 - github: chris-huxtable/syslog.cr

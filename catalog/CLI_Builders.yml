@@ -3,6 +3,8 @@ name: CLI Builders
 shards:
 - github: jwaldrip/admiral.cr
   description: A robust DSL for writing command line interfaces
+- github: luckyframework/cli
+  description: Library for creating and running tasks and generating Lucky projects
 - github: mosop/cli
   description: Library for building command-line interface applications
 - github: j8r/clicr
@@ -11,6 +13,9 @@ shards:
   description: Slim command line interface builder
 - github: mrrooijen/commander
   description: Command-line interface builder
+  mirrors:
+  - github: meskyanichi/commander
+    role: legacy
 - github: f/completion
   description: Easy command line completion engine
   mirrors:

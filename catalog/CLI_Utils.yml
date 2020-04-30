@@ -7,6 +7,8 @@ shards:
   description: Terminal string styling done right
 - github: crystallabs/crysterm
   description: Console / terminal GUI toolkit
+- github: crystalrealm/epilog
+  description: Elegant, fancy console logger
 - github: Papierkorb/fancyline
   description: Readline-esque library with fancy features
 - github: r00ster91/lime
@@ -22,6 +24,8 @@ shards:
   description: Progress bar
 - github: TPei/progress_bar.cr
   description: A simple and customizable progress bar
+- github: faustinoaq/secrets
+  description: Useful to get input on noecho, secrets, passwords, token, hints
 - github: hutou/tablo
   description: A flexible terminal table generator
 - github: epoch/tallboy

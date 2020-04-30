@@ -37,6 +37,9 @@ shards:
   description: KNX protocol support
 - github: crystal-community/msgpack-crystal
   description: MessagePack library
+  mirrors:
+  - github: benoist/msgpack-crystal
+    role: legacy
 - github: picatz/packetz
   description: Packet capturing library built with LibPcap
 - github: dtcristo/phoenix.cr

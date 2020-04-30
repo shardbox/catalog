@@ -72,6 +72,8 @@ shards:
   description: '[Pinboard](https://pinboard.in) API'
 - github: Hentioe/policr
   description: Telegram bot
+- github: psykube/pyrite
+  description: Kubernetes Object Mappings for Crystal
 - github: sija/raven.cr
   description: Raven is a client for [Sentry](https://github.com/getsentry/sentry)
 - github: chendo/sense-api.cr

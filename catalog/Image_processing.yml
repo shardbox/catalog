@@ -11,6 +11,8 @@ shards:
     the C interface for ImageMagick processing libraries
 - github: woodruffw/qrencode.cr
   description: Library for QR code generation based on libqrencode
+- github: stumpycr/stumpy_core
+  description: Core components for working with images
 - github: stumpycr/stumpy_gif
   description: Write (animated) GIF images
 - github: stumpycr/stumpy_png

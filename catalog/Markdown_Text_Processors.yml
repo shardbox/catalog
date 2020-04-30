@@ -1,6 +1,8 @@
 ---
 name: Markdown/Text Processors
 shards:
+- github: crystal-community/autolink.cr
+  description: Auto link for Crystal
 - github: amauryt/cr-cmark-gfm
   description: C bindings for cmark-gfm to work with Commonmark and Github Flavored
     Markdown

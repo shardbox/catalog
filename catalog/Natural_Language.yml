@@ -18,6 +18,10 @@ shards:
   description: Custom pluralization rules support for i18n
 - github: phoffer/inflector.cr
   description: Singularize, pluralize, camelize, etc (port from ActiveSupport)
+- github: mosop/string_inflection
+  description: Yet another library for string inflection
 - github: johnjansen/text
   description: A collection of phonetic algorithms including Porter-Stemmer, Soundex,
     Metaphone, Double Metaphone & White Similarity
+- github: luckyframework/wordsmith
+  description: Handles pluralization, ordinalizing words, etc
