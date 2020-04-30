@@ -34,6 +34,8 @@ shards:
   description: Minimalist Discord library
 - github: meew0/discordcr
   description: A minimalist Discord API library
+- github: z64/discordcr-middleware
+  description: extension to discordcr for webserver-like middlewares
 - github: greenbigfrog/discordtipbot
   description: A tip bot for use on discordapp.com
 - github: jeromegn/docker.cr
@@ -74,6 +76,10 @@ shards:
   description: Telegram bot
 - github: psykube/pyrite
   description: Kubernetes Object Mappings for Crystal
+  mirrors:
+  - gitlab: psykube/pyrite
+  - github: jwaldrip/pyrite
+    role: legacy
 - github: sija/raven.cr
   description: Raven is a client for [Sentry](https://github.com/getsentry/sentry)
 - github: chendo/sense-api.cr

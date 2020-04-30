@@ -19,8 +19,11 @@ shards:
   description: MonetDB Data connection for Kemal
 - github: kemalcr/kemal-session
   description: Session handler for Kemal
-- github: jwaldrip/mime-types.cr
+- github: jwaldrip/mime-types-cr
   description: MIME::Types Registry for Crystal
+  mirrors:
+  - github: jwaldrip/mime-types.cr
+    role: legacy
 - github: gitlato/mochi
   description: 'Authentication shard inspired by Devise supporting: Authenticable,
     Confirmable, Invitable & more'

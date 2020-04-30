@@ -3,8 +3,15 @@ name: Database Drivers/Clients
 shards:
 - github: solisoft/arangocr
   description: ArangoDB client
+- github: hugoabonizio/bojack.cr
+  description: BoJack client as a Crystal shard
+- github: mamantoha/cache
+  description: A key/value store where pairs can expire after a specified interval
 - github: TechMagister/couchdb.cr
   description: CouchDB client
+- github: aisrael/cql
+  description: A SQL toolkit for Crystal, inspired by Java's jOOQ and Ruby's Sequel
+    gem
 - github: crystal-lang/crystal-db
   description: Common database API
 - github: maiha/crystal-examples
@@ -48,9 +55,14 @@ shards:
   description: Crystal bindings for LevelDB
 - github: luckyframework/lucky_migrator
   description: Database migration tool
+  mirrors:
+  - github: luckyframework/migrator
+    role: legacy
   state: archived
 - github: kostya/memory_cache
   description: Super simple in memory key-value storage with expires
+- github: vladfaust/mini_redis
+  description: A light-weight low-level Redis client
 - github: ambercommunity/mongo.cr
   description: Binding for MongoDB C driver
   mirrors:
@@ -61,6 +73,12 @@ shards:
     and embedded documents
 - github: jgaskins/neo4j.cr
   description: Pure-Crystal implementation of Neo4j's Bolt protocol
+- github: soveran/nest-crystal
+  description: Object Oriented Keys for Redis
+- github: maiha/redis-cluster.cr
+  description: redis-cluster client
+- github: kostya/redis-reconnect
+  description: Redis client with autoreconnection for slow clients
 - github: kostya/redisoid
   description: Redis client with auto-reconnection and pool
 - github: lbguilherme/rethinkdb-lite

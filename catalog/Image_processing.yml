@@ -13,6 +13,9 @@ shards:
   description: Library for QR code generation based on libqrencode
 - github: stumpycr/stumpy_core
   description: Core components for working with images
+  mirrors:
+  - github: l3kn/stumpy_core
+    role: legacy
 - github: stumpycr/stumpy_gif
   description: Write (animated) GIF images
 - github: stumpycr/stumpy_png

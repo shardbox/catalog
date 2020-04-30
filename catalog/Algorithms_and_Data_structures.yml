@@ -14,14 +14,20 @@ shards:
   description: Compile-time Trie
 - github: philnash/crotp
   description: HOTP and TOTP implementation for two factor authentication
+- github: SushiChain/crystal-base32
+  description: A library which provides base32 decoding and encoding
 - github: ziprandom/crystal-dfa
   description: Implementation of a Thompson NFA/DFA Regex Matcher
 - github: MakeNowJust/crystal-diff
   description: Crystal sequence differencing implementation
 - github: abvdasker/crystal-linked-list
   description: Implementation of Linked List
+- github: crystal-lang/crystal-molinillo
+  description: A generic dependency resolution algorithm
 - github: dhruvrajvanshi/crystal-parsec
   description: Parsing DSL inspired by Haskell library Parsec
+- github: jemc/crystal-pegmatite
+  description: A high-performance Parsing Expression Grammar (PEG) library
 - github: Demonstrandum/crystal_maze
   description: A* Path finding for PNG mazes using StumpyPNG
 - github: unn4m3d/crystaledge
@@ -46,6 +52,8 @@ shards:
   description: An Implementation of the Haversine formula
 - github: mamantoha/haversine
   description: An Implementation of the Haversine formula
+- github: kingsleyh/humanhash
+  description: HumanHash implementation
 - github: geocrystal/kd_tree
   description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
 - github: mamantoha/kd_tree
@@ -66,5 +74,7 @@ shards:
   description: Priority Queue and Heap implementation
 - github: luislavena/radix
   description: Radix Tree implementation
+- github: z64/rate_limiter
+  description: A rate limiter implementation
 - github: johnjansen/ternary_search_tree
   description: Ternary Search Tree

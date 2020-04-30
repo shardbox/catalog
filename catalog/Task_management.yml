@@ -7,6 +7,8 @@ shards:
   description: Production-ready Make-like utility tool
 - github: ravern/cake
   description: Build utility for Crystal
+- github: vladfaust/cake-bake.cr
+  description: "Bake Cakefile into native Crystal code \U0001F35E"
 - github: MakeNowJust/crake
   description: CRystal mAKE library
 - github: lupincr/lupin

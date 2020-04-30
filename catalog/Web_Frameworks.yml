@@ -16,6 +16,8 @@ shards:
   mirrors:
   - github: blacksmoke16/athena
     role: legacy
+- github: luckyframework/authentic
+  description: An authentication library for Lucky projects
 - github: benoist/carbon-crystal
   description: Web framework
 - github: noahlh/celestite
@@ -55,6 +57,10 @@ shards:
   - github: maiha/kemal
   - github: sdogruyol/kemal
     role: legacy
+- github: kemalcr/kemal-basic-auth
+  description: Basic auth for your Kemal application
+  mirrors:
+  - github: maiha/kemal-basic-auth
 - github: kemalcr/kemal-csrf
   description: Add CSRF protection to your Kemal application
 - github: neovintage/kemal-flash
@@ -84,6 +90,8 @@ shards:
   description: Modular, light web framework
 - github: ricr-web/ricr
   description: Web framework with buit-in automatic OpenAPI/Swagger docs support
+- github: luckyframework/router
+  description: A URL Routing shard
 - github: ujjwalguptaofficial/shivneri
   description: Component based MVC web framework for crystal targeting good code structures,
     modularity & performance

@@ -9,6 +9,8 @@ shards:
   description: Auto-completion client/server
 - github: Val/crun
   description: 'Crystal Run: shebang wrapper for Crystal'
+- github: elorest/cry
+  description: Ability to execute crystal code in a fashion similar to pry edit
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
 - github: f/guardian
@@ -30,6 +32,10 @@ shards:
   description: Watches src files, rebuilds/reruns application on file changes
 - github: faustinoaq/sentry-run
   description: Reload code changes using Sentry.run
+- github: maiha/shard.cr
+  description: compile-time shard.yml reader
+- github: hugopl/version_from_shard
+  description: A macro to declare the VERSION constant from the value found in shard.yml
 - github: veelenga/vicr
   description: Vim-like Interactive CRystal
 - github: diggersheep/warden

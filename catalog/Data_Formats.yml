@@ -4,6 +4,8 @@ shards:
 - github: kostya/auto_json
   description: Auto JSON convertations for classes and structs, based on auto_constructor
     fields
+- github: noumar/base32
+  description: Base32 encoding/decoding for Crystal
 - github: spider-gazelle/bindata
   description: Binary data parser helper with an [ASN.1](https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One)
     parser
@@ -33,6 +35,9 @@ shards:
   description: MaxMindDB reader
 - github: denysvitali/megadecrypter
   description: Decrypt `mega://enc2` links
+- github: RX14/multipart.cr
+  description: MIME multipart and multipart/form-data support
+  state: archived
 - github: marceloboeira/pdf.cr
   description: PDF writer
 - github: icyleaf/popcorn

@@ -15,10 +15,14 @@ shards:
   description: Micro templating engine for strings only
 - github: jeromegn/slang
   description: Lightweight, terse, templating language inspired by Ruby's Slim
+- github: luckyframework/teeplate
+  description: Fork of mosop/teeplate for generating files
 - github: mosop/teeplate
   description: A library for rendering multiple template files
 - github: f/temel
   description: Extensible HTML::Builder alternative for Crystal, supports custom tag
     definitions
+- github: anykeyh/tree_template
+  description: HTML Templating
 - github: shootingfly/water
   description: A library for writing HTML in plain Crystal

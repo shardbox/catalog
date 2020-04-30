@@ -15,12 +15,16 @@ shards:
   description: Bindings for libsass
 - github: maiha/crt.cr
   description: Bindings for libncursesw and crt
+- github: j8r/crystal-autobind
+  description: Automatic C binding generator
 - github: jhass/crystal-gobject
   description: Gobject introspection
 - github: ruivieira/crystal-gsl
   description: GNU Scientific Library bindings
 - github: mamantoha/crystal-hunspell
   description: Bindings for [Hunspell](https://hunspell.github.io/)
+- github: crystal-lang/crystal-readline
+  description: bindings to GNU Readline Library
 - github: fridgerator/crystal_talib
   description: Bindings for TA-lib, which performs technical analysis of financial
     market data

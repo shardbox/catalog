@@ -1,6 +1,8 @@
 ---
 name: Queues and Messaging
 shards:
+- github: cloudamqp/amq-protocol.cr
+  description: AMQP protocol
 - github: datanoise/amqp.cr
   description: AMQP 0.9.1 client with RabbitMQ extensions
 - github: cloudamqp/amqproxy

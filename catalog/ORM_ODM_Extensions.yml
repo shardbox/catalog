@@ -19,6 +19,8 @@ shards:
 - github: imdrasil/jennifer.cr
   description: Active Record pattern implementation with flexible query chainable
     builder and migration system
+- github: imdrasil/jennifer_sqlite3_adapter
+  description: SQLite3 adapter for Jennifer ORM
 - github: soveran/ohm-crystal
   description: Object-hash mapping library for Redis
 - github: luckyframework/record

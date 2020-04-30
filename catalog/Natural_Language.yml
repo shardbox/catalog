@@ -6,6 +6,8 @@ shards:
   mirrors:
   - github: watzon/cadmium
     role: legacy
+- github: amberframework/citrine-i18n
+  description: i18n Support for Amber Framework
 - github: veelenga/emoji.cr
   description: Emoji library
 - github: mamantoha/humanize_time
@@ -18,6 +20,8 @@ shards:
   description: Custom pluralization rules support for i18n
 - github: phoffer/inflector.cr
   description: Singularize, pluralize, camelize, etc (port from ActiveSupport)
+- github: luckyframework/lucky_inflector
+  description: Natural language inflector
 - github: mosop/string_inflection
   description: Yet another library for string inflection
 - github: johnjansen/text

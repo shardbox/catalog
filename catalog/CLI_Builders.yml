@@ -23,5 +23,13 @@ shards:
 - github: luckyframework/lucky_cli
 - github: mosop/optarg
   description: Yet another library for parsing command-line options and arguments
+- github: maiha/opts.cr
+  description: a wrapper for OptionParser to provide default values and handy args
 - github: shinzlet/phreak
   description: A highly flexible Crystal CLI builder in the style of OptionParser
+- github: icyleaf/terminal-ui.cr
+  description: Terminal output styling with intuitive, clean and easy API
+- github: Papierkorb/toka
+  description: A type-safe, object-oriented option parser using the mapping-pattern
+- github: crystallabs/tput
+  description: Low-level component for building term/console applications

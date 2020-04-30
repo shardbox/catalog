@@ -7,5 +7,7 @@ shards:
   description: A simple YAML to ENV config loader
 - github: luckyframework/habitat
   description: Type safe configuration for your classes and modules
+- github: icyleaf/poncho
+  description: A .env parser/loader improved for performance
 - github: icyleaf/totem
   description: Load and parse a configuration in JSON, YAML, dotenv formats

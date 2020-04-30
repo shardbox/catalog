@@ -1,6 +1,8 @@
 ---
 name: Testing
 shards:
+- github: maiha/comment-spec.cr
+  description: Comment driven spec builder
 - github: emancu/crotest
   description: A tiny and simple test framework
 - github: Groogy/crystal-clear
@@ -26,6 +28,8 @@ shards:
   description: Small opinionated testing library focusing on power asserts
 - github: ysbaddaden/minitest.cr
   description: Library for unit tests and assertions
+- github: porras/mock
+  description: Doubles (stubs and mocks) library inspired by rspec-mocks
 - github: waterlink/mocks.cr
   description: Mocking library for Crystal
 - github: rf-/roadshow
@@ -40,9 +44,15 @@ shards:
   description: Feature rich spec framework that uses the modern expect syntax
 - github: icy-arctic-fox/spectator
   description: Feature-rich testing framework based on RSpec
+- github: TobiasGSmollett/timecop.cr
+  description: Mock with `Time.now` with the power of time travel, time freeze and
+    time scale
 - github: crystal-community/timecop.cr
   description: Library for mocking with `Time.now`. Inspired by the [timecop ruby
     gem](https://github.com/travisjeffery/timecop)
+- github: waterlink/timecop.cr
+  description: Mock with `Time.now` with the power of time travel, time freeze and
+    time scale
 - github: spoved/vcr.cr
   description: A HTTP capture and replay implementation for crystal
 - github: bwilczek/webdriver_pump

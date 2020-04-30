@@ -25,5 +25,7 @@ shards:
   description: JSONbase logger
 - github: miketheman/statsd.cr
   description: '[Statsd](https://github.com/etsy/statsd) client library'
+- github: hydecr/strange
+  description: A powerful logger for those that need a little something more
 - github: comandeo/syslog.cr
   description: Implementation of Syslog client

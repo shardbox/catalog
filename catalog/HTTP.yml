@@ -8,6 +8,9 @@ shards:
     with the ActionCable JS Client
 - github: spider-gazelle/connect-proxy
   description: Connect method style of HTTP tunnelling / HTTP proxy
+- github: jetrockets/content_disposition.cr
+  description: Create HTTP Content-Disposition headers with proper escaping/encoding
+    of filenames
 - github: crystal-community/cossack
   description: Simple flexible HTTP client
 - github: mamantoha/crest
@@ -36,6 +39,8 @@ shards:
   description: A HTTP Proxy server and client written in Crystal
 - github: danielpclark/keyer_cr
   description: Adds HTTP GET/POST parameter parsing as a Hash-like object
+- github: omarroth/lsquic.cr
+  description: Crystal bindings to LiteSpeed QUIC
 - github: watzon/ngrok.cr
   description: Ngrok wrapper
 - github: vladfaust/params.cr

@@ -14,6 +14,10 @@ shards:
   description: An extendable GUI library, with markup language capabilities
 - github: hedron-crystal/hedron
   description: An extendable UI library with markup capabilities
+- github: calebuharrison/LibGL
+  description: OpenGL bindings for Crystal
+- github: calebuharrison/LibGLFW
+  description: Complete GLFW bindings
 - github: Fusion/libui.cr
   description: Bindings for [libui](https://github.com/andlabs/libui)
 - github: Papierkorb/qt5.cr

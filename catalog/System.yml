@@ -3,11 +3,18 @@ name: System
 shards:
 - github: schovi/baked_file_system
   description: Virtual file system implementation
+  mirrors:
+  - github: mperham/baked_file_system
 - github: DougEverly/daemonize.cr
   description: Daemonize a crystal process
+- github: j8r/exec.cr
+  description: Basic Shell-like, async by default, command execution with no shell
+    interpreter invocation
 - github: crystal-community/hardware
   description: Get CPU, Memory and Network informations of the running OS and its
     processes
+- github: j8r/libcrown
+  description: Library for Unix users, groups and passwords manipulation
 - github: aablinov/psutil.cr
   description: Library for accessing information from the system for statistical purposes
 - github: ddfreyne/rcpu
@@ -15,5 +22,11 @@ shards:
 - github: busyloop/rucksack
   description: Attach static files to your compiled crystal binary and access them
     at runtime
+- github: mosop/stdio
+  description: A small Crystal library for capturing standard I/O streams
 - github: kubo39/syscall.cr
   description: syscall interface
+- github: j8r/tail.cr
+  description: Tailing library to get and/or follow the end of a file/IO
+- github: tbrand/tokoroten
+  description: Using multiple processes in Crystal

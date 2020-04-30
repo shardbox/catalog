@@ -7,6 +7,8 @@ shards:
   description: Recursive Hash with better JSON::Any included
 - github: chris-huxtable/atomic_write.cr
   description: Library for writing or apppending files atomically
+- github: kostya/auto_constructor
+  description: Auto construct initialize methods for classes and structs
 - github: articulate/biplane
   description: A configuration-based management and automation tool for [Kong](https://konghq.com/)
   state: archived
@@ -66,10 +68,16 @@ shards:
   description: CPU Raytracer with examples
 - github: Sija/retriable.cr
   description: Simple DSL to retry failed code blocks
+- github: soveran/seg
+  description: Segment matcher for paths
+- github: spoved/spoved.cr
+  description: Various tools/libs for crystal
 - github: sdogruyol/tren
   description: Give your SQL some love
 - github: SuperPaintman/ulid
   description: Universally Unique Lexicographically Sortable Identifier (ULID)
+- github: maiha/var.cr
+  description: '`Object.var` macro for Crystal'
 - github: artworx/yakut
   description: Dynamically configure your Kubernetes manifests with Jinja2 templates
 - github: szTheory/zaru_crystal
