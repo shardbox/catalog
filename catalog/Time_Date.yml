@@ -1,0 +1,13 @@
+---
+name: Time & Date
+shards:
+- github: mamantoha/humanize_time
+- github: SuperPaintman/ms
+  description: Library to easily convert various time formats to milliseconds and
+    milliseconds to human readable format
+- github: vladfaust/time_format.cr
+  description: Convert time in human readable format with ease
+- github: TobiasGSmollett/timecop.cr
+- github: crystal-community/timecop.cr
+- github: taylorfinnell/timecop.cr
+- github: waterlink/timecop.cr
