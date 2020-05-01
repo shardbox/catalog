@@ -69,11 +69,9 @@ end
 
 after = nil
 while total > 0
-  STDERR.puts "Querying GraphQL after:#{after}"
   data = query_repos(after)
 
   nodes = data["nodes"]
-  STDERR.puts "#{nodes.size} responses"
   after = data["pageInfo"]["endCursor"]
   total -= nodes.size
 
@@ -103,12 +101,10 @@ while total > 0
       if db.get_repo_id?("github", url)
         in_catalog << url
       else
-        puts "- github: #{url}"
-        puts "  description: #{node["description"]}"
+        puts "github:#{url}"
         added << url
       end
     rescue exc
-      p! node
       STDERR.puts exc
     end
   end
