@@ -1,6 +1,8 @@
 ---
 name: CLI Utils
 shards:
+- github: gtramontina/ansi-escapes.cr
+  description: ANSI escape codes for manipulating the terminal
 - github: j8r/cride
   description: A light CLI text editor/IDE
 - github: azukiapp-labs/crystal-chalk-box
@@ -28,8 +30,12 @@ shards:
   description: A simple and customizable progress bar
 - github: faustinoaq/secrets
   description: Useful to get input on noecho, secrets, passwords, token, hints
+- github: jwaldrip/shell-table.cr
+  description: Create tables for terminal output
 - github: askn/spinner
   description: Terminal Spinner
+- github: gtramontina/spinner-frames.cr
+  description: A collection of spinner frames
 - github: hutou/tablo
   description: A flexible terminal table generator
 - github: epoch/tallboy

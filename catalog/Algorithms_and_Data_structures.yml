@@ -42,6 +42,8 @@ shards:
   description: A tree structure that is built using a delimiter
 - github: tcrouch/edits.cr
   description: Collection of edit distance algorithms
+- github: acoustep/fuzzy_match.cr
+  description: Search functionality similar to Sublime Text 2 file searching
 - github: hugopl/fzy
   description: A Crystal port of awesome Fzy project fuzzy finder algorithm
 - github: mettuaditya/graphlb

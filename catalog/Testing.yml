@@ -34,6 +34,8 @@ shards:
   description: Mocking library for Crystal
 - github: rf-/roadshow
   description: A language-agnostic tool for testing code in different environments
+- github: waterlink/spec2-mocks.cr
+  description: Connects spec2.cr and mocks.cr for 'have_received' expectation
 - github: waterlink/spec2.cr
   description: Enhanced spec testing library
   mirrors:
@@ -50,6 +52,9 @@ shards:
 - github: crystal-community/timecop.cr
   description: Library for mocking with `Time.now`. Inspired by the [timecop ruby
     gem](https://github.com/travisjeffery/timecop)
+- github: taylorfinnell/timecop.cr
+  description: Mock with `Time.now` with the power of time travel, time freeze and
+    time scale
 - github: waterlink/timecop.cr
   description: Mock with `Time.now` with the power of time travel, time freeze and
     time scale

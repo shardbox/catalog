@@ -7,11 +7,15 @@ shards:
   description: Add annotations to Crystal code
 - github: caravel-tool/caravel
   description: Deploy your apps in production, effortlessly
+- github: akitaonrails/cr_chainable_methods
+  description: Attempt at a (limited) Pipe Operator for Crystal
 - github: TechMagister/cracker
   description: Auto-completion client/server
 - github: Val/crun
   description: 'Crystal Run: shebang wrapper for Crystal'
 - github: elorest/cry
+  description: Ability to execute crystal code in a fashion similar to pry edit
+- github: paulcsmith/cry
   description: Ability to execute crystal code in a fashion similar to pry edit
 - github: SuperPaintman/crystal-ctags
   description: Tool for generation ctags for Crystal
@@ -37,6 +41,8 @@ shards:
   description: A proof of concept tool to help porting gems to shards
 - github: samueleaton/sentry
   description: Watches src files, rebuilds/reruns application on file changes
+  mirrors:
+  - github: Acciaiodigitale/sentry
 - github: faustinoaq/sentry-run
   description: Reload code changes using Sentry.run
 - github: maiha/shard.cr

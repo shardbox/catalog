@@ -45,6 +45,8 @@ shards:
     Based on the javascript version
 - github: 0x73/hoop
   description: Building native OSX apps
+- github: imdrasil/ifrit
+  description: Crystal lib with different useful stuff
 - github: toddsundsted/iterm2
   description: Display images within the terminal using the ITerm2 Inline Images Protocol
 - github: eltanin-engine/lirith

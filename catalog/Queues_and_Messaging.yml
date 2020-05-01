@@ -11,6 +11,8 @@ shards:
   description: Message Queue similar to NSQ
 - github: bmulvihill/dispatch
   description: In memory asynchronous job processing
+- github: crystallabs/event_handler
+  description: Application event model
 - github: calebuharrison/faktory.cr
   description: '[Faktory](https://github.com/contribsys/faktory) worker client'
 - github: maiha/kafka.cr

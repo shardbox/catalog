@@ -51,6 +51,8 @@ shards:
     role: legacy
 - github: adlerhsieh/iceberg
   description: A full-stack web framework
+- github: f/kamber-theme-default
+  description: Kamber Default Template
 - github: kemalcr/kemal
   description: Lightning Fast, Super Simple web framework. Inspired by Sinatra
   mirrors:

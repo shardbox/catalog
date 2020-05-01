@@ -13,6 +13,8 @@ shards:
     of filenames
 - github: crystal-community/cossack
   description: Simple flexible HTTP client
+- github: kemalyst/crack
+  description: standardize http::handlers into reusable rack like middleware
 - github: mamantoha/crest
   description: Simple HTTP and REST client, inspired by the Ruby's RestClient gem
 - github: porras/crul
@@ -26,6 +28,8 @@ shards:
 - github: icyleaf/halite
   description: Crystal HTTP Requests with a chainable REST API, built-in sessions
     and loggers
+- github: mamantoha/http-client-digest_auth
+  description: An implementation of RFC 2617 Digest Access Authentication
 - github: vladfaust/http-multiserver.cr
   description: Mounting multiple servers via routes (a.k.a. URL mapping)
 - github: vladfaust/http-params-serializable

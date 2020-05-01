@@ -13,6 +13,8 @@ shards:
   description: AWS S3 interface
 - github: taylorfinnell/awscr-signer
   description: Sign HTTP::Request objects and generate presigned post forms
+- github: citizen428/bitcoin_rpc
+  description: Bitcoin RPC client
 - github: gewo/bugsnag.cr
   description: Bugsnag exception notifier and sidekiq middleware
 - github: dgodd/concourse-summary

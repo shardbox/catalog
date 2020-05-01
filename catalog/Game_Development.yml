@@ -10,6 +10,9 @@ shards:
   description: 2D Video Game framework
 - github: oprypin/crsfml
   description: Bindings to [SFML](https://www.sfml-dev.org/) multimedia/game library
+  mirrors:
+  - github: BlaXpirit/crsfml
+    role: legacy
 - github: oprypin/crystal-chipmunk
   description: Bindings for [Chipmunk](http://chipmunk-physics.net/), a fast and lightweight
     2D game physics library
@@ -29,3 +32,5 @@ shards:
   description: A 3D game engine
 - github: AregevDev/raylib-cr
   description: Crystal wrapper around raylib
+- github: neutrinog/render_loop
+  description: A generic and reusable game render loop

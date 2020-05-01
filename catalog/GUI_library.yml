@@ -7,6 +7,8 @@ shards:
   description: LibUI based GUI framework for Crystal
 - github: calebuharrison/CrystGLFW
   description: An object-oriented API for GLFW
+  mirrors:
+  - github: neutrinog/CrystGLFW
 - github: Papierkorb/cute
   description: An event-centric publisher/subscribe model for objects inspired by
     the Qt framework
@@ -22,5 +24,9 @@ shards:
   description: Complete GLFW bindings
 - github: Fusion/libui.cr
   description: Bindings for [libui](https://github.com/andlabs/libui)
+  mirrors:
+  - github: watzon/libui.cr
 - github: Papierkorb/qt5.cr
   description: Qt5 bindings for Crystal, based on Bindgen
+- github: hugopl/textui
+  description: A simple UI framework for terminal interfaces backed by termbox

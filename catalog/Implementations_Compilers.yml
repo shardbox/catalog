@@ -13,6 +13,8 @@ shards:
   description: A crystal port of the Ruby Language Toolkit
 - github: jessedoyle/coffee-script
   description: CoffeeScript Compiler
+- github: jessedoyle/coffee-script-source
+  description: JavasSript implementation of the CoffeeScript compiler
 - github: runic-lang/compiler
   description: In-design toy language
   mirrors:

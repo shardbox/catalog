@@ -29,6 +29,8 @@ shards:
   description: GeoIP2 reader
 - github: NeuraLegion/har
   description: HAR (HTTP Archive) parser
+- github: maiha/jq.cr
+  description: thin JSON::Any wrapper to emulate jq
 - github: impatienttraveller/json-tools
   description: An implementation of JSON Patch and Pointer RFC's
 - github: anykeyh/json_on_steroids

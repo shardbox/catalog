@@ -3,6 +3,8 @@ name: Dependency Injection
 shards:
 - github: funk-yourself/crystal-di
   description: Lightweight DI Container
+- github: athena-framework/dependency-injection
+  description: Flexible instance based dependency injection service container library
 - github: jerometwell/hardwire
   description: A compile-time non-intrusive dependency injection system
 - github: Bonemind/syringe
