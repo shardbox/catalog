@@ -12,6 +12,10 @@ shards:
 - github: aisrael/cql
   description: A SQL toolkit for Crystal, inspired by Java's jOOQ and Ruby's Sequel
     gem
+- github: timkendall/crynamo
+  description: Simple DynamoDB client
+- github: kaukas/crystal-cassandra
+  description: A Cassandra driver
 - github: crystal-lang/crystal-db
   description: Common database API
 - github: maiha/crystal-examples

@@ -5,9 +5,15 @@ shards:
   description: Data visualization library
 - github: crystal-data/bottle
   description: Numerical computing library supporting N-Dimensional data
+- github: cconklin/crOpenCL
+  description: OpenCL bindings
 - github: mverzilli/crystalla
   description: Library for Numerical Methods. It binds to LAPACK and is unashamedly
     inspired by Numpy
+- github: drum445/financials
+  description: Collection of Financial Calculations
+- github: NeuraLegion/fix
+  description: Financial Information eXchange library
 - github: toddsundsted/ishi
   description: Graph plotting package with a small API and sensible defaults powered
     by gnuplot

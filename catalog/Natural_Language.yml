@@ -27,5 +27,7 @@ shards:
 - github: johnjansen/text
   description: A collection of phonetic algorithms including Porter-Stemmer, Soundex,
     Metaphone, Double Metaphone & White Similarity
+- github: spalladino/wit-crystal
+  description: Crystal SDK for wit.ai
 - github: luckyframework/wordsmith
   description: Handles pluralization, ordinalizing words, etc

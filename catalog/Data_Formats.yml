@@ -21,6 +21,8 @@ shards:
   description: Class based json renderer
 - github: kostya/cron_parser
   description: Cron parser
+- github: repomaa/crystal-jsonapi
+  description: JSON API serializing
 - github: chris-huxtable/front_matter.cr
   description: Separates a files front matter from its content
 - github: delef/geoip2.cr

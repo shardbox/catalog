@@ -65,6 +65,8 @@ shards:
   description: Add CSRF protection to your Kemal application
 - github: neovintage/kemal-flash
   description: Temporary storage between actions in kemal
+- github: sdogruyol/kemal-mysql
+  description: Easily add MySQL database to your Kemal application
 - github: sdogruyol/kemal-pg
   description: Easily add Postgresql database to Kemal
 - github: kemalyst/kemalyst
@@ -92,6 +94,8 @@ shards:
   description: Web framework with buit-in automatic OpenAPI/Swagger docs support
 - github: luckyframework/router
   description: A URL Routing shard
+- github: marceloboeira/satriani
+  description: A micro-framework for creating REST-like APIs
 - github: ujjwalguptaofficial/shivneri
   description: Component based MVC web framework for crystal targeting good code structures,
     modularity & performance

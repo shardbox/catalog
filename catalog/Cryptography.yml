@@ -3,6 +3,8 @@ name: Cryptography
 shards:
 - github: spider-gazelle/cmac
   description: Implementation of the Cipher-based Message Authentication Code (CMAC)
+- github: andrewhamon/cox
+  description: Crystal wrapper for the libsodium crypto API
 - github: sushichain/crystal-argon2
   description: bindings for argon2 hashing library
 - github: sushichain/crystal-ecdsa

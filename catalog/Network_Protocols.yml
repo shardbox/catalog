@@ -31,6 +31,8 @@ shards:
   description: Fast IRC parser/generator
 - github: anicholson/gopher.cr
   description: Gopher server toolkit
+- github: jgaskins/grpc
+  description: Pure-Crystal implementation of gRPC
 - github: crystal-community/jwt
   description: Implementation of JWT (JSON Web Token)
 - github: spider-gazelle/knx

@@ -1,6 +1,8 @@
 ---
 name: Scheduling
 shards:
+- github: vladfaust/background
+  description: Fast background job processing
 - github: kostya/cron_scheduler
   description: Job scheduler with crontab patterns
 - gitlab: crystallabs/crystime

@@ -24,9 +24,15 @@ shards:
   description: Mango is a self-hosted manga server and web reader
 - github: thewalkingtoast/mpngin
   description: A simple and fast URL shortener with built in stats
+- github: freyamade/nocturne
+  description: Village Builder web application
 - github: psykube/psykube
   description: Manages Kubernetes configuration and deployment
 - github: crystal-jp/slack-invite
   description: Automatic inviting in Slack Team for Crystal-JP
+- github: mauricioabreu/todo-backend-kemal
+  description: TODO app with Kemal
+- github: luckyframework/website
+  description: The Lucky website
 - github: Nephos/wikicr
   description: Wiki in crystal, using Markdown and Git, inspired by dokuwiki

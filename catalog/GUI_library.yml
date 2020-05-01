@@ -3,6 +3,8 @@ name: GUI library
 shards:
 - github: Iainmon/Cocoa.cr
   description: A framework for developing macOS apps with a GUI
+- github: watzon/cru
+  description: LibUI based GUI framework for Crystal
 - github: calebuharrison/CrystGLFW
   description: An object-oriented API for GLFW
 - github: Papierkorb/cute

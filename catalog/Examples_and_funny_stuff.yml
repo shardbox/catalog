@@ -43,8 +43,12 @@ shards:
   description: Native Ruby extensions written in Crystal
 - github: vladfaust/crystalworld
   description: '[realworld.io](https://realworld.io) back-end API implementation'
+- github: RomainFranceschini/crython
+  description: Crystal meets Python
 - github: maxfierke/fincher
   description: A steganography tool for text
+- github: umurgdk/flight-crusader
+  description: POC top down flight game
 - github: codenoid/jihantoro-cr-mysql
   description: Crystal MySQL from scratch sample app
 - github: codenoid/jihantoro.sd

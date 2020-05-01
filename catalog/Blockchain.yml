@@ -3,6 +3,8 @@ name: Blockchain
 shards:
 - github: cocol-project/cocol
   description: A minimal blockchain testbed
+- github: eqbal/crystal_coin
+  description: Building blockchain from scratch using crystal
 - github: SushiChain/SushiChain
   description: A custom blockchain platform
 - github: oguzbilgic/zincir-crystal

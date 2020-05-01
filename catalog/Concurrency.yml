@@ -11,6 +11,11 @@ shards:
   description: Idiomatic asynchronous event-driven architecture
 - github: krisleech/evented
   description: Publish and Subscribe library
+- github: akitaonrails/fiberpool
+  description: Simulate a queue and a pool of job workers, in essence a "Fiber Pool"
+    for Crystal
+- github: crystal-community/future.cr
+  description: Provides convenient methods to perform concurrent operations
 - github: tbrand/iemon
   description: Awesome shared object in multiple processes
 - github: lucaong/immutable

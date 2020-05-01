@@ -17,6 +17,8 @@ shards:
   description: Bugsnag exception notifier and sidekiq middleware
 - github: dgodd/concourse-summary
   description: Summary for pipelines on [concourse-ci.org](https://concourse-ci.org/)
+- github: akitaonrails/cr_manga_downloadr
+  description: MangaReader.net crawler
 - github: spinscale/crystal-aws-lambda
 - github: rogerwelin/crystal-consul
   description: Consul API client
@@ -24,6 +26,8 @@ shards:
   description: Wrapper for the [Dark Sky](https://darksky.net) API
 - github: felipeelias/crystal-github
   description: Wrapper for the [Github](https://github.com/) API
+- github: greyblake/crystal-google_translate
+  description: Google Translate client
 - github: barisbalic/crystal-monzo
   description: A client for the [Monzo API](https://monzo.com/docs/)
 - github: sb89/crystal-swapi
@@ -85,9 +89,13 @@ shards:
 - github: chendo/sense-api.cr
   description: An API for accessing the data available from a Hello Sense sleep tracking
     device
+- github: veelenga/shorturl.cr
+  description: A tiny library to use URL shortening services
 - github: DougEverly/slack.cr
   description: A Slack [Real Time Messaging API](https://api.slack.com/rtm) WebSocket
     client library
+- github: babelian/sonic-crystal
+  description: A Crystal client for Sonic search backend (Ported from https://github.com/atipugin/sonic-ruby)
 - github: marceloboeira/spotify.cr
   description: Wrapper for the Spotify Web API
 - github: confact/stripe.cr
@@ -96,6 +104,8 @@ shards:
   description: A convenient Telegram Bot framework
 - github: hangyas/telegram_bot
   description: A wrapper for the Telegram Bot API
+- github: protoncr/tourmaline
+  description: Telegram Bot framework for Crystal
 - github: sferik/twitter-crystal
   description: A library to access the Twitter API
 - github: toddsundsted/web_finger

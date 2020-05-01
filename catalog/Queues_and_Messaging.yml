@@ -17,6 +17,8 @@ shards:
   description: kafka utilities
 - github: robacarp/mosquito
   description: Redis backed periodic and ad hoc job processing
+- github: lccxz/mqtt_crystal
+  description: MQTT Crystal client
 - github: liu-chong/mqtt_crystal
   description: MQTT Crystal client
 - github: nats-io/nats.cr

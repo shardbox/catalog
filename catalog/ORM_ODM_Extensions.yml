@@ -11,6 +11,8 @@ shards:
   description: ORM specialized to PostgreSQL only but with advanced features
 - github: Crecto/crecto
   description: Database wrapper, based on Ecto
+- github: jwoertink/crystal_orm_test
+  description: Benchmark different ORMs for crystal and postgres
 - github: amberframework/granite
   description: ORM for Postgres, Mysql, Sqlite
   mirrors:

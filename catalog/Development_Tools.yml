@@ -3,6 +3,8 @@ name: Development Tools
 shards:
 - github: ysbaddaden/android.cr
   description: Create Android applications using Crystal and the NDK
+- github: GrottoPress/annotation.cr
+  description: Add annotations to Crystal code
 - github: caravel-tool/caravel
   description: Deploy your apps in production, effortlessly
 - github: TechMagister/cracker
@@ -11,8 +13,13 @@ shards:
   description: 'Crystal Run: shebang wrapper for Crystal'
 - github: elorest/cry
   description: Ability to execute crystal code in a fashion similar to pry edit
+- github: SuperPaintman/crystal-ctags
+  description: Tool for generation ctags for Crystal
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
+- github: ne-sachirou/git-cleanup-branch
+  description: Cleanup Git merged branches interactively at both local and remote
+  state: archived
 - github: f/guardian
   description: File change watcher for Crystal and Non-Crystal libs
 - github: crystal-community/icr
@@ -38,6 +45,8 @@ shards:
   description: A macro to declare the VERSION constant from the value found in shard.yml
 - github: veelenga/vicr
   description: Vim-like Interactive CRystal
+- github: gtramontina/walter.cr
+  description: Keep your crystal clean
 - github: diggersheep/warden
   description: Watches files, run command and a git command if succeed on file changes
 - github: faustinoaq/watcher

@@ -7,8 +7,12 @@ shards:
 - github: askn/fikri
   description: Simple CLI To-Do App
 - github: jhass/github_desktop_notifications
+- github: straight-shoota/md2pdf
+  description: Convert markdown files to PDF with flexible template and stylesheet
 - github: tbrand/mssh
   description: Simple and powerful job executor on remote nodes
+- github: snipline/snipcli
+  description: Command-line tool for Snipline
 - github: mjago/sonicri
 - github: sferik/spellout
   description: A command-line tool that converts input into the International Radiotelephony

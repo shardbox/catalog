@@ -1,6 +1,8 @@
 ---
 name: Template Engine
 shards:
+- github: domgetter/crikey
+  description: Data structure view templates
 - github: straight-shoota/crinja
   description: An implementation of the [Jinja2 template engine](http://jinja.pocoo.org/)
 - github: MakeNowJust/crustache

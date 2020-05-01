@@ -78,3 +78,5 @@ shards:
   description: A rate limiter implementation
 - github: johnjansen/ternary_search_tree
   description: Ternary Search Tree
+- github: krthr/uuix
+  description: A tiny (<1KB) and fast UUID (v4) generator
