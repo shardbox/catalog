@@ -72,6 +72,8 @@ shards:
   mirrors:
   - github: datanoise/mongo.cr
     role: legacy
+- github: sam0x17/mongo.cr
+  description: Bindings for MongoDB C Driver
 - github: sam0x17/mongo_orm
   description: Simple ORM for MongoDB supporting Rails-esque models, associations
     and embedded documents

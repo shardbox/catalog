@@ -31,5 +31,7 @@ shards:
   description: A Promise Implementation in Crystal
 - github: spider-gazelle/readers-writer
   description: Simple readers writer lock
+- github: anicholson/result.cr
+  description: Result monad for Crystal
 - github: kostya/run_with_fork
   description: Some simple parallelism for Crystal

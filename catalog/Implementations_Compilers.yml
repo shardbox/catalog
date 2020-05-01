@@ -36,6 +36,8 @@ shards:
   description: parser generator
 - github: jemc/mare
   description: A reimagining of the Pony language
+- github: omarroth/marpa
+  description: A Crystal interface to the Marpa library
 - github: mint-lang/mint
   description: A refreshing programming language for the front-end web
 - github: myst-lang/myst

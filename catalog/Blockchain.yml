@@ -1,6 +1,8 @@
 ---
 name: Blockchain
 shards:
+- github: cocol-project/ccl-pow
+  description: Bitcoin style Proof of Work
 - github: cocol-project/cocol
   description: A minimal blockchain testbed
 - github: eqbal/crystal_coin

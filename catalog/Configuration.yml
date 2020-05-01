@@ -11,5 +11,7 @@ shards:
   description: Type safe configuration for your classes and modules
 - github: icyleaf/poncho
   description: A .env parser/loader improved for performance
+- github: maiha/toml-config.cr
+  description: TOML::Config class for handy use of crystal-toml
 - github: icyleaf/totem
   description: Load and parse a configuration in JSON, YAML, dotenv formats

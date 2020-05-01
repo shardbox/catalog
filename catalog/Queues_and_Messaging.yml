@@ -3,6 +3,8 @@ name: Queues and Messaging
 shards:
 - github: cloudamqp/amq-protocol.cr
   description: AMQP protocol
+- github: cloudamqp/amqp.cr
+  description: AMQP 0.9.1 client with RabbitMQ extensions
 - github: datanoise/amqp.cr
   description: AMQP 0.9.1 client with RabbitMQ extensions
 - github: cloudamqp/amqproxy
@@ -11,6 +13,8 @@ shards:
   description: Message Queue similar to NSQ
 - github: bmulvihill/dispatch
   description: In memory asynchronous job processing
+- github: athena-framework/event-dispatcher
+  description: A Mediator and Observer pattern event library
 - github: crystallabs/event_handler
   description: Application event model
 - github: calebuharrison/faktory.cr

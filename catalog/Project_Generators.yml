@@ -10,6 +10,8 @@ shards:
     role: legacy
 - github: jwoertink/fez
   description: A Kemal application generator
+- github: anykeyh/generate.cr
+  description: Create project generators, wizard etc
 - github: kemalyst/kemalyst-generator
   description: Kemalyst command line tool for console, init, generate (scaffolding),
     and watch

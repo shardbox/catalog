@@ -11,6 +11,8 @@ shards:
   description: Generate cover report for your crystal code
 - github: hanneskaeufler/crytic
   description: Mutation testing framework
+- github: dukex/expect.cr
+  description: Enable expect syntax in crystal specs
 - github: amberframework/garnet-spec
   description: perform system and controller tests for Web Applications
 - github: mosop/have_files
@@ -46,6 +48,8 @@ shards:
   description: Feature rich spec framework that uses the modern expect syntax
 - github: icy-arctic-fox/spectator
   description: Feature-rich testing framework based on RSpec
+- github: sushichain/spinach
+  description: BDD Style test runner
 - github: TobiasGSmollett/timecop.cr
   description: Mock with `Time.now` with the power of time travel, time freeze and
     time scale

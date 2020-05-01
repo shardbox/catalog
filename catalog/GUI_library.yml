@@ -5,6 +5,8 @@ shards:
   description: A framework for developing macOS apps with a GUI
 - github: watzon/cru
   description: LibUI based GUI framework for Crystal
+- github: Groogy/crystal_lib_glfw3
+  description: libglfw3 bindings
 - github: calebuharrison/CrystGLFW
   description: An object-oriented API for GLFW
   mirrors:

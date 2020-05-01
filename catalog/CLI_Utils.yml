@@ -45,5 +45,7 @@ shards:
   description: Simple ASCII table generator
 - github: aca-labs/terminimal
   description: A tiny CLI toolkit for building terminal apps for humans
+- github: eliobr/termspinner
+  description: A simple terminal spinner in crystal
 - git: https://git.sceptique.eu/Sceptique/todo
   description: Todo list working in command line

@@ -73,6 +73,8 @@ shards:
 - github: Angarsk8/realtime-todo-app
   description: Realtime Todo application developed with Kemal, Websockets, React,
     ES2015 and PostgreSQL
+- github: bcardiff/redomi
+  description: Experiment in Remote Dom Manipulation with Crystal
 - github: codingphasedotcom/rocky
   description: React Over Crystal Kemal and Yarn
 - github: maiha/try.cr

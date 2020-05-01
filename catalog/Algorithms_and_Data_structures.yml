@@ -10,6 +10,8 @@ shards:
     of bytes
 - github: mosop/callback
   description: A library for defining and invoking callbacks
+- github: maiha/crc16.cr
+  description: Cyclic Redundancy Check (CRC16) implementation
 - github: c910335/crie
   description: Compile-time Trie
 - github: philnash/crotp

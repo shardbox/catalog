@@ -13,3 +13,8 @@ shards:
 - github: icyleaf/markd
   description: Yet another markdown parser built for speed, Compliant to CommonMark
     specification
+- github: huacnlee/remarkdown
+  description: extends Markdown lib from Stdlib for Markdown GFM
+  state: archived
+- github: crystalrealm/stringpad
+  description: "\U0001F3E0 Microlibrary for string padding in Crystal"

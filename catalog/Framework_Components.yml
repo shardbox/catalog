@@ -5,6 +5,8 @@ shards:
   description: Class based Http APIs
 - github: spalger/crystal-mime
   description: Mimetypes for Crystal
+  mirrors:
+  - github: werner/crystal-mime
 - github: creadone/device_detector
   description: Shard for detect device by user agent string
 - github: crystal-loot/exception_page

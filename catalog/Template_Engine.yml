@@ -21,6 +21,9 @@ shards:
   description: Fork of mosop/teeplate for generating files
 - github: mosop/teeplate
   description: A library for rendering multiple template files
+  mirrors:
+  - github: amberframework/teeplate
+    role: legacy
 - github: f/temel
   description: Extensible HTML::Builder alternative for Crystal, supports custom tag
     definitions

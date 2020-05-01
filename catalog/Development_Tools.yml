@@ -5,8 +5,12 @@ shards:
   description: Create Android applications using Crystal and the NDK
 - github: GrottoPress/annotation.cr
   description: Add annotations to Crystal code
+- github: drujensen/callback
+  description: A Crystal library for defining and invoking callbacks
 - github: caravel-tool/caravel
   description: Deploy your apps in production, effortlessly
+- github: maiha/core-ext.cr
+  description: Personal but versatile core class extensions
 - github: akitaonrails/cr_chainable_methods
   description: Attempt at a (limited) Pipe Operator for Crystal
 - github: TechMagister/cracker
@@ -15,18 +19,31 @@ shards:
   description: 'Crystal Run: shebang wrapper for Crystal'
 - github: elorest/cry
   description: Ability to execute crystal code in a fashion similar to pry edit
-- github: paulcsmith/cry
+- github: luckyframework/cry
   description: Ability to execute crystal code in a fashion similar to pry edit
+  mirrors:
+  - github: paulcsmith/cry
+    role: legacy
 - github: SuperPaintman/crystal-ctags
   description: Tool for generation ctags for Crystal
+- github: jemc/crystal-lsp
+  description: Crystal implementation of the [Language Server Protocol](https://github.com/Microsoft/language-server-protocol/blob/gh-pages/specification.md)
+- github: topaz-crystal/crystal-singleton
+  description: Implementation of Singleton design pattern
+- github: mosop/crystal_plus
+  description: An extension of the Crystal standard library
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
+- github: imdrasil/factory
+  description: Library for factorizing objects
 - github: ne-sachirou/git-cleanup-branch
   description: Cleanup Git merged branches interactively at both local and remote
   state: archived
 - github: f/guardian
   description: File change watcher for Crystal and Non-Crystal libs
 - github: crystal-community/icr
+  mirrors:
+  - github: TechMagister/crystal-icr
 - github: ysbaddaden/java.cr
   description: Java Native Interface (JNI) bindings (and generator)
 - github: faustinoaq/kemal-watcher
@@ -47,8 +64,13 @@ shards:
   description: Reload code changes using Sentry.run
 - github: maiha/shard.cr
   description: compile-time shard.yml reader
+- github: waterlink/singleton.cr
+  description: Singleton library
 - github: hugopl/version_from_shard
   description: A macro to declare the VERSION constant from the value found in shard.yml
+  mirrors:
+  - github: hugopl/version.cr
+    role: legacy
 - github: veelenga/vicr
   description: Vim-like Interactive CRystal
 - github: gtramontina/walter.cr

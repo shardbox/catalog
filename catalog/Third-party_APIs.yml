@@ -40,6 +40,8 @@ shards:
   description: Minimalist Discord library
 - github: meew0/discordcr
   description: A minimalist Discord API library
+- github: z64/discordcr
+  description: Minimalist Discord library for Crystal
 - github: z64/discordcr-middleware
   description: extension to discordcr for webserver-like middlewares
 - github: greenbigfrog/discordtipbot

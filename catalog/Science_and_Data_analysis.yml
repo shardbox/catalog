@@ -23,6 +23,8 @@ shards:
   description: A Matrix class
 - github: crystal-data/num.cr
   description: Numerical computing library supporting N-Dimensional data
+- github: crystal-data/opencl.cr
+  description: High-level OpenCL bindings
 - github: RX14/predict.cr
   description: Satellite prediction library using the sgp4 model
 - git: https://git.sceptique.eu/Sceptique/stats

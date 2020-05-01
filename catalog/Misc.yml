@@ -74,6 +74,9 @@ shards:
   description: Simple DSL to retry failed code blocks
 - github: soveran/seg
   description: Segment matcher for paths
+  mirrors:
+  - github: soveran/seg-crystal
+    role: legacy
 - github: spoved/spoved.cr
   description: Various tools/libs for crystal
 - github: sdogruyol/tren

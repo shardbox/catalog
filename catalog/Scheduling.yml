@@ -11,3 +11,5 @@ shards:
   description: Run periodic tasks
 - github: spider-gazelle/tasker
   description: A high precision scheduler including timezone aware cron jobs
+- github: vladfaust/timer.cr
+  description: A versatile timer module

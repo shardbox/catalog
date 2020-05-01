@@ -17,6 +17,8 @@ shards:
   description: This library provides binding for OpenSSL library
 - github: randomstate/openssl_ext
   description: Crystal bindings for OpenSSL RSA
+- github: stakach/openssl_ext
+  description: Crystal bindings for OpenSSL RSA
 - github: watzon/ROT26
   description: Pure Crystal implementation of the ROT26 encryption algorithm
 - github: ysbaddaden/scrypt-crystal

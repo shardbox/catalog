@@ -7,6 +7,9 @@ shards:
     milliseconds to human readable format
 - github: vladfaust/time_format.cr
   description: Convert time in human readable format with ease
+- github: imdrasil/time_zone
+  description: Time Zone provides daylight savings aware transformations between times
+    in different time zones
 - github: TobiasGSmollett/timecop.cr
 - github: crystal-community/timecop.cr
 - github: taylorfinnell/timecop.cr

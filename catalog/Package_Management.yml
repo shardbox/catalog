@@ -9,6 +9,8 @@ shards:
   description: Shards discovery website
 - github: DFabric/dppm
   description: Dedicated Platform Package Manager for server applications
+- github: j8r/semantic_compare
+  description: Compare semver versions using semantic expressions
 - github: shardbox/shardbox-core
   description: Shards database, collecting shard repositories, releases and dependencies
 - github: shardbox/shardbox-web

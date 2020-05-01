@@ -25,6 +25,8 @@ shards:
   description: SQLite3 adapter for Jennifer ORM
 - github: soveran/ohm-crystal
   description: Object-hash mapping library for Redis
+- github: maiha/pon.cr
+  description: Maiha's private ORM
 - github: luckyframework/record
   description: Type safe querying, saving and updating
   mirrors:

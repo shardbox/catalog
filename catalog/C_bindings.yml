@@ -43,6 +43,8 @@ shards:
   description: Manipulate Git repositories in an object-oriented way
 - github: smacker/libgit2.cr
   description: Bindings for libgit2
+- github: mjago/libmpg123
+  description: libmpg123 bindings
 - github: splattael/libnotify.cr
   description: Bindings for Libnotify
 - github: veelenga/lua.cr

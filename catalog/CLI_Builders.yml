@@ -3,6 +3,10 @@ name: CLI Builders
 shards:
 - github: jwaldrip/admiral.cr
   description: A robust DSL for writing command line interfaces
+- github: crystalrealm/bargs
+  description: The ultimate Command Line Interface builder
+- github: drujensen/cli
+  description: Yet another Crystal library for building command-line interface applications
 - github: luckyframework/cli
   description: Library for creating and running tasks and generating Lucky projects
 - github: mosop/cli
@@ -11,6 +15,8 @@ shards:
   description: A simple declarative command line interface builder
 - github: at-grandpa/clim
   description: Slim command line interface builder
+- github: maiha/cmds.cr
+  description: Yet another CLI Builder library
 - github: mrrooijen/commander
   description: Command-line interface builder
   mirrors:
@@ -23,6 +29,8 @@ shards:
 - github: chenkovsky/docopt.cr
   description: docopt for crystal-lang
 - github: luckyframework/lucky_cli
+- github: drujensen/optarg
+  description: Yet another Crystal library for parsing command-line options and arguments
 - github: mosop/optarg
   description: Yet another library for parsing command-line options and arguments
 - github: maiha/opts.cr
