@@ -28,6 +28,8 @@ shards:
   - github: porras/completion
 - github: chenkovsky/docopt.cr
   description: docopt for crystal-lang
+- github: robacarp/keimeno
+  description: A lightweight text user interface library in Crystal
 - github: luckyframework/lucky_cli
 - github: drujensen/optarg
   description: Yet another Crystal library for parsing command-line options and arguments

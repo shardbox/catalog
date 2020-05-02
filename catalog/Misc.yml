@@ -40,6 +40,8 @@ shards:
   description: Functional programming library
 - github: f/equiv
   description: Recommendation engine
+- github: Sija/gphoto2-web.cr
+  description: Web API for libgphoto2
 - github: krthr/haye.cr
   description: Expressive string syntax to Array/Hash and Vice-Versa parser for Crystal.
     Based on the javascript version

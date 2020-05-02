@@ -8,6 +8,7 @@ shards:
   description: AMQP 0-9.1, a messaging protocol, implemented by eg. RabbitMQ
 - github: jeromegn/bson.cr
   description: Native BSON implementation
+- github: spider-gazelle/connect-proxy
 - github: naqvis/cr-xmpp
   description: XMPP/Jabber Library
 - github: Meoowww/Crirc

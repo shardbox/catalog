@@ -58,6 +58,8 @@ shards:
   description: Display your Github notifications via libnotify
 - github: icyleaf/gitlab.cr
   description: GitLab API wrapper
+- github: PlaceOS/google
+  description: Google API wrapper
 - github: fridgerator/google_maps_api
   description: Google Maps API
 - github: Gangwolf/hncr
@@ -75,6 +77,8 @@ shards:
     PayPal, Apple Pay, Sofort, Klarna, ...)'
 - github: timcraft/nexmo-crystal
   description: '[Nexmo REST API](https://developer.nexmo.com/) client'
+- github: PlaceOS/office365
+  description: Microsoft Graph API wrapper
 - github: osfx/open_exchange_rates
   description: A library to access [Open Exchange Rates](https://openexchangerates.org/)
     API
