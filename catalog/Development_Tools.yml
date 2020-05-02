@@ -66,6 +66,9 @@ shards:
   description: compile-time shard.yml reader
 - github: waterlink/singleton.cr
   description: Singleton library
+- github: unn4m3d/version
+  description: Small tool to fetch your shard version from shard.yml and not to write
+    it by hand
 - github: hugopl/version_from_shard
   description: A macro to declare the VERSION constant from the value found in shard.yml
   mirrors:

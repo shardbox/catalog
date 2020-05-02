@@ -36,6 +36,9 @@ shards:
   description: Mocking library for Crystal
 - github: rf-/roadshow
   description: A language-agnostic tool for testing code in different environments
+- github: oprypin/spec-assert
+  description: Assert macro that lets you write specs naturally without a special
+    expectation DSL
 - github: waterlink/spec2-mocks.cr
   description: Connects spec2.cr and mocks.cr for 'have_received' expectation
 - github: waterlink/spec2.cr
@@ -44,6 +47,8 @@ shards:
   - github: watzon/spec2.cr
   - github: greyblake/spec2.cr
   - github: thelonelyghost/spec2.cr
+- github: docelic/specreporter-spec
+  description: Spec formatter similar to Ruby minitest-reporters
 - gitlab: arctic-fox/spectator
   description: Feature rich spec framework that uses the modern expect syntax
 - github: icy-arctic-fox/spectator

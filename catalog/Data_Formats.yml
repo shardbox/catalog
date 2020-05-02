@@ -35,6 +35,8 @@ shards:
   description: thin JSON::Any wrapper to emulate jq
 - github: impatienttraveller/json-tools
   description: An implementation of JSON Patch and Pointer RFC's
+- github: naqvis/json-xpath
+  description: Provide XPath support on JSON document
 - github: anykeyh/json_on_steroids
   description: Handle and mutate JSON documents easily
 - github: delef/maxminddb.cr
@@ -50,6 +52,8 @@ shards:
   description: Easy and Safe popping from one type to another
 - github: jeromegn/protobuf.cr
   description: Protobuf generator, encoder and decoder
+- github: omarroth/protodec
+  description: Command-line tool to encode and decode arbitrary protobuf data
 - github: teodor-pripoae/protokol
   description: Protocol buffers
 - github: kostya/simple_rpc

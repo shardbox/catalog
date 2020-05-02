@@ -43,6 +43,8 @@ shards:
     multiple columns
 - github: benoist/terminal_table.cr
   description: Simple ASCII table generator
+- github: crystallabs/terminfo
+  description: Library for parsing standard and extended terminfo files
 - github: aca-labs/terminimal
   description: A tiny CLI toolkit for building terminal apps for humans
 - github: eliobr/termspinner

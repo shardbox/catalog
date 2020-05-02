@@ -4,6 +4,8 @@ shards:
 - github: madeindjs/Crystagiri
   description: An Html Reader / parser like [Nokogiri](https://github.com/sparklemotion/nokogiri)
     Ruby gem
+- github: naqvis/crystal-html5
+  description: HTML5-compliant Parser and Tokenizer with XPath2 support
 - github: blocknotes/gumbo-crystal
   description: Bindings for [Gumbo](https://github.com/google/gumbo-parser), an HTML5
     parsing library made by Google

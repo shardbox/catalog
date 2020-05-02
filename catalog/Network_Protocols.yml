@@ -35,6 +35,8 @@ shards:
   description: Pure-Crystal implementation of gRPC
 - github: crystal-community/jwt
   description: Implementation of JWT (JSON Web Token)
+  mirrors:
+  - github: akwiatkowski/crystal-jwt
 - github: spider-gazelle/knx
   description: KNX protocol support
 - github: crystal-community/msgpack-crystal
