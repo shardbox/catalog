@@ -48,7 +48,3 @@ shards:
 - github: kemalcr/spec-kemal
   description: Easy testing for Kemal
 - github: protoncr/tourmaline
-  description: Telegram bot API framework
-  mirrors:
-  - github: watzon/tourmaline
-    role: legacy
