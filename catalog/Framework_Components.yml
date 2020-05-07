@@ -47,5 +47,4 @@ shards:
     by Shrine for Ruby
 - github: kemalcr/spec-kemal
   description: Easy testing for Kemal
-- github: watzon/tourmaline
-  description: Telegram bot framework with an API loosely based on [telegraf.js](https://telegraf.js.org/)
+- github: protoncr/tourmaline

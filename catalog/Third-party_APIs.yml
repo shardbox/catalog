@@ -113,7 +113,10 @@ shards:
 - github: hangyas/telegram_bot
   description: A wrapper for the Telegram Bot API
 - github: protoncr/tourmaline
-  description: Telegram Bot framework for Crystal
+  description: Telegram bot API framework
+  mirrors:
+  - github: watzon/tourmaline
+    role: legacy
 - github: sferik/twitter-crystal
   description: A library to access the Twitter API
 - github: toddsundsted/web_finger
