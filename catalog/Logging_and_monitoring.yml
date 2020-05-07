@@ -11,6 +11,7 @@ shards:
   description: A [Prometheus](https://prometheus.io/) client library
 - github: blacksmoke16/crylog
   description: Flexible logging framework based on Monolog
+  state: archived
 - github: arcage/crystal-logreader
   description: Tailing log file
 - github: crystal-community/crystal-notifications
