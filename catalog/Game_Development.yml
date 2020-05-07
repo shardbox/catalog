@@ -3,9 +3,14 @@ name: Game Development
 shards:
 - github: Groogy/boleite
   description: Framework for developing Games
-- gitlab: Zatherz/cray
+- github: mswieboda/cray
   description: Bindings for [raylib](http://www.raylib.com/), an easy-to-use game
     development library
+  mirrors:
+  - github: tapgg/cray
+    role: legacy
+  - gitlab: Zatherz/cray
+    role: legacy
 - github: jwoertink/crono
   description: 2D Video Game framework
 - github: oprypin/crsfml
