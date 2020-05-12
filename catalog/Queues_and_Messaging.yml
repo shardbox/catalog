@@ -25,8 +25,9 @@ shards:
   description: Redis backed periodic and ad hoc job processing
 - github: lccxz/mqtt_crystal
   description: MQTT Crystal client
-- github: liu-chong/mqtt_crystal
-  description: MQTT Crystal client
+  mirrors:
+  - github: liu-chong/mqtt_crystal
+    role: legacy
 - github: nats-io/nats.cr
   description: NATS client
 - github: mperham/sidekiq.cr

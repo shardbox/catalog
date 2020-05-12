@@ -31,6 +31,9 @@ shards:
   description: GeoIP2 reader
 - github: NeuraLegion/har
   description: HAR (HTTP Archive) parser
+- github: straight-shoota/hrx
+  description: Parser for the [Human Readable Archive (HRX)](https://github.com/google/hrx)
+    format
 - github: maiha/jq.cr
   description: thin JSON::Any wrapper to emulate jq
 - github: impatienttraveller/json-tools
