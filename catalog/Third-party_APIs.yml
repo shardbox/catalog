@@ -38,8 +38,9 @@ shards:
   description: A tool that parses Slack slash commands or send incoming web hooks
 - github: discordcr/discordcr
   description: Minimalist Discord library
-- github: meew0/discordcr
-  description: A minimalist Discord API library
+  mirrors: 
+  - github: meew0/discordcr
+    role: legacy
 - github: z64/discordcr
   description: Minimalist Discord library for Crystal
 - github: z64/discordcr-middleware
