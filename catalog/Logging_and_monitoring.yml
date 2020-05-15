@@ -32,3 +32,5 @@ shards:
   description: A powerful logger for those that need a little something more
 - github: comandeo/syslog.cr
   description: Implementation of Syslog client
+- github: lazau/syslogger
+  description: A Log::Backend that writes to syslog
