@@ -15,3 +15,6 @@ shards:
   description: CSS selectors for HTML5 parser [myhtml](https://github.com/kostya/myhtml)
 - github: kostya/myhtml
   description: Fast HTML5 Parser that includes CSS selectors
+- github: straight-shoota/sanitize
+  description: library for transforming HTML/XML trees to sanitize HTML from untrusted
+    sources
