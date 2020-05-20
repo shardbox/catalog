@@ -8,6 +8,8 @@ shards:
 - github: elorest/bitfields
   description: Pure Crystal implementation of BitFields. Handles encoding/decoding
     of bytes
+- github: Sija/blurhash.cr
+  description: Pure Crystal implementation of BlurHash algorithm
 - github: mosop/callback
   description: A library for defining and invoking callbacks
 - github: maiha/crc16.cr
