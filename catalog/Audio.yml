@@ -4,8 +4,8 @@ shards:
 - github: TamasSzekeres/asound-cr
   description: Bindings for ALSA/libasound
 - github: mjago/libao
-  description: Bindings for [Xiph.org libao](https://www.xiph.org/ao/) cross platform audio library
-- github: mjago/sonicri
+  description: Bindings for [Xiph.org libao](https://www.xiph.org/ao/) cross platform
+    audio library
   description: Audio Player
 - github: mjago/soundfile
   description: Bindings for [libsndfile](http://www.mega-nerd.com/libsndfile/) library
