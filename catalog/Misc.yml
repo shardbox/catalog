@@ -81,6 +81,8 @@ shards:
     role: legacy
 - github: spoved/spoved.cr
   description: Various tools/libs for crystal
+- github: crystallabs/term_colors
+  description: Term/console color manipulation library
 - github: sdogruyol/tren
   description: Give your SQL some love
 - github: SuperPaintman/ulid
