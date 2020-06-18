@@ -1,6 +1,8 @@
 ---
 name: Concurrency
 shards:
+- github: didactic-drunk/concurrent.cr
+  description: Modern concurrency tools
 - github: firejox/CrSignals
   description: Signals/slots notification library
 - github: firejox/crystal-async_await
