@@ -68,3 +68,5 @@ shards:
   description: X11 bindings
 - github: woodruffw/x_do.cr
   description: Bindings for libxdo ([`xdotool`](https://github.com/jordansissel/xdotool))
+- github: ettomatic/xattr
+  description: Bindings for XATTR
