@@ -1,38 +1,34 @@
-version: 1.0
+version: 2.0
 shards:
   any_hash:
-    github: Sija/any_hash.cr
+    git: https://github.com/Sija/any_hash.cr.git
     version: 0.2.3
 
   db:
-    github: crystal-lang/crystal-db
+    git: https://github.com/crystal-lang/crystal-db.git
     version: 0.8.0
 
   git:
-    github: smacker/libgit2.cr
-    commit: 3426bf335e0970852e300f7602cf6e8dd21d0867
+    git: https://github.com/smacker/libgit2.cr.git
+    version: 0.1.0+git.commit.3426bf335e0970852e300f7602cf6e8dd21d0867
 
   github-cr:
-    github: arnavb/github-cr
-    commit: 119df4c747a81260b37af0878b24eab9345a94f4
-
-  molinillo:
-    github: crystal-lang/crystal-molinillo
-    version: 0.1.0
+    git: https://github.com/arnavb/github-cr.git
+    version: 0.1.0+git.commit.119df4c747a81260b37af0878b24eab9345a94f4
 
   pg:
-    github: will/crystal-pg
+    git: https://github.com/will/crystal-pg.git
     version: 0.20.0
 
   raven:
-    github: Sija/raven.cr
+    git: https://github.com/Sija/raven.cr.git
     version: 1.6.0
 
   shardbox-core:
-    github: shardbox/shardbox-core
-    commit: 2893609c073a9d8cfa8c6d6aa62f779a8e02c6a3
+    git: https://github.com/shardbox/shardbox-core.git
+    version: 0.1.0+git.commit.2893609c073a9d8cfa8c6d6aa62f779a8e02c6a3
 
   shards:
-    github: crystal-lang/shards
-    commit: 35303e1232f150677a5ff0e1713ced9171ee928a
+    git: https://github.com/crystal-lang/shards.git
+    version: 0.9.0+git.commit.35303e1232f150677a5ff0e1713ced9171ee928a
 
