@@ -10,6 +10,6 @@ jobs:
 deploy:
 - provider: script
   name: "Run webhook to import catalog"
-  script: curl https://shardbox.straight-shoota.de/webhook/import_catalog --user $WEBHOOK_AUTH_TOKEN
+  script: curl https://shardbox.org/webhook/import_catalog --user $WEBHOOK_AUTH_TOKEN
   on:
     branch: master
