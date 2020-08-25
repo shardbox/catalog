@@ -3,6 +3,8 @@ name: Algorithms and Data structures
 shards:
 - github: chenkovsky/aho_corasick
   description: AhoCorasick algorithm
+- github: CMiksche/benfordslaw.cr
+  description: Benford's Law check implementation
 - github: spider-gazelle/bisect
   description: Library for maintaining sorted arrays
 - github: elorest/bitfields
@@ -12,6 +14,8 @@ shards:
   description: Pure Crystal implementation of BlurHash algorithm
 - github: mosop/callback
   description: A library for defining and invoking callbacks
+- github: CMiksche/chi-squared
+  description: Chi square test implementation
 - github: maiha/crc16.cr
   description: Cyclic Redundancy Check (CRC16) implementation
 - github: c910335/crie
