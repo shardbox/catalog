@@ -42,6 +42,8 @@ shards:
   description: Response time for Crystal servers (pure http server, kemal, etc.)
 - github: porras/session
   description: Cookie based sessions in Crystal HTTP applications
+- github: GrottoPress/shield
+  description: Comprehensive security for Lucky framework
 - github: jetrockets/shrine.cr
   description: File Attachment toolkit for Crystal applications. Heavily inspired
     by Shrine for Ruby
