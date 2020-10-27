@@ -6,7 +6,8 @@ shards:
 - github: obskyr/dazzlie
   description: Encode and decode graphics from a variety of retro video game systems
 - github: jetrockets/fastimage.cr
-  description: Library that finds the dimensions and type of an image fetching as little as needed
+  description: Library that finds the dimensions and type of an image fetching as
+    little as needed
 - github: libpixel/libpixel.cr
 - github: blocknotes/magickwand-crystal
   description: Bindings for [MagickWand](https://www.imagemagick.org/script/magick-wand.php),
