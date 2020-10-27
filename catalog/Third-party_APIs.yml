@@ -13,6 +13,9 @@ shards:
   description: AWS S3 interface
 - github: taylorfinnell/awscr-signer
   description: Sign HTTP::Request objects and generate presigned post forms
+- github: mwlang/binance
+  description: Wrapper for [Binance exchange](https://github.com/binance-exchange/binance-official-api-docs)
+    APIs
 - github: citizen428/bitcoin_rpc
   description: Bitcoin RPC client
 - github: gewo/bugsnag.cr
