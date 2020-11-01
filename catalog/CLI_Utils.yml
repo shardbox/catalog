@@ -7,6 +7,8 @@ shards:
   description: A light CLI text editor/IDE
 - github: azukiapp-labs/crystal-chalk-box
   description: Terminal string styling done right
+- github: erdnaxeli/crystal-parameters
+  description: Parse parameters from a string
 - github: crystallabs/crysterm
   description: Console / terminal GUI toolkit
 - github: crystalrealm/epilog
