@@ -17,3 +17,5 @@ shards:
   description: Another one Rake-like task manager with namespacing and arguments system
 - github: agatan/watchbird
   description: file monitoring library
+- github: marghidanu/werk
+  description: Dead simple task runner with concurrent support, ideal for local CI

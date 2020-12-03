@@ -16,3 +16,5 @@ shards:
   description: Micro check library that patches Crystal stdlib
 - github: vladfaust/validations.cr
   description: Validations mixin
+- github: athena-framework/validator
+  description: Robust & flexible validation framework

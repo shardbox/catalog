@@ -3,7 +3,10 @@ name: Environment Management
 shards:
 - github: marciogm/asdf-crystal
   description: Plugin for asdf version manager
-- github: pine/crenv
+- github: crenv/crenv
   description: Crystal version manager
+  mirrors:
+  - github: pine/crenv
+    role: legacy
 - github: maiha/rcm.cr
   description: Redis Cluster Manager

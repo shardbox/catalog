@@ -14,12 +14,16 @@ shards:
     gem
 - github: timkendall/crynamo
   description: Simple DynamoDB client
+- github: elbywan/cryomongo
+  description: MongoDB driver
 - github: kaukas/crystal-cassandra
   description: A Cassandra driver
 - github: crystal-lang/crystal-db
   description: Common database API
 - github: maiha/crystal-examples
   description: Automatic validation of Crystal code samples
+- github: spider-gazelle/crystal-ldap
+  description: LDAP client
 - github: puppetpies/crystal-monetdb-libmapi
   description: Bindings for MonetDB
 - github: crystal-lang/crystal-mysql

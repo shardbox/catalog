@@ -102,6 +102,9 @@ shards:
   description: Web framework with buit-in automatic OpenAPI/Swagger docs support
 - github: luckyframework/router
   description: A URL Routing shard
+- github: runcobo/runcobo
+  description: An api framework with simple, intuitive and consistent DSL, using jbuilder
+    to render json
 - github: marceloboeira/satriani
   description: A micro-framework for creating REST-like APIs
 - github: ujjwalguptaofficial/shivneri
