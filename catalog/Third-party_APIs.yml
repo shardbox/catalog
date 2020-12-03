@@ -117,7 +117,7 @@ shards:
 - github: hangyas/telegram_bot
   description: A wrapper for the Telegram Bot API
 - github: protoncr/tourmaline
-  description: Telegram bot API framework
+  description: Telegram bot framework with an API loosely based on [telegraf.js](https://telegraf.js.org/)
   mirrors:
   - github: watzon/tourmaline
     role: legacy

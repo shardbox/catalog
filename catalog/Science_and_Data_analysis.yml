@@ -1,6 +1,9 @@
 ---
 name: Science and Data analysis
 shards:
+- github: nin93/alea
+  description: Repeatable sampling, CDF and other utilities to work with probability
+    distributions
 - github: crystal-data/aquaplot
   description: Data visualization library
 - github: crystal-data/bottle

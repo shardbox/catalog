@@ -5,7 +5,7 @@ shards:
   description: Loads .env file
 - github: drum445/dotenv
   description: Load .env files in crystal
-- github: GrottoPress/envy
+- github: grottopress/envy
   description: Load environment variables from YAML
 - github: philnash/envyable.cr
   description: A simple YAML to ENV config loader

@@ -23,6 +23,8 @@ shards:
   description: JSON-socket client & server implementation. Inspired by and compatible
     with [node-json-socket](https://github.com/sebastianseilund/node-json-socket/)
     and [ruby-json-socket](https://github.com/foi/ruby-json-socket)
+- github: spider-gazelle/crystal-mqtt
+  description: A MQTT client
 - github: spider-gazelle/crystal-snmp
   description: An SNMP implementation with version 1, 2c and 3 support
 - github: SushiChain/crystal-two-factor-auth
@@ -40,6 +42,8 @@ shards:
   - github: akwiatkowski/crystal-jwt
 - github: spider-gazelle/knx
   description: KNX protocol support
+- github: spider-gazelle/mdns
+  description: DNS Service Discovery and multicast DNS
 - github: crystal-community/msgpack-crystal
   description: MessagePack library
   mirrors:

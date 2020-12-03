@@ -3,6 +3,8 @@ name: CLI Utils
 shards:
 - github: gtramontina/ansi-escapes.cr
   description: ANSI escape codes for manipulating the terminal
+- github: Sija/climate.cr
+  description: Tiny tool to make your CLI output coloured
 - github: j8r/cride
   description: A light CLI text editor/IDE
 - github: azukiapp-labs/crystal-chalk-box
@@ -17,6 +19,8 @@ shards:
   description: Readline-esque library with fancy features
 - github: gtramontina/griffith.cr
   description: Beautiful UI for showing tasks running on the command line
+- github: mkdika/lff-cr
+  description: Simple and straightforward large files finder utility in command line
 - github: r00ster91/lime
   description: A library for drawing graphics on the console screen
 - github: repomaa/ncurses-crystal

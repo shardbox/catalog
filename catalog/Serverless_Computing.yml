@@ -9,3 +9,6 @@ shards:
   description: Template to enable crystal as first class citizens in OpenFaaS
 - github: sam0x17/gcf.cr
   description: Managed execution of Crystal in Google Cloud Functions
+- github: place-labs/secrets-env
+  description: Extends ENV module to read values injected by docker / kubernetes secrets
+    and other orchestration tools

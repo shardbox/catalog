@@ -30,6 +30,8 @@ shards:
   description: Bridge Javascript and Crystal via the JavaScriptCore engine
 - github: DanSnow/crystal-binary_parser
   description: Binary parser
+- github: anicholson/crystal-version-tools
+  description: Version-dependent behaviour, specified at compile-time
 - github: isaced/crystal-web-framework-stars
   description: Web frameworks for Crystal, most starred on Github
 - github: werner/crystal_on_steroids
@@ -79,8 +81,12 @@ shards:
   mirrors:
   - github: soveran/seg-crystal
     role: legacy
+- github: spider-gazelle/simple_retry
+  description: Simple tool for retrying failed code blocks
 - github: spoved/spoved.cr
   description: Various tools/libs for crystal
+- github: NeuraLegion/sslscan.cr
+  description: Crystal shard wrapping the rbsec/sslscan utility
 - github: crystallabs/term_colors
   description: Term/console color manipulation library
 - github: sdogruyol/tren
@@ -89,6 +95,8 @@ shards:
   description: Universally Unique Lexicographically Sortable Identifier (ULID)
 - github: maiha/var.cr
   description: '`Object.var` macro for Crystal'
+- github: NeuraLegion/wafalyzer
+  description: Web Application Firewall (WAF) Detector - shard + cli
 - github: artworx/yakut
   description: Dynamically configure your Kubernetes manifests with Jinja2 templates
 - github: szTheory/zaru_crystal

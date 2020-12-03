@@ -23,6 +23,8 @@ shards:
   description: HTTP benchmarking tool
 - github: EvanHahn/crystal-helmet
   description: Set security-related HTTP headers
+- github: spider-gazelle/digest-auth
+  description: Digest authentication
 - github: S-YOU/h2o.cr
   description: h2o bindings for Crystal
 - github: icyleaf/halite
@@ -47,6 +49,8 @@ shards:
   description: Crystal bindings to LiteSpeed QUIC
 - github: watzon/ngrok.cr
   description: Ngrok wrapper
+- github: spider-gazelle/ntlm
+  description: NTLM authentication
 - github: vladfaust/params.cr
   description: The strongly-typed HTTP params parsing module
 - github: nbulaj/proxy-fetcher.cr

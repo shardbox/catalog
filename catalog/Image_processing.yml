@@ -1,6 +1,8 @@
 ---
 name: Image processing
 shards:
+- github: redcodefinal/celestine
+  description: Create SVG images using a DSL
 - github: imdrasil/crymagick
   description: Wrapper for ImageMagick command line
 - github: obskyr/dazzlie
