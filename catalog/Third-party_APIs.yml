@@ -20,7 +20,7 @@ shards:
   description: Bitcoin RPC client
 - github: gewo/bugsnag.cr
   description: Bugsnag exception notifier and sidekiq middleware
-- gitub: erdnaxeli/caridina
+- github: erdnaxeli/caridina
   description: A Matrix client for Crystal
 - github: dgodd/concourse-summary
   description: Summary for pipelines on [concourse-ci.org](https://concourse-ci.org/)
