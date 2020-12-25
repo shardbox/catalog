@@ -36,6 +36,8 @@ shards:
   description: Mocking library for Crystal
 - github: rf-/roadshow
   description: A language-agnostic tool for testing code in different environments
+- github: matthewmcgarvey/selenium.cr
+  description: Library for controlling and interacting with browsers for testing
 - github: oprypin/spec-assert
   description: Assert macro that lets you write specs naturally without a special
     expectation DSL
@@ -71,5 +73,8 @@ shards:
   description: A HTTP capture and replay implementation for crystal
 - github: bwilczek/webdriver_pump
   description: Page Object library. Inspired by Ruby's [WatirPump](https://github.com/bwilczek/watir_pump)
+- github: matthewmcgarvey/webdrivers.cr
+  description: Automatically installs and manages various browsers' webdrivers for
+    Selenium testing
 - github: manastech/webmock.cr
   description: Library for stubbing `HTTP::Client` requests
