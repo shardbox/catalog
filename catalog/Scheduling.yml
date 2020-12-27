@@ -7,6 +7,8 @@ shards:
   description: Job scheduler with crontab patterns
 - gitlab: crystallabs/crystime
   description: Advanced time, calendar, schedule, and remind library
+- github: erdnaxeli/marmot
+  description: A tasks scheduler, using periods, times and channels
 - github: hugoabonizio/schedule.cr
   description: Run periodic tasks
 - github: spider-gazelle/tasker
