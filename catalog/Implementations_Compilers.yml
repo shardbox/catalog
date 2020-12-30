@@ -1,8 +1,6 @@
 ---
 name: Implementations/Compilers
 shards:
-- github: davidkellis/arborist
-  description: Arborist is a PEG parser that supports left-associative left recursion
 - github: azula-lang/azula
   description: A fast, statically typed compiled language
 - github: charly-lang/charly
@@ -28,12 +26,8 @@ shards:
   description: Transpile/compile Crystal to [Flow](https://flow.org/)
 - github: jrester/EBNF.cr
   description: Parse and work with Context free Grammar
-- github: umurgdk/haydari
-  description: Parser combinator library
 - github: LinCAS-lang/LinCAS
   description: A programming language for scientific computation
-- github: rmosolgo/lingo
-  description: parser generator
 - github: jemc/mare
   description: A reimagining of the Pony language
 - github: omarroth/marpa
