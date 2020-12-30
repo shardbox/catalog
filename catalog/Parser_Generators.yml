@@ -1,0 +1,15 @@
+---
+name: Parser Generators
+shards:
+- github: davidkellis/arborist
+  description: Arborist is a PEG parser that supports left-associative left recursion
+- github: dhruvrajvanshi/crystal-parsec
+  description: Parsing DSL inspired by Haskell library Parsec
+- github: jemc/crystal-pegmatite
+  description: A high-performance Parsing Expression Grammar (PEG) library
+- github: umurgdk/haydari
+  description: Parser combinator library
+- github: rmosolgo/lingo
+  description: parser generator
+- github: DanilaFe/pegasus
+  description: A parser generator for C and Crystal

@@ -32,10 +32,6 @@ shards:
   description: Implementation of Linked List
 - github: crystal-lang/crystal-molinillo
   description: A generic dependency resolution algorithm
-- github: dhruvrajvanshi/crystal-parsec
-  description: Parsing DSL inspired by Haskell library Parsec
-- github: jemc/crystal-pegmatite
-  description: A high-performance Parsing Expression Grammar (PEG) library
 - github: Demonstrandum/crystal_maze
   description: A* Path finding for PNG mazes using StumpyPNG
 - github: unn4m3d/crystaledge
@@ -78,8 +74,6 @@ shards:
   description: Implementation of Murmur3 hash algorithm used by Cassandra
 - github: obsidian/oak
   description: A flexible Radix Tree implementation
-- github: DanilaFe/pegasus
-  description: A parser generator for C and Crystal
 - github: spider-gazelle/priority-queue
   description: Priority Queue and Heap implementation
 - github: luislavena/radix
