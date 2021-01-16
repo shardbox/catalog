@@ -5,6 +5,9 @@ shards:
   description: Implementation of the Cipher-based Message Authentication Code (CMAC)
 - github: andrewhamon/cox
   description: Crystal wrapper for the libsodium crypto API
+- github: protoncr/crypto
+  description: Several cryptographic algorithms written in pure Crystal with no external
+    dependencies
 - github: sushichain/crystal-argon2
   description: bindings for argon2 hashing library
 - github: sushichain/crystal-ecdsa
