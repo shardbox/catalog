@@ -5,16 +5,20 @@ shards:
   description: Shareable validation library for Crystal Objects
 - github: blacksmoke16/assert
   description: Extensible annotation based object validation library
+  state: archived
 - github: blacksmoke16/CrSerializer
-  description: Extensible annotation based serialization/deserialization/validation
-    library
+  description: Extensible annotation based serialization/deserialization/validation library
+  state: archived
 - github: Nicolab/crystal-validator
   description: Data check and validation
-- github: nicolab/crystal-validator
-  description: Data check and validation for Crystal
 - github: izniburak/denetmen
   description: Micro check library that patches Crystal stdlib
 - github: vladfaust/validations.cr
   description: Validations mixin
 - github: athena-framework/validator
   description: Robust & flexible validation framework
+  mirrors:
+  - github: blacksmoke16/assert
+    role: legacy
+  - github: blacksmoke16/CrSerializer
+    role: legacy
