@@ -10,7 +10,7 @@ shards:
 - github: imdrasil/time_zone
   description: Time Zone provides daylight savings aware transformations between times
     in different time zones
-- github: TobiasGSmollett/timecop.cr
 - github: crystal-community/timecop.cr
 - github: taylorfinnell/timecop.cr
+- github: TobiasGSmollett/timecop.cr
 - github: waterlink/timecop.cr

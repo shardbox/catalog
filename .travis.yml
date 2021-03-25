@@ -1,5 +1,12 @@
 language: crystal
 
+cache:
+- shards
+
+env:
+  global:
+    - SHARDS_OPTS: "--ignore-crystal-version"
+
 jobs:
   include:
   - stage: test

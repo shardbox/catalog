@@ -18,10 +18,10 @@ shards:
     the Qt framework
 - github: nilsmartel/Glass
   description: Gui Library
-- github: Qwerp-Derp/hedron
-  description: An extendable GUI library, with markup language capabilities
 - github: hedron-crystal/hedron
   description: An extendable UI library with markup capabilities
+- github: Qwerp-Derp/hedron
+  description: An extendable GUI library, with markup language capabilities
 - github: calebuharrison/LibGL
   description: OpenGL bindings for Crystal
 - github: calebuharrison/LibGLFW

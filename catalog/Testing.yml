@@ -57,13 +57,13 @@ shards:
   description: Feature-rich testing framework based on RSpec
 - github: sushichain/spinach
   description: BDD Style test runner
-- github: TobiasGSmollett/timecop.cr
-  description: Mock with `Time.now` with the power of time travel, time freeze and
-    time scale
 - github: crystal-community/timecop.cr
   description: Library for mocking with `Time.now`. Inspired by the [timecop ruby
     gem](https://github.com/travisjeffery/timecop)
 - github: taylorfinnell/timecop.cr
+  description: Mock with `Time.now` with the power of time travel, time freeze and
+    time scale
+- github: TobiasGSmollett/timecop.cr
   description: Mock with `Time.now` with the power of time travel, time freeze and
     time scale
 - github: waterlink/timecop.cr
