@@ -48,6 +48,8 @@ shards:
   description: Java Native Interface (JNI) bindings (and generator)
 - github: faustinoaq/kemal-watcher
   description: Kemal plugin to watch files and live-reload the browser
+- github: crystal-lang-tools/lsp
+  description: Crystal implementation of the Language Server Protocol
 - github: foca/mpp
   description: 'The mini pre processor parses files and resolves C-style #include
     and #define macros'
@@ -56,6 +58,8 @@ shards:
   state: archived
 - github: faustinoaq/ruby2crystal
   description: A proof of concept tool to help porting gems to shards
+- github: crystal-lang-tools/scry
+  description: Code analysis server for Crystal
 - github: samueleaton/sentry
   description: Watches src files, rebuilds/reruns application on file changes
   mirrors:
