@@ -18,8 +18,3 @@ shards:
   description: Validations mixin
 - github: athena-framework/validator
   description: Robust & flexible validation framework
-  mirrors:
-  - github: blacksmoke16/assert
-    role: legacy
-  - github: blacksmoke16/CrSerializer
-    role: legacy
