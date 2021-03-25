@@ -16,7 +16,7 @@ shards:
   description: Bindings for [MXNet](https://mxnet.incubator.apache.org/)
 - github: NeuraLegion/shainet
   description: SHAInet (Neural Network in pure crystal)
-- github: NeuraLegion/tensorflow.cr
-  description: TensorFlow bindings in Crystal
 - github: fazibear/tensorflow.cr
   description: Bindings for [TensorFlow](https://github.com/tensorflow/tensorflow)
+- github: NeuraLegion/tensorflow.cr
+  description: TensorFlow bindings in Crystal
