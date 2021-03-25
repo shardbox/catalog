@@ -62,6 +62,8 @@ shards:
   description: Command-line tool to encode and decode arbitrary protobuf data
 - github: teodor-pripoae/protokol
   description: Protocol buffers
+- github: athena-framework/serializer
+  description: Flexible object (de)serialization library
 - github: kostya/simple_rpc
   description: Remote Procedure Call Server and Client implementing msgpack-rpc protocall
 - github: spider-gazelle/tokenizer
