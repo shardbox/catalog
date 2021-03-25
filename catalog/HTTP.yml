@@ -47,6 +47,8 @@ shards:
   description: Adds HTTP GET/POST parameter parsing as a Hash-like object
 - github: omarroth/lsquic.cr
   description: Crystal bindings to LiteSpeed QUIC
+- github: athena-framework/negotiation
+  description: Framework agnostic content negotiation library
 - github: watzon/ngrok.cr
   description: Ngrok wrapper
 - github: spider-gazelle/ntlm
