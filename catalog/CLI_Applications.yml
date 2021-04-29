@@ -2,6 +2,8 @@
 name: CLI Applications
 shards:
 - github: caravel-tool/caravel
+- github: erdnaxeli/castblock
+  description: Automatically skip sponsor segments in YouTube videos playing on Chromecast
 - github: crystallabs/crystime
   description: Advanced time, calendar, schedule, and remind library for Crystal
 - github: askn/fikri
