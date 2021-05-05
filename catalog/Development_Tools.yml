@@ -86,3 +86,5 @@ shards:
   description: Watches files, run command and a git command if succeed on file changes
 - github: faustinoaq/watcher
   description: Watch file changes using File.stat
+- github: danreeves/watch
+  description: Watch files and run commands on changes from a crystal script
