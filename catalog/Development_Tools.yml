@@ -84,5 +84,7 @@ shards:
   description: Keep your crystal clean
 - github: diggersheep/warden
   description: Watches files, run command and a git command if succeed on file changes
+- github: danreeves/watch
+  description: Watch files and run commands on changes from a crystal script
 - github: faustinoaq/watcher
   description: Watch file changes using File.stat
