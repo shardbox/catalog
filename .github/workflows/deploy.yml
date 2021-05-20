@@ -4,6 +4,7 @@ on:
 
 jobs:
   deploy:
+    runs-on: ubuntu-latest
     steps:
       - name: Trigger webhook to import catalog
         env:
