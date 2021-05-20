@@ -41,9 +41,11 @@ shards:
   description: Star Wars API (SWAPI) wrapper
 - github: manastech/crystal_slack
   description: A tool that parses Slack slash commands or send incoming web hooks
-- github: discordcr/discordcr
+- github: shardlab/discordcr
   description: Minimalist Discord library
   mirrors:
+  - github: discordcr/discordcr
+    role: legacy
   - github: meew0/discordcr
     role: legacy
 - github: z64/discordcr
