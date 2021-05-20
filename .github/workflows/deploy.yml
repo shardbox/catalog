@@ -1,0 +1,11 @@
+on:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    steps:
+      - name: Trigger webhook to import catalog
+        env:
+          WEBHOOK_AUTH_TOKEN: ${{ secrets.WEBHOOK_AUTH_TOKEN }}
+        run:  curl https://shardbox.org/webhook/import_catalog --user "$WEBHOOK_AUTH_TOKEN"
