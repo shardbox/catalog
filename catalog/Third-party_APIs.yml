@@ -114,6 +114,8 @@ shards:
   description: A Crystal client for Sonic search backend (Ported from https://github.com/atipugin/sonic-ruby)
 - github: marceloboeira/spotify.cr
   description: Wrapper for the Spotify Web API
+- github: shardlab/srcr
+  description: Speedrun.com API Wrapper
 - github: confact/stripe.cr
   description: Stripe API Wrapper
 - github: vladfaust/tele.cr
