@@ -1,0 +1,32 @@
+on:
+  push:
+  pull_request:
+    branches: [master]
+  schedule:
+    - cron: '0 6 * * 6'  # Every Saturday 6 AM
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            crystal: 1.0.0
+    runs-on: ubuntu-latest
+    env:
+      SHARDS_OPTS: "--ignore-crystal-version"
+    steps:
+      - name: Download source
+        uses: actions/checkout@v2
+      - name: Install Crystal
+        uses: oprypin/install-crystal@v1
+        with:
+          crystal: ${{ matrix.crystal }}
+
+      - name: Build formatter
+        run: make build
+      - name: Run formatter
+        run: make test
+      - name: Check Crystal formatting
+        run: crystal tool format src; git diff --exit-code
+        if: matrix.crystal == '1.0.0'
