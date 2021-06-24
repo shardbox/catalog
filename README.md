@@ -47,7 +47,7 @@ A shard is eligible to be listed in this catalog if it fits this description:
 * It is meant to be continuously available. There don't need to be any
   guarantee to be updated or maintained, but it should not simply vanish.
 * Written in Crystal.
-* Depends on publicly available dependencies.
+* Depends only on publicly available dependencies.
 
 If a shard is a dependency of a shard already listed in the catalog, it is
 automatically discovered by the shardbox database and should be included
