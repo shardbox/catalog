@@ -8,7 +8,7 @@ shards:
     Markdown
 - github: ysbaddaden/crystal-cmark
   description: Crystal wrapper for libcmark, the reference CommonMark C library
-- github: huacnlee/html-pipeline
+- github: huacnlee/html-pipeline.cr
   description: HTML processing filters and utilities
 - github: icyleaf/markd
   description: Yet another markdown parser built for speed, Compliant to CommonMark
