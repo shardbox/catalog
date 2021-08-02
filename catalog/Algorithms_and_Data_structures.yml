@@ -60,6 +60,8 @@ shards:
   description: An Implementation of the Haversine formula
 - github: kingsleyh/humanhash
   description: HumanHash implementation
+- github: chriscz/interval_tree
+  description: A centered interval tree implementation
 - github: geocrystal/kd_tree
   description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
 - github: mamantoha/kd_tree
