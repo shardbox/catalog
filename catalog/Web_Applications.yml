@@ -18,8 +18,11 @@ shards:
 - github: yahoojapan/hosted-danger
   description: Code review automation with [Danger](https://github.com/danger/danger)
     as a service
-- github: omarroth/invidious
-  description: Alternative front-end to YouTube
+- github: iv-org/invidious
+  description: An open source alternative front-end to YouTube
+  mirrors:
+  - github: omarroth/invidious
+    role: legacy
 - github: hkalexling/Mango
   description: Mango is a self-hosted manga server and web reader
 - github: thewalkingtoast/mpngin
