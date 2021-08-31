@@ -20,9 +20,9 @@ shards:
   description: Custom pluralization rules support for i18n
 - github: phoffer/inflector.cr
   description: Singularize, pluralize, camelize, etc (port from ActiveSupport)
-- github: syeopite/lens 
-  description: A multiformat internationalization (i18n) shard for Crystal. Supports Gettext,
-    Ruby YAML, etc.
+- github: syeopite/lens
+  description: A multiformat internationalization (i18n) shard for Crystal. Supports
+    Gettext, Ruby YAML, etc
 - github: luckyframework/lucky_inflector
   description: Natural language inflector
 - github: mosop/string_inflection
