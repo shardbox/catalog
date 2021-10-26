@@ -26,14 +26,19 @@ shards:
   mirrors:
   - github: jwaldrip/mime-types.cr
     role: legacy
-- github: andrewc910/mochi
+- github: awcrotwell/mochi
   description: 'Authentication shard inspired by Devise supporting: Authenticable,
     Confirmable, Invitable & more'
   mirrors:
   - github: gitlato/mochi
     role: legacy
-- github: andrewc910/motion.cr
+  - github: andrewc910/mochi
+    role: legacy
+- github: awcrotwell/motion.cr
   description: Object oriented frontend library for Amber
+  mirrors:
+  - github: andrewc910/motion.cr
+    role: legacy
 - github: msa7/multi_auth
   description: Standardized multi-provider OAuth2 authentication (inspired by omniauth)
 - github: ilanusse/praetorian

@@ -45,6 +45,8 @@ shards:
   description: A HTTP Proxy server and client written in Crystal
 - github: danielpclark/keyer_cr
   description: Adds HTTP GET/POST parameter parsing as a Hash-like object
+- github: spider-gazelle/link-header
+  description: HTTP Link Header Parser
 - github: omarroth/lsquic.cr
   description: Crystal bindings to LiteSpeed QUIC
 - github: athena-framework/negotiation

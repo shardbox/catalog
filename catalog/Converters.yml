@@ -3,6 +3,9 @@ name: Converters
 shards:
 - github: Sija/base62.cr
   description: Base62 encoder/decoder, well suited for url-shortening
+- github: spider-gazelle/crunits
+  description: Tool for converting units of measure (miles to kilometers, celsius
+    to fahrenheit etc)
 - github: crystal-money/money
   description: Handling money and currency conversion with ease (almost complete port
     of [RubyMoney](https://github.com/RubyMoney/money))

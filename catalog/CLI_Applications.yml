@@ -4,6 +4,9 @@ shards:
 - github: caravel-tool/caravel
 - github: erdnaxeli/castblock
   description: Automatically skip sponsor segments in YouTube videos playing on Chromecast
+- github: caian-org/coin
+  description: Command-line application that performs currency conversion via the
+    [Fixer API](https://fixer.io)
 - github: crystallabs/crystime
   description: Advanced time, calendar, schedule, and remind library for Crystal
 - github: askn/fikri
@@ -11,6 +14,8 @@ shards:
 - github: jhass/github_desktop_notifications
 - github: straight-shoota/md2pdf
   description: Convert markdown files to PDF with flexible template and stylesheet
+- github: ryanprior/meet
+  description: Start a jitsi meeting quickly from the comfort of your command line
 - github: tbrand/mssh
   description: Simple and powerful job executor on remote nodes
 - github: snipline/snipcli

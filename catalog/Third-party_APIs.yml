@@ -80,9 +80,14 @@ shards:
   description: Kubernetes API Client
 - github: petoem/mixpanel-crystal
   description: A library for sending events to Mixpanel
-- github: tilishop/mollie.cr
+- github: wout/mollie.cr
   description: '[Mollie](https://www.mollie.com/en/) Payments API wrapper (Creditcard,
     PayPal, Apple Pay, Sofort, Klarna, ...)'
+  mirrors:
+  - github: tilishop/mollie.cr
+    role: legacy
+  - github: tilitribe/mollie.cr
+    role: legacy
 - github: timcraft/nexmo-crystal
   description: '[Nexmo REST API](https://developer.nexmo.com/) client'
 - github: PlaceOS/office365
@@ -122,6 +127,8 @@ shards:
   description: A convenient Telegram Bot framework
 - github: hangyas/telegram_bot
   description: A wrapper for the Telegram Bot API
+- github: mmacia/tmdb.cr
+  description: The Movie DB (TMDb) api wrapper
 - github: protoncr/tourmaline
   description: Telegram bot framework with an API loosely based on [telegraf.js](https://telegraf.js.org/)
   mirrors:

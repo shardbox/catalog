@@ -65,7 +65,6 @@ shards:
 - github: athena-framework/serializer
   description: Flexible object (de)serialization library
 - github: kostya/simple_rpc
-  description: Remote Procedure Call Server and Client implementing msgpack-rpc protocall
 - github: spider-gazelle/tokenizer
   description: Simplified binary stream tokenization
 - github: crystal-community/toml.cr

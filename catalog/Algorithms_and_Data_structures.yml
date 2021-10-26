@@ -38,6 +38,8 @@ shards:
   description: A pure Vector Math library
 - github: TobiasGSmollett/crystalg
   description: A Generic Algorithm Library
+- github: tobyapi/crystalg
+  description: A Generic Algorithm Library
 - github: jtomschroeder/crystalline
   description: A collection of containers and algorithms
 - github: lbarasti/dataclass
@@ -82,6 +84,11 @@ shards:
   description: Radix Tree implementation
 - github: z64/rate_limiter
   description: A rate limiter implementation
+- github: spider-gazelle/s2_cells
+  description: '[S2 Geometry](https://s2geometry.io/devguide/s2cell_hierarchy.html)
+    for spatial indexing'
+- github: wyhaines/splay_tree_map.cr
+  description: Splay Tree implementation that conforms to the Hash ducktype
 - github: johnjansen/ternary_search_tree
   description: Ternary Search Tree
 - github: krthr/uuix
