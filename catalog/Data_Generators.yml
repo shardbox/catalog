@@ -9,3 +9,5 @@ shards:
   description: Reverse regular expression engine
 - github: wontruefree/prime
   description: A prime number generator
+- github: hamptonmoore/snowflake.cr
+  description: A snowflake ID generator
