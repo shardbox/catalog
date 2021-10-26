@@ -17,6 +17,8 @@ shards:
   description: Chat bot relaying messages between IRC and Gitter
 - github: z64/cryogonal
   description: Composable Discord API library and toolkit
+- github: spider-gazelle/crystal-bacnet
+  description: BACnet protocol implementation with BACnet/IP client
 - gitlab: jgillich/crystal-dns
   description: DNS protocol implementation and resolver
 - github: foi/crystal-json-socket
@@ -55,6 +57,8 @@ shards:
   description: Client for Phoenix Channels
 - github: straight-shoota/rconcr
   description: Client for the game server remote console protocol (RCON)
+- github: kostya/simple_rpc
+  description: RPC Server and Client for Crystal. Implements msgpack-rpc protocol
 - github: wontruefree/socks
   description: SOCKS proxy
 - github: wontruefree/sox
@@ -65,6 +69,8 @@ shards:
   description: libssh2 binding
 - github: bararchy/sslscanner
   description: SSL Scanner written
+- github: spider-gazelle/stomp
+  description: STOMP protocol
 - github: spider-gazelle/telnet.cr
   description: Telnet protocol
 - github: Papierkorb/torrent

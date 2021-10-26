@@ -21,8 +21,11 @@ shards:
   description: '[Faktory](https://github.com/contribsys/faktory) worker client'
 - github: maiha/kafka.cr
   description: kafka utilities
-- github: robacarp/mosquito
+- github: mosquito-cr/mosquito
   description: Redis backed periodic and ad hoc job processing
+  mirrors:
+  - github: robacarp/mosquito
+    role: legacy
 - github: lccxz/mqtt_crystal
   description: MQTT Crystal client
   mirrors:
@@ -30,7 +33,12 @@ shards:
     role: legacy
 - github: nats-io/nats.cr
   description: NATS client
+- github: wyhaines/serf-handler.cr
+  description: Framework for building Serf handlers, with a suite of useful builtin
+    capabilities
 - github: mperham/sidekiq.cr
   description: Simple, efficient job processing
+- github: marghidanu/werk
+  description: Dead simple task runner with concurrent support, ideal for local CI
 - github: crystal-community/zeromq-crystal
   description: Bindings for [ZeroMQ](http://zero.mq)

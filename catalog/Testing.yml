@@ -38,6 +38,9 @@ shards:
   description: A language-agnostic tool for testing code in different environments
 - github: matthewmcgarvey/selenium.cr
   description: Library for controlling and interacting with browsers for testing
+- github: athena-framework/spec
+  description: Common/helpful [Spec](https://crystal-lang.org/api/Spec.html) compliant
+    testing utilities
 - github: oprypin/spec-assert
   description: Assert macro that lets you write specs naturally without a special
     expectation DSL

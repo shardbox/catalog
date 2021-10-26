@@ -3,6 +3,8 @@ name: Networking
 shards:
 - github: Sija/ipaddress.cr
   description: Library to handle IPv4 and IPv6 addresses
+- github: automatico/mac-address
+  description: Library for working with MAC addresses
 - github: spider-gazelle/pinger
   description: Microlibrary to perform ping requests without requiring sudo
 - github: ysbaddaden/pool

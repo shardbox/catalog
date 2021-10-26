@@ -25,6 +25,9 @@ shards:
     Gettext, Ruby YAML, etc
 - github: luckyframework/lucky_inflector
   description: Natural language inflector
+- github: wout/rosetta
+  description: A blazing fast internationalization (i18n) library with compile-time
+    key lookup supporting YAML and JSON formats
 - github: mosop/string_inflection
   description: Yet another library for string inflection
 - github: johnjansen/text

@@ -14,9 +14,12 @@ shards:
   state: archived
 - github: kostya/blank
   description: method Object#blank?
-- github: vnbrs/burocracia.cr
+- github: vinibrsl/burocracia.cr
   description: burocracia.cr the dependecyless shard to validate, generate and format
     Brazilian burocracias such as CPF, CNPJ and CEP
+  mirrors:
+  - github: vnbrs/burocracia.cr
+    role: legacy
 - github: vladfaust/callbacks.cr
   description: Expressive callbacks module
 - github: TPei/circuit_breaker
