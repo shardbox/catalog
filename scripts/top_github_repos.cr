@@ -1,54 +1,47 @@
 #! /usr/bin/env crystal
 
 require "http"
-require "logger"
+require "log"
 require "shardbox-core/db"
-require "shardbox-core/ext/shards/resolvers/github"
 require "shardbox-core/repo"
 require "shardbox-core/repo/ref"
 require "shardbox-core/catalog"
+require "shardbox-core/fetchers/github_api"
 
-CLIENT = Shards::GithubResolver.graphql_client
+CLIENT = Shardbox::GitHubAPI.new
 
 total = ARGV[0]?.try(&.to_i) || 100
 
 def query_repos(after)
-  body = {
-    variables: {first: 100, after: after},
-    query:     <<-GRAPHQL
-query CrystalShards($first: Int!, $after: String) {
-  search(query: "language:Crystal", first: $first, after: $after, type: REPOSITORY) {
-    nodes {
-      ... on Repository {
-        nameWithOwner
-        description
-        ref(qualifiedName: "master") {
-          name
-          target {
-            ... on Commit {
-              tree {
-                entries {
-                  name
+  response = CLIENT.query <<-GRAPHQL, {first: 100, after: after}
+    query CrystalShards($first: Int!, $after: String) {
+      search(query: "language:Crystal", first: $first, after: $after, type: REPOSITORY) {
+        nodes {
+          ... on Repository {
+            nameWithOwner
+            description
+            ref(qualifiedName: "master") {
+              name
+              target {
+                ... on Commit {
+                  tree {
+                    entries {
+                      name
+                    }
+                  }
                 }
               }
             }
           }
         }
+        pageInfo {
+          endCursor
+        }
       }
     }
-    pageInfo {
-      endCursor
-    }
-  }
-}
-GRAPHQL
-  }
+    GRAPHQL
 
-  response = CLIENT.post "/graphql", body: body.to_json, headers: HTTP::Headers{"Authorization" => "bearer #{Shards::GithubResolver.api_token}"}
-
-  abort "can't connect to GitHub API" unless response.status_code == 200
-
-  json = JSON.parse(response.body)
+  json = JSON.parse(response)
   data = json["data"]?
   unless data
     p json

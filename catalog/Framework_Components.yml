@@ -35,7 +35,8 @@ shards:
   - github: andrewc910/mochi
     role: legacy
 - github: awcrotwell/motion.cr
-  description: Object oriented frontend library for Amber
+  description: Object oriented frontend library for building reactive, real-time UI
+    components with amber
   mirrors:
   - github: andrewc910/motion.cr
     role: legacy

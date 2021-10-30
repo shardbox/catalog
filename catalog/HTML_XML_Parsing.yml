@@ -13,6 +13,8 @@ shards:
     parsing library made by Google
 - github: maiha/hq.cr
   description: Simple wrapper for crystal-xml
+- github: kostya/lexbor
+  description: Fast HTML5 Parser with CSS selectors, successor of myhtml
 - github: kostya/modest
   description: CSS selectors for HTML5 parser [myhtml](https://github.com/kostya/myhtml)
 - github: kostya/myhtml

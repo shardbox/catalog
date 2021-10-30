@@ -9,9 +9,14 @@ shards:
     [Fixer API](https://fixer.io)
 - github: crystallabs/crystime
   description: Advanced time, calendar, schedule, and remind library for Crystal
+- github: PercussiveElbow/docker-escape-tool
+  description: Tool to test if you're in a Docker container and attempt simple breakouts
 - github: askn/fikri
   description: Simple CLI To-Do App
 - github: jhass/github_desktop_notifications
+- github: cooperhammond/irs
+  description: Downloads audio and metadata from Spotify in order to package an mp3
+    with both
 - github: straight-shoota/md2pdf
   description: Convert markdown files to PDF with flexible template and stylesheet
 - github: ryanprior/meet

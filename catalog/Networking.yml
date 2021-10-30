@@ -1,6 +1,9 @@
 ---
 name: Networking
 shards:
+- github: cncf/cnf-testsuite
+  description: Tool to check for and provide feedback on the use of K8s + cloud native
+    best practices in networking applications and platforms
 - github: Sija/ipaddress.cr
   description: Library to handle IPv4 and IPv6 addresses
 - github: automatico/mac-address

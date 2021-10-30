@@ -23,10 +23,17 @@ shards:
   mirrors:
   - github: omarroth/invidious
     role: legacy
+- github: kindmetrics/kindmetrics
+  description: Kind metrics analytics for your website
 - github: hkalexling/Mango
   description: Mango is a self-hosted manga server and web reader
+- github: microgit-com/microgit
+  description: Git hosting service made in Crystal and Lucky
 - github: thewalkingtoast/mpngin
   description: A simple and fast URL shortener with built in stats
+- github: oprypin/nightly.link
+  description: Downloads the latest "nightly" build/artifact from a continuous testing
+    workflow
 - github: freyamade/nocturne
   description: Village Builder web application
 - github: psykube/psykube
