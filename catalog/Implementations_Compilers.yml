@@ -1,6 +1,7 @@
 ---
 name: Implementations/Compilers
 shards:
+- github: Anyolite/anyolite
 - github: azula-lang/azula
   description: A fast, statically typed compiled language
 - github: charly-lang/charly

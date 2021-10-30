@@ -32,6 +32,8 @@ shards:
   description: Implementation of Singleton design pattern
 - github: mosop/crystal_plus
   description: An extension of the Crystal standard library
+- github: elbywan/crystalline
+  description: A Language Server Protocol implementation for Crystal
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
 - github: imdrasil/factory

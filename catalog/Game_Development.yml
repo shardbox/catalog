@@ -36,6 +36,8 @@ shards:
   description: Mini Offline Singleplayer game
 - github: nya-engine/nya
   description: Game Engine
+- github: da1nerd/prism
+  description: A 3D game engine written in crystal
 - github: neutrinog/prism
   description: A 3D game engine
 - github: AregevDev/raylib-cr
