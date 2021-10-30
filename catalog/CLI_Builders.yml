@@ -28,6 +28,8 @@ shards:
   description: Easy command line completion engine
   mirrors:
   - github: porras/completion
+- github: athena-framework/console
+  description: Allows for the creation of CLI based commands
 - github: chenkovsky/docopt.cr
   description: docopt for crystal-lang
 - github: robacarp/keimeno
