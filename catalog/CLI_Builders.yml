@@ -47,3 +47,5 @@ shards:
   description: A type-safe, object-oriented option parser using the mapping-pattern
 - github: crystallabs/tput
   description: Low-level component for building term/console applications
+- github: athena-framework/console
+  description: Allows the creation of CLI based commands
