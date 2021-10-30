@@ -48,4 +48,4 @@ shards:
 - github: crystallabs/tput
   description: Low-level component for building term/console applications
 - github: athena-framework/console
-  description: Allows the creation of CLI based commands
+  description: Allows for the creation of CLI based commands
