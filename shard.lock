@@ -26,7 +26,7 @@ shards:
 
   pg:
     git: https://github.com/will/crystal-pg.git
-    version: 0.24.0+git.commit.cafe805a77c683589cafea0b760ff9a1d786152c
+    version: 0.24.0
 
   raven:
     git: https://github.com/sija/raven.cr.git
@@ -34,9 +34,9 @@ shards:
 
   shardbox-core:
     git: https://github.com/shardbox/shardbox-core.git
-    version: 0.2.0+git.commit.5377cbaeed92bad8b7c2a42713befe8b229e2f9a
+    version: 0.2.0+git.commit.f6feed28afe49bccf7b018c7dc46940c15f00071
 
   shards:
     git: https://github.com/crystal-lang/shards.git
-    version: 0.16.0+git.commit.ff94dd2ee46791e8e331f725fa1e4acdc13d5e9f
+    version: 0.16.0
 
