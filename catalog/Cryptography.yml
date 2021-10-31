@@ -1,6 +1,8 @@
 ---
 name: Cryptography
 shards:
+- github: q9f/bip39.cr
+  description: A native library implementing BIP-0039 mnemonics purely for the Crystal language 
 - github: spider-gazelle/cmac
   description: Implementation of the Cipher-based Message Authentication Code (CMAC)
 - github: andrewhamon/cox
