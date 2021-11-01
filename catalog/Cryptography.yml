@@ -1,6 +1,8 @@
 ---
 name: Cryptography
 shards:
+- github: q9f/bip39.cr
+  description: a native library implementing BIP-0039 mnemonics
 - github: spider-gazelle/cmac
   description: Implementation of the Cipher-based Message Authentication Code (CMAC)
 - github: andrewhamon/cox
@@ -27,6 +29,6 @@ shards:
 - github: ysbaddaden/scrypt-crystal
   description: Bindings for Colin Percival's scrypt key derivation function
 - github: q9f/secp256k1.cr
-  description: A native library implementing Secp256k1 purely for the Crystal language
+  description: a native library implementing Secp256k1 elliptic curve
 - github: didactic-drunk/sodium.cr
   description: Crystal wrapper for the libsodium crypto API
