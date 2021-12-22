@@ -1,95 +1,99 @@
 ---
 name: Algorithms and Data structures
 shards:
-- github: chenkovsky/aho_corasick
-  description: AhoCorasick algorithm
-- github: CMiksche/benfordslaw.cr
-  description: Benford's Law check implementation
-- github: spider-gazelle/bisect
-  description: Library for maintaining sorted arrays
-- github: elorest/bitfields
-  description: Pure Crystal implementation of BitFields. Handles encoding/decoding
-    of bytes
-- github: Sija/blurhash.cr
-  description: Pure Crystal implementation of BlurHash algorithm
-- github: mosop/callback
-  description: A library for defining and invoking callbacks
-- github: CMiksche/chi-squared
-  description: Chi square test implementation
-- github: maiha/crc16.cr
-  description: Cyclic Redundancy Check (CRC16) implementation
-- github: c910335/crie
-  description: Compile-time Trie
-- github: philnash/crotp
-  description: HOTP and TOTP implementation for two factor authentication
-- github: SushiChain/crystal-base32
-  description: A library which provides base32 decoding and encoding
-- github: ziprandom/crystal-dfa
-  description: Implementation of a Thompson NFA/DFA Regex Matcher
-- github: MakeNowJust/crystal-diff
-  description: Crystal sequence differencing implementation
-- github: abvdasker/crystal-linked-list
-  description: Implementation of Linked List
-- github: crystal-lang/crystal-molinillo
-  description: A generic dependency resolution algorithm
-- github: Demonstrandum/crystal_maze
-  description: A* Path finding for PNG mazes using StumpyPNG
-- github: unn4m3d/crystaledge
-  description: A pure Vector Math library
-- github: TobiasGSmollett/crystalg
-  description: A Generic Algorithm Library
-- github: tobyapi/crystalg
-  description: A Generic Algorithm Library
-- github: jtomschroeder/crystalline
-  description: A collection of containers and algorithms
-- github: lbarasti/dataclass
-  description: Immutable classes whose main purpose is to hold data
-- github: drujensen/delimiter_tree
-  description: A tree structure that is built using a delimiter
-- github: tcrouch/edits.cr
-  description: Collection of edit distance algorithms
-- github: acoustep/fuzzy_match.cr
-  description: Search functionality similar to Sublime Text 2 file searching
-- github: hugopl/fzy
-  description: A Crystal port of awesome Fzy project fuzzy finder algorithm
-- github: mettuaditya/graphlb
-  description: Collection of graph datastructure and algorithms
-- github: TobiasGSmollett/hash_ring
-  description: An Implementation of Consistent Hash Ring
-- github: geocrystal/haversine
-  description: An Implementation of the Haversine formula
-- github: mamantoha/haversine
-  description: An Implementation of the Haversine formula
-- github: kingsleyh/humanhash
-  description: HumanHash implementation
-- github: chriscz/interval_tree
-  description: A centered interval tree implementation
-- github: geocrystal/kd_tree
-  description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
-- github: mamantoha/kd_tree
-  description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
-- github: Sija/ksuid.cr
-  description: K-Sortable Globally Unique IDs
-- github: mccallofthewild/markov
-  description: Build Markov Chains and run Markov Processes
-- github: tcrouch/multiset.cr
-  description: Implementation of a multiset
-- github: kuende/murmur3
-  description: Implementation of Murmur3 hash algorithm used by Cassandra
-- github: obsidian/oak
-  description: A flexible Radix Tree implementation
-- github: spider-gazelle/priority-queue
-  description: Priority Queue and Heap implementation
-- github: luislavena/radix
-  description: Radix Tree implementation
-- github: z64/rate_limiter
-  description: A rate limiter implementation
-- github: spider-gazelle/s2_cells
-  description: '[S2 Geometry](https://s2geometry.io/devguide/s2cell_hierarchy.html)
-    for spatial indexing'
-- github: wyhaines/splay_tree_map.cr
-  description: Splay Tree implementation that conforms to the Hash ducktype
-- github: johnjansen/ternary_search_tree
-  description: Ternary Search Tree
-- github: krthr/uuix
-  description: A tiny (<1KB) and fast UUID (v4) generator
+  - github: chenkovsky/aho_corasick
+    description: AhoCorasick algorithm
+  - github: CMiksche/benfordslaw.cr
+    description: Benford's Law check implementation
+  - github: spider-gazelle/bisect
+    description: Library for maintaining sorted arrays
+  - github: elorest/bitfields
+    description:
+      Pure Crystal implementation of BitFields. Handles encoding/decoding
+      of bytes
+  - github: Sija/blurhash.cr
+    description: Pure Crystal implementation of BlurHash algorithm
+  - github: mosop/callback
+    description: A library for defining and invoking callbacks
+  - github: CMiksche/chi-squared
+    description: Chi square test implementation
+  - github: maiha/crc16.cr
+    description: Cyclic Redundancy Check (CRC16) implementation
+  - github: c910335/crie
+    description: Compile-time Trie
+  - github: philnash/crotp
+    description: HOTP and TOTP implementation for two factor authentication
+  - github: SushiChain/crystal-base32
+    description: A library which provides base32 decoding and encoding
+  - github: ziprandom/crystal-dfa
+    description: Implementation of a Thompson NFA/DFA Regex Matcher
+  - github: MakeNowJust/crystal-diff
+    description: Crystal sequence differencing implementation
+  - github: abvdasker/crystal-linked-list
+    description: Implementation of Linked List
+  - github: crystal-lang/crystal-molinillo
+    description: A generic dependency resolution algorithm
+  - github: Demonstrandum/crystal_maze
+    description: A* Path finding for PNG mazes using StumpyPNG
+  - github: unn4m3d/crystaledge
+    description: A pure Vector Math library
+  - github: TobiasGSmollett/crystalg
+    description: A Generic Algorithm Library
+  - github: tobyapi/crystalg
+    description: A Generic Algorithm Library
+  - github: jtomschroeder/crystalline
+    description: A collection of containers and algorithms
+  - github: lbarasti/dataclass
+    description: Immutable classes whose main purpose is to hold data
+  - github: drujensen/delimiter_tree
+    description: A tree structure that is built using a delimiter
+  - github: tcrouch/edits.cr
+    description: Collection of edit distance algorithms
+  - github: acoustep/fuzzy_match.cr
+    description: Search functionality similar to Sublime Text 2 file searching
+  - github: hugopl/fzy
+    description: A Crystal port of awesome Fzy project fuzzy finder algorithm
+  - github: mettuaditya/graphlb
+    description: Collection of graph datastructure and algorithms
+  - github: TobiasGSmollett/hash_ring
+    description: An Implementation of Consistent Hash Ring
+  - github: geocrystal/haversine
+    description: An Implementation of the Haversine formula
+  - github: mamantoha/haversine
+    description: An Implementation of the Haversine formula
+  - github: kingsleyh/humanhash
+    description: HumanHash implementation
+  - github: chriscz/interval_tree
+    description: A centered interval tree implementation
+  - github: geocrystal/kd_tree
+    description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
+  - github: mamantoha/kd_tree
+    description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
+  - github: Sija/ksuid.cr
+    description: K-Sortable Globally Unique IDs
+  - github: mccallofthewild/markov
+    description: Build Markov Chains and run Markov Processes
+  - github: tcrouch/multiset.cr
+    description: Implementation of a multiset
+  - github: kuende/murmur3
+    description: Implementation of Murmur3 hash algorithm used by Cassandra
+  - github: obsidian/oak
+    description: A flexible Radix Tree implementation
+  - github: spider-gazelle/priority-queue
+    description: Priority Queue and Heap implementation
+  - github: luislavena/radix
+    description: Radix Tree implementation
+  - github: z64/rate_limiter
+    description: A rate limiter implementation
+  - github: spider-gazelle/s2_cells
+    description:
+      "[S2 Geometry](https://s2geometry.io/devguide/s2cell_hierarchy.html)
+      for spatial indexing"
+  - github: wyhaines/splay_tree_map.cr
+    description: Splay Tree implementation that conforms to the Hash ducktype
+  - github: johnjansen/ternary_search_tree
+    description: Ternary Search Tree
+  - github: krthr/uuix
+    description: A tiny (<1KB) and fast UUID (v4) generator
+  - github: spoved/hashdiff.cr
+    description: Hashdiff is a crystal library to compute the smallest difference between two hashes. It was translated from the [hashdiff](https://github.com/liufengyun/hashdiff) ruby gem.
