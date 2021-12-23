@@ -56,6 +56,10 @@ shards:
   description: Collection of graph datastructure and algorithms
 - github: TobiasGSmollett/hash_ring
   description: An Implementation of Consistent Hash Ring
+- github: spoved/hashdiff.cr
+  description: Hashdiff is a crystal library to compute the smallest difference between
+    two hashes. It was translated from the [hashdiff](https://github.com/liufengyun/hashdiff)
+    ruby gem
 - github: geocrystal/haversine
   description: An Implementation of the Haversine formula
 - github: mamantoha/haversine

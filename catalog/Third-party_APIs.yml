@@ -76,8 +76,10 @@ shards:
   description: A Web Host Metadata (https://tools.ietf.org/html/rfc6415) client
 - github: arubinofaux/hunter.cr
   description: A [Hunter.io](https://hunter.io) API wrapper
+- github: spoved/k8s.cr
+  description: A Kubernetes lib containing definitions for Crystal-lang
 - github: spoved/kube-client.cr
-  description: Kubernetes API Client
+  description: Crystal client library for the Kubernetes (1.11+) API
 - github: petoem/mixpanel-crystal
   description: A library for sending events to Mixpanel
 - github: wout/mollie.cr
