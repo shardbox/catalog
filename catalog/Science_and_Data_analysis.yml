@@ -17,6 +17,7 @@ shards:
   description: Collection of Financial Calculations
 - github: NeuraLegion/fix
   description: Financial Information eXchange library
+- gitlab: arctic-fox/geode
 - github: toddsundsted/ishi
   description: Graph plotting package with a small API and sensible defaults powered
     by gnuplot

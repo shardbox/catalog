@@ -52,6 +52,11 @@ shards:
   description: Search functionality similar to Sublime Text 2 file searching
 - github: hugopl/fzy
   description: A Crystal port of awesome Fzy project fuzzy finder algorithm
+- gitlab: arctic-fox/geode
+  description: Mathematics library supporting vectors, matrices, quaternions, and
+    more
+  mirrors:
+  - github: icy-arctic-fox/geode
 - github: mettuaditya/graphlb
   description: Collection of graph datastructure and algorithms
 - github: TobiasGSmollett/hash_ring
