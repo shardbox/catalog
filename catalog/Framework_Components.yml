@@ -9,10 +9,11 @@ shards:
   - github: werner/crystal-mime
 - github: creadone/device_detector
   description: Shard for detect device by user agent string
+- github: athena-framework/event-dispatcher
 - github: crystal-loot/exception_page
   description: An exceptional exception page for Crystal web libraries and frameworks
 - github: ziprandom/graphql-crystal
-  description: '[Graphql](http://graphql.org) implementation'
+  description: Type-safe [Graphql](http://graphql.org) server implementation
 - github: jwoertink/kave
   description: Kemal API Version Extension
 - github: akwiatkowski/kemal-auth-token
@@ -42,6 +43,7 @@ shards:
     role: legacy
 - github: msa7/multi_auth
   description: Standardized multi-provider OAuth2 authentication (inspired by omniauth)
+- github: athena-framework/negotiation
 - github: ilanusse/praetorian
   description: Minimalist authorization library inspired by Pundit
 - github: WJWH/prorate-cr

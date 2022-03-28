@@ -38,6 +38,8 @@ shards:
 - github: jessedoyle/duktape.cr
   description: Bindings for the [Duktape](https://github.com/svaarala/duktape) javascript
     engine
+- github: firejox/fftw.cr
+  description: Bindings for [FFTW](https://fftw.org/) library
 - github: Sija/gphoto2.cr
   description: Bindings for the [libgphoto2](http://www.gphoto.org/) library
 - github: olbat/icu.cr
@@ -54,6 +56,9 @@ shards:
   description: Bindings for Libnotify
 - github: veelenga/lua.cr
   description: Lua bridge
+- github: konovod/monocypher.cr
+- github: konovod/nlopt.cr
+  description: Bindings for [NLOpt](https://nlopt.readthedocs.io/en/latest/)
 - github: maiha/pcap.cr
   description: Bindings for libpcap
 - github: chris-huxtable/pledge.cr
@@ -69,6 +74,8 @@ shards:
 - github: andrewsuzuki/termbox-crystal
   description: Bindings and extension library for [termbox](https://github.com/nsf/termbox)
     (terminal UI library)
+- github: naqvis/wasmer-crystal
+  description: Bindings for the `wasmer` WebAssembly runtime
 - github: TamasSzekeres/x11-cr
   description: X11 bindings
 - github: woodruffw/x_do.cr

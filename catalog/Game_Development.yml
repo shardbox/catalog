@@ -34,6 +34,8 @@ shards:
   description: The humble beginnings of a 2D game engine
 - github: bararchy/mos_game
   description: Mini Offline Singleplayer game
+- github: konovod/myecs
+  description: A Sparse Entity Component System Framework for Crystal
 - github: nya-engine/nya
   description: Game Engine
 - github: da1nerd/prism

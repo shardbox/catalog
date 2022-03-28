@@ -16,6 +16,8 @@ shards:
   description: C bindings for OpenSSL ECDSA
 - github: OscarBarrett/crystal-sha3
   description: An SHA-3 implementation written in Crystal
+- github: konovod/monocypher.cr
+  description: Crystal wrapper for the Monocypher crypto library
 - github: marcobellaccini/nanvault
   description: Encrypt and decrypt files in the Ansible Vault format
 - github: z64/openssl.cr
