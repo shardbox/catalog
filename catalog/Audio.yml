@@ -10,3 +10,6 @@ shards:
   description: Audio Player
 - github: mjago/soundfile
   description: Bindings for [libsndfile](http://www.mega-nerd.com/libsndfile/) library
+- github: h4ppyr0gu3/id3tag
+  description: Simple Mp3 metadata editor written in pure crystal
+
