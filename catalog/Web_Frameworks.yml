@@ -87,8 +87,6 @@ shards:
   description: Server-rendering for client-side interactions
 - github: luckyframework/lucky
   description: Full-featured Crystal web framework
-- github: luckyframework/lucky_router
-  description: The router for the Lucky framework, can be used outside Lucky
 - github: dhruvrajvanshi/Moonshine
   description: Web framework
   state: archived
@@ -101,7 +99,10 @@ shards:
 - github: ricr-web/ricr
   description: Web framework with buit-in automatic OpenAPI/Swagger docs support
 - github: luckyframework/router
-  description: A URL Routing shard
+  description: The router for the Lucky framework, can be used outside Lucky
+  mirrors:
+  - github: luckyframework/lucky_router
+    role: legacy
 - github: runcobo/runcobo
   description: An api framework with simple, intuitive and consistent DSL, using jbuilder
     to render json
