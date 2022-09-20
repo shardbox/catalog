@@ -40,9 +40,9 @@ shards:
   description: Game Engine
 - github: da1nerd/prism
   description: A 3D game engine written in crystal
-- github: neutrinog/prism
-  description: A 3D game engine
 - github: AregevDev/raylib-cr
   description: Crystal wrapper around raylib
-- github: neutrinog/render_loop
+- github: da1nerd/render_loop
   description: A generic and reusable game render loop
+- github: da1nerd/crash
+  description: An entity-component-system framework

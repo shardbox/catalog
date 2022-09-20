@@ -12,7 +12,7 @@ shards:
 - github: calebuharrison/CrystGLFW
   description: An object-oriented API for GLFW
   mirrors:
-  - github: neutrinog/CrystGLFW
+  - github: da1nerd/CrystGLFW
 - github: Papierkorb/cute
   description: An event-centric publisher/subscribe model for objects inspired by
     the Qt framework
@@ -34,3 +34,11 @@ shards:
   description: Qt5 bindings for Crystal, based on Bindgen
 - github: hugopl/textui
   description: A simple UI framework for terminal interfaces backed by termbox
+- github: da1nerd/cryst_glut
+  description: OpenGL context toolkit built on Freeglut
+- github: da1nerd/lib_glut
+  description: Freeglut bindings for Crystal
+- github: da1nerd/layout.cr
+  description: A constraint based layout framework
+- github: da1nerd/gui.cr
+  description: A UI library written in Crystal

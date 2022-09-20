@@ -79,3 +79,5 @@ shards:
   description: Clone of transfer.sh to uploads files
 - github: Nephos/transfer_more
   description: Fast and temporary file uploader
+- github: da1nerd/crgundb
+  description: A simple port of gundb to crystal.
