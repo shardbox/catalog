@@ -11,6 +11,8 @@ shards:
 - github: spider-gazelle/connect-proxy
 - github: naqvis/cr-xmpp
   description: XMPP/Jabber Library
+- github: da1nerd/crgundb
+  description: A simple port of gundb to crystal
 - github: Meoowww/Crirc
   description: IRC protocol implementation (Client, Server, Bots)
 - github: oprypin/critter

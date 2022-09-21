@@ -5,6 +5,8 @@ shards:
   description: A framework for developing macOS apps with a GUI
 - github: watzon/cru
   description: LibUI based GUI framework for Crystal
+- github: da1nerd/cryst_glut
+  description: OpenGL context toolkit built on Freeglut
 - github: jellymann/crystal_lib_gl
   description: LibGL bindings for Crystal
 - github: Groogy/crystal_lib_glfw3
@@ -13,15 +15,23 @@ shards:
   description: An object-oriented API for GLFW
   mirrors:
   - github: neutrinog/CrystGLFW
+    role: legacy
+  - github: da1nerd/CrystGLFW
 - github: Papierkorb/cute
   description: An event-centric publisher/subscribe model for objects inspired by
     the Qt framework
 - github: nilsmartel/Glass
   description: Gui Library
+- github: da1nerd/gui.cr
+  description: A UI library written in Crystal
 - github: hedron-crystal/hedron
   description: An extendable UI library with markup capabilities
 - github: Qwerp-Derp/hedron
   description: An extendable GUI library, with markup language capabilities
+- github: da1nerd/layout.cr
+  description: A constraint based layout framework
+- github: da1nerd/lib_glut
+  description: Freeglut bindings for Crystal
 - github: calebuharrison/LibGL
   description: OpenGL bindings for Crystal
 - github: calebuharrison/LibGLFW
