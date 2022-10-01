@@ -48,6 +48,8 @@ shards:
   description: KNX protocol support
 - github: spider-gazelle/mdns
   description: DNS Service Discovery and multicast DNS
+- github: 84codes/mqtt-client.cr
+  description: A fast and lightweight MQTT client
 - github: crystal-community/msgpack-crystal
   description: MessagePack library
   mirrors:

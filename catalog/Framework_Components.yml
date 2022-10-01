@@ -12,6 +12,8 @@ shards:
 - github: athena-framework/event-dispatcher
 - github: crystal-loot/exception_page
   description: An exceptional exception page for Crystal web libraries and frameworks
+- github: graphql-crystal/graphql
+  description: [GraphQL](http://graphql.org) server library
 - github: ziprandom/graphql-crystal
   description: Type-safe [Graphql](http://graphql.org) server implementation
 - github: jwoertink/kave

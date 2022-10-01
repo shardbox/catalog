@@ -16,6 +16,8 @@ shards:
   description: C bindings for OpenSSL ECDSA
 - github: OscarBarrett/crystal-sha3
   description: An SHA-3 implementation written in Crystal
+- github: spider-gazelle/ed25519
+  description: the Ed25519 elliptic curve public-key signature system
 - github: konovod/monocypher.cr
   description: Crystal wrapper for the Monocypher crypto library
 - github: marcobellaccini/nanvault
@@ -34,3 +36,5 @@ shards:
   description: a native library implementing Secp256k1 elliptic curve
 - github: didactic-drunk/sodium.cr
   description: Crystal wrapper for the libsodium crypto API
+- github: q9f/secp256k1.cr
+  description: Elliptic curve used in the public-private-key cryptography
