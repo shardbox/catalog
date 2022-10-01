@@ -90,3 +90,6 @@ shards:
   description: Watch files and run commands on changes from a crystal script
 - github: faustinoaq/watcher
   description: Watch file changes using File.stat
+- github: wyhaines/defined.cr
+  description: Conditional compilation based on constants, version
+    requirements, and environment

@@ -22,6 +22,8 @@ shards:
   description: A Logger that focuses on compatibility and flexible formats
 - github: molnarmark/epilog
   description: Elegant, fancy console logger
+- github: didactic-drunk/fiber_metrics.cr
+  description: Runtime and memory allocation metrics
 - github: TobiasGSmollett/fluent-logger-crystal
   description: A structured logger for [Fluentd](https://www.fluentd.org/)
 - github: guvencenanguvenal/katip

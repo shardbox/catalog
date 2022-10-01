@@ -39,6 +39,9 @@ shards:
     format
 - github: maiha/jq.cr
   description: thin JSON::Any wrapper to emulate jq
+- github: spider-gazelle/json-schema
+  description: Convert JSON serializable classes into a [JSON Schema](https://json-schema.org/)
+    representation
 - github: impatienttraveller/json-tools
   description: An implementation of JSON Patch and Pointer RFC's
 - github: naqvis/json-xpath

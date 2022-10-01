@@ -5,6 +5,9 @@ shards:
   description: ANSI escape codes for manipulating the terminal
 - github: Sija/climate.cr
   description: Tiny tool to make your CLI output coloured
+- github: caian-org/coin
+  description: Command-line application that performs currency conversion via the
+    [Fixer API](https://fixer.io)
 - github: j8r/cride
   description: A light CLI text editor/IDE
 - github: azukiapp-labs/crystal-chalk-box
@@ -23,6 +26,8 @@ shards:
   description: Simple and straightforward large files finder utility in command line
 - github: r00ster91/lime
   description: A library for drawing graphics on the console screen
+- github: ryanprior/meet
+  description: Start a jitsi meeting quickly from the comfort of your command line
 - github: repomaa/ncurses-crystal
   description: ncurses bindings
 - github: agatan/ncurses.cr
