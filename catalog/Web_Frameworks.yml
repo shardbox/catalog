@@ -87,11 +87,12 @@ shards:
   description: Server-rendering for client-side interactions
 - github: luckyframework/lucky
   description: Full-featured Crystal web framework
+- github: martenframework/marten
+  description: A web framework that makes building web applications easy, productive,
+    and fun
 - github: dhruvrajvanshi/Moonshine
   description: Web framework
   state: archived
-- github: martenframework/marten
-  description: A web framework that makes building web applications easy, productive, and fun
 - github: guvencenanguvenal/mustafa
   description: Simple and Fast MVC Framework
 - github: onyxframework/onyx
