@@ -34,6 +34,9 @@ shards:
   description: An extension of the Crystal standard library
 - github: elbywan/crystalline
   description: A Language Server Protocol implementation for Crystal
+- github: wyhaines/defined.cr
+  description: Conditional compilation based on constants, version requirements, and
+    environment
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
 - github: imdrasil/factory
@@ -90,6 +93,3 @@ shards:
   description: Watch files and run commands on changes from a crystal script
 - github: faustinoaq/watcher
   description: Watch file changes using File.stat
-- github: wyhaines/defined.cr
-  description: Conditional compilation based on constants, version
-    requirements, and environment

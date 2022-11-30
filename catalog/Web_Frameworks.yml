@@ -34,11 +34,6 @@ shards:
   description: An HTTP handler for throttling, blocking and tracking malicious requests
 - github: ysbaddaden/frost
   description: Full Featured Web Framework
-- github: graphql-crystal/graphql
-  description: GraphQL server library for Crystal
-  mirrors:
-  - gitlab: everbase/graphql
-    role: legacy
 - github: grip-framework/grip
   description: A microframework for building RESTful web applications, with ease and
     joy
