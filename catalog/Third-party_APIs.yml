@@ -1,6 +1,8 @@
 ---
 name: Third-party APIs
 shards:
+- github: rjnienaber/amazonite
+  description: An unofficial SDK supporting popular AWS APIs
 - github: omarroth/audible.cr
   description: Interface for Audible's internal API
 - github: sdogruyol/aws
