@@ -3,6 +3,8 @@ name: CLI Builders
 shards:
 - github: jwaldrip/admiral.cr
   description: A robust DSL for writing command line interfaces
+- github: watzon/arg_parser
+  description: A powerful JSON::Serializable like argument parser
 - github: crystalrealm/bargs
   description: The ultimate Command Line Interface builder
 - github: drujensen/cli
