@@ -10,6 +10,11 @@ shards:
   description: Crystal wrapper for libcmark, the reference CommonMark C library
 - github: huacnlee/html-pipeline.cr
   description: HTML processing filters and utilities
+- git: https://codeberg.org/supercell/luce.git
+  description: A Markdown library that can parse Markdown (CommonMark/GFM) in to HTML
+  mirrors:
+  - git: https://pf.osdn.net/gitroot/n/ne/nemophila/luce.git
+    role: mirror
 - github: icyleaf/markd
   description: Yet another markdown parser built for speed, Compliant to CommonMark
     specification
