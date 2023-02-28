@@ -36,3 +36,5 @@ shards:
   description: Implementation of Syslog client
 - github: lazau/syslogger
   description: A Log::Backend that writes to syslog
+- github: nogginly/todo_or_diehard
+  description: Provides macros for Crystal that implement compile-time and runtime checked reminders
