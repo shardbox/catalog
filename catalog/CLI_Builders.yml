@@ -17,6 +17,8 @@ shards:
   description: A simple declarative command line interface builder
 - github: at-grandpa/clim
   description: Slim command line interface builder
+- github: devnote-dev/cling
+  description: A modular, non-macro-based command line interface library
 - github: erdnaxeli/clip
   description: Deserialize CLI parameters to an object, with errors and help management
 - github: maiha/cmds.cr
