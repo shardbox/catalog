@@ -52,3 +52,6 @@ shards:
   mirrors:
   - github: neutrinog/render_loop
     role: legacy
+- github: Hadeweka/SDL-Crystal-Bindings
+  description: Direct (unsafe) bindings to [SDL2](https://www.libsdl.org/), intended
+    for writing own game libraries
