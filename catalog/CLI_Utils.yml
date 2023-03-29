@@ -34,6 +34,8 @@ shards:
   description: Progress bar
 - github: TPei/progress_bar.cr
   description: A simple and customizable progress bar
+- github: I3oris/reply
+  description: Pure Crystal term reader for your REPL (readline alternative)
 - github: faustinoaq/secrets
   description: Useful to get input on noecho, secrets, passwords, token, hints
 - github: jwaldrip/shell-table.cr
