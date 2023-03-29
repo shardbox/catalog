@@ -17,8 +17,14 @@ shards:
   description: Elegant, fancy console logger
 - github: Papierkorb/fancyline
   description: Readline-esque library with fancy features
+- github: place-labs/git-repository
+  description: A git cli wrapper querying and cloning remote repositories with minimal
+    data transfer
 - github: gtramontina/griffith.cr
   description: Beautiful UI for showing tasks running on the command line
+- github: vitobotta/hetzner-k3s
+  description: A CLI tool to quickly create and manage Kubernetes clusters in Hetzner
+    Cloud
 - github: mkdika/lff-cr
   description: Simple and straightforward large files finder utility in command line
 - github: r00ster91/lime

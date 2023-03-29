@@ -97,6 +97,8 @@ shards:
   description: RethinkDB Driver
 - github: maiha/rocksdb.cr
   description: RocksDB client
+- github: yorci/surrealdb.cr
+  description: Unoffical SurrealDB HTTP & Websocket Client
 - github: vladfaust/tarantool-crystal
   description: Tarantool driver
 - github: vladfaust/tarantool.cr

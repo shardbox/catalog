@@ -12,10 +12,16 @@ shards:
 - github: jetrockets/fastimage.cr
   description: Library that finds the dimensions and type of an image fetching as
     little as needed
+- github: spider-gazelle/ffmpeg
+  description: FFmpeg bindings that works with StumpyPNG to extract frames
+- github: soya-daizu/goban
+  description: A fast and efficient QR Code implementation
 - github: libpixel/libpixel.cr
 - github: blocknotes/magickwand-crystal
   description: Bindings for [MagickWand](https://www.imagemagick.org/script/magick-wand.php),
     the C interface for ImageMagick processing libraries
+- github: phenopolis/pluto
+  description: A fast and convenient image processing library
 - github: spider-gazelle/qr-code
   description: QR Code generator
 - github: woodruffw/qrencode.cr

@@ -15,6 +15,8 @@ shards:
   description: Enable expect syntax in crystal specs
 - github: amberframework/garnet-spec
   description: perform system and controller tests for Web Applications
+- github: crystal-china/hashr
+  description: A tiny class makes test on JSON response easier
 - github: mosop/have_files
   description: Spec matcher for testing if two file trees are identical
   mirrors:
