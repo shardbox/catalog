@@ -22,7 +22,8 @@ shards:
 - github: ryanprior/meet
   description: Start a jitsi meeting quickly from the comfort of your command line
 - github: noraj/miniss
-  description: CLI app & library that displays a list of open sockets; it is a minimal alternative to ss or netstat
+  description: CLI app & library that displays a list of open sockets; it is a minimal
+    alternative to ss or netstat
 - github: tbrand/mssh
   description: Simple and powerful job executor on remote nodes
 - github: snipline/snipcli

@@ -9,7 +9,6 @@ shards:
 - github: automatico/mac-address
   description: Library for working with MAC addresses
 - github: noraj/miniss
-  description: CLI app & library that displays a list of open sockets; it is a minimal alternative to ss or netstat
 - github: spider-gazelle/pinger
   description: Microlibrary to perform ping requests without requiring sudo
 - github: ysbaddaden/pool
