@@ -82,10 +82,6 @@ shards:
   description: A Kubernetes lib containing definitions for Crystal-lang
 - github: spoved/kube-client.cr
   description: Crystal client library for the Kubernetes (1.11+) API
-- github: spoved/moxfield.cr
-  description: An unofficial API for https://www.moxfield.com
-- github: kalinon/scryfall.cr
-  description: "Crystal api client for [Scryfall](https://scryfall.com/) a Magic: The Gathering card search tool"
 - github: petoem/mixpanel-crystal
   description: A library for sending events to Mixpanel
 - github: wout/mollie.cr
@@ -96,6 +92,8 @@ shards:
     role: legacy
   - github: tilitribe/mollie.cr
     role: legacy
+- github: spoved/moxfield.cr
+  description: An unofficial API for https://www.moxfield.com
 - github: timcraft/nexmo-crystal
   description: '[Nexmo REST API](https://developer.nexmo.com/) client'
 - github: PlaceOS/office365
@@ -115,6 +113,9 @@ shards:
     role: legacy
 - github: sija/raven.cr
   description: Raven is a client for [Sentry](https://github.com/getsentry/sentry)
+- github: kalinon/scryfall.cr
+  description: 'Crystal api client for [Scryfall](https://scryfall.com/) a Magic:
+    The Gathering card search tool'
 - github: chendo/sense-api.cr
   description: An API for accessing the data available from a Hello Sense sleep tracking
     device
