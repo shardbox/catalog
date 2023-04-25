@@ -104,3 +104,5 @@ shards:
   description: Dynamically configure your Kubernetes manifests with Jinja2 templates
 - github: szTheory/zaru_crystal
   description: Filename sanitization
+- github: spoved/mtg.cr
+  description: Crystal library for Magic The Gathering structs/libs

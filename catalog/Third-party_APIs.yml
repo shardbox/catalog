@@ -82,6 +82,10 @@ shards:
   description: A Kubernetes lib containing definitions for Crystal-lang
 - github: spoved/kube-client.cr
   description: Crystal client library for the Kubernetes (1.11+) API
+- github: spoved/moxfield.cr
+  description: An unofficial API for https://www.moxfield.com
+- github: kalinon/scryfall.cr
+  description: "Crystal api client for [Scryfall](https://scryfall.com/) a Magic: The Gathering card search tool"
 - github: petoem/mixpanel-crystal
   description: A library for sending events to Mixpanel
 - github: wout/mollie.cr
