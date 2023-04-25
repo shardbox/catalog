@@ -92,6 +92,8 @@ shards:
     role: legacy
   - github: tilitribe/mollie.cr
     role: legacy
+- github: spoved/moxfield.cr
+  description: An unofficial API for https://www.moxfield.com
 - github: timcraft/nexmo-crystal
   description: '[Nexmo REST API](https://developer.nexmo.com/) client'
 - github: PlaceOS/office365
@@ -111,6 +113,9 @@ shards:
     role: legacy
 - github: sija/raven.cr
   description: Raven is a client for [Sentry](https://github.com/getsentry/sentry)
+- github: kalinon/scryfall.cr
+  description: 'Crystal api client for [Scryfall](https://scryfall.com/) a Magic:
+    The Gathering card search tool'
 - github: chendo/sense-api.cr
   description: An API for accessing the data available from a Hello Sense sleep tracking
     device

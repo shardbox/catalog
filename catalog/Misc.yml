@@ -69,6 +69,8 @@ shards:
   description: Verify and generate Rails `ActiveSupport::MessageVerifier` signed tokens
 - github: alex-lairan/monads
   description: Monad implementation
+- github: spoved/mtg.cr
+  description: Crystal library for Magic The Gathering structs/libs
 - github: mamantoha/nanoid.cr
   description: Secure URL-friendly unique ID generator
 - github: isaced/pangu.cr
