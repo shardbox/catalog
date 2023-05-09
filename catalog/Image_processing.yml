@@ -20,6 +20,8 @@ shards:
 - github: blocknotes/magickwand-crystal
   description: Bindings for [MagickWand](https://www.imagemagick.org/script/magick-wand.php),
     the C interface for ImageMagick processing libraries
+- github: watzon/pixie
+  description: User friendly API built on top of ImageMagick 7 bindings
 - github: phenopolis/pluto
   description: A fast and convenient image processing library
 - github: spider-gazelle/qr-code
