@@ -92,6 +92,8 @@ shards:
   description: Various tools/libs for crystal
 - github: NeuraLegion/sslscan.cr
   description: Crystal shard wrapping the rbsec/sslscan utility
+- github: dammer/state_control
+  description: Flexible generic state machine
 - github: crystallabs/term_colors
   description: Term/console color manipulation library
 - github: sdogruyol/tren
