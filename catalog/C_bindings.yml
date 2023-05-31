@@ -82,3 +82,5 @@ shards:
   description: Bindings for libxdo ([`xdotool`](https://github.com/jordansissel/xdotool))
 - github: ettomatic/xattr
   description: Bindings for XATTR
+- github: thechampagne/liburlencoding-crystal
+  description: Bindings for liburlencoding a URL percentage encoding library.
