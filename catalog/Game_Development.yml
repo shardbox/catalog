@@ -45,7 +45,7 @@ shards:
   mirrors:
   - github: neutrinog/prism
     role: legacy
-- github: AregevDev/raylib-cr
+- github: sol-vin/raylib-cr
   description: Crystal wrapper around raylib
 - github: da1nerd/render_loop
   description: A generic and reusable game render loop
