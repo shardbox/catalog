@@ -47,6 +47,9 @@ shards:
     role: legacy
 - github: sol-vin/raylib-cr
   description: Crystal wrapper around raylib
+  mirrors:
+  - github: AregevDev/raylib-cr
+    role: legacy
 - github: da1nerd/render_loop
   description: A generic and reusable game render loop
   mirrors:
