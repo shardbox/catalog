@@ -11,6 +11,7 @@ shards:
   description: An intelligent AMQP proxy, with connection and channel pooling/reusing
 - github: crystalmq/crystalmq
   description: Message Queue similar to NSQ
+  state: archived
 - github: bmulvihill/dispatch
   description: In memory asynchronous job processing
 - github: athena-framework/event-dispatcher
