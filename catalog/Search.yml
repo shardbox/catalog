@@ -1,6 +1,8 @@
 ---
 name: Search
 shards:
+- github: balah7/crystal_cep
+  description: A simple and efficient way to get address information from Brazilian CEPs
 - github: imdrasil/hermes.cr
   description: Data Mapper pattern implementation for ElastiSearch
 - github: izniburak/query-builder
