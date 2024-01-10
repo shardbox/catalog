@@ -1,6 +1,8 @@
 ---
 name: Misc
 shards:
+- github: openai
+  description: OpenAI library providing an interface to interact with various OpenAI services.
 - github: veelenga/aasm.cr
   description: Easy to use finite state machine for Crystal classes
 - github: Sija/any_hash.cr
