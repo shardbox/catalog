@@ -1,7 +1,7 @@
 ---
 name: Third-party APIs
 shards:
-- github: openai
+- github: DmarshalTU/openai
   description: OpenAI library providing an interface to interact with various OpenAI services.
 - github: rjnienaber/amazonite
   description: An unofficial SDK supporting popular AWS APIs
