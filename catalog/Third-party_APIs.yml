@@ -98,11 +98,11 @@ shards:
   description: '[Nexmo REST API](https://developer.nexmo.com/) client'
 - github: PlaceOS/office365
   description: Microsoft Graph API wrapper
-- github: DmarshalTU/openai
-  description: OpenAI library providing an interface to interact with various OpenAI services.
 - github: osfx/open_exchange_rates
   description: A library to access [Open Exchange Rates](https://openexchangerates.org/)
     API
+- github: DmarshalTU/openai
+  description: OpenAI library providing an interface to interact with various OpenAI services.
 - github: oz/pinboard.cr
   description: '[Pinboard](https://pinboard.in) API'
 - github: Hentioe/policr
