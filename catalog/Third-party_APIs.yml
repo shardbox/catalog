@@ -101,6 +101,8 @@ shards:
 - github: osfx/open_exchange_rates
   description: A library to access [Open Exchange Rates](https://openexchangerates.org/)
     API
+- github: DmarshalTU/openai
+  description: Client interface to interact with various OpenAI services
 - github: oz/pinboard.cr
   description: '[Pinboard](https://pinboard.in) API'
 - github: Hentioe/policr
