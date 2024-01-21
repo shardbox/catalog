@@ -78,5 +78,7 @@ shards:
     role: legacy
   - github: manastech/crystal-toml
     role: legacy
+- github: d1ceward/xlsx-parser
+  description: Crystal wrapper for parsing .xlsx spreadsheets
 - github: colstrom/zq
   description: Command-line ZPL processor
