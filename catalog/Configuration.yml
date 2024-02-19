@@ -18,11 +18,11 @@ shards:
 - github: icyleaf/totem
   description: Load and parse a configuration in JSON, YAML, dotenv formats
 - github: dscottboggs/xdg.cr
-   description: Constants representing the XDG config locations or their standard defaults
+  description: Constants representing the XDG config locations or their standard defaults
      if not set
 - github: tijn/xdg_base_directory
   description: A Crystal implementation of the XDG Base Directory specs
   mirrors:
   - gitlab: tijn/xdg_base_directory
 - github: shmibs/xdg_basedir
-  description: A simple, spec-compliant crystal interface to the XDG base directories 
+  description: A simple, spec-compliant crystal interface to the XDG base directories
