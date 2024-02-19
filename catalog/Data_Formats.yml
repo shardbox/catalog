@@ -71,7 +71,7 @@ shards:
 - github: spider-gazelle/tokenizer
   description: Simplified binary stream tokenization
 - github: crystal-community/toml.cr
-  description: TOML parser
+  description: TOML v0.5.0 parser
   mirrors:
   - github: maiha/crystal-toml
   - github: crystal-community/crystal-toml
@@ -82,3 +82,5 @@ shards:
   description: Crystal wrapper for parsing .xlsx spreadsheets
 - github: colstrom/zq
   description: Command-line ZPL processor
+- github: syeopite/ctoml-cr
+  description: Crystal bindings to the tomlc99 library, compliant to TOML v1.0.0
