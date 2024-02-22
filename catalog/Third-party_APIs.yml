@@ -54,8 +54,6 @@ shards:
   description: Minimalist Discord library for Crystal
 - github: z64/discordcr-middleware
   description: extension to discordcr for webserver-like middlewares
-- github: greenbigfrog/discordtipbot
-  description: A tip bot for use on discordapp.com
 - github: jeromegn/docker.cr
   description: Docker API client
 - github: krthr/gcp-tts.cr
