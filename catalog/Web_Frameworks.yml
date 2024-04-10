@@ -11,11 +11,6 @@ shards:
   description: Rails inspired web-framework
 - github: ysbaddaden/artanis
   description: Sinatra-like DSL (abusing macros)
-- github: athena-framework/athena
-  description: A web framework comprised of reusable, independent components
-  mirrors:
-  - github: blacksmoke16/athena
-    role: legacy
 - github: luckyframework/authentic
   description: An authentication library for Lucky projects
 - github: benoist/carbon-crystal
@@ -32,6 +27,13 @@ shards:
   description: Simple PostgreSQL REST API with devise-like auth
 - github: defense-cr/defense
   description: An HTTP handler for throttling, blocking and tracking malicious requests
+- github: athena-framework/framework
+  description: A web framework comprised of reusable, independent components
+  mirrors:
+  - github: athena-framework/athena
+    role: legacy
+  - github: blacksmoke16/athena
+    role: legacy
 - github: ysbaddaden/frost
   description: Full Featured Web Framework
 - github: grip-framework/grip
