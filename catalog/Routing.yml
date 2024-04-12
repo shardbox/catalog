@@ -15,5 +15,7 @@ shards:
   description: A minimal, rails-esque routing library
 - github: tbrand/router.cr
   description: Minimum but powerful http router for HTTP::Server
+- github: athena-framework/routing
+  description: HTTP based routing library/framework
 - github: soveran/toro
   description: Tree Oriented Routing
