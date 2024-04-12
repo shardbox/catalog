@@ -30,6 +30,8 @@ shards:
 - github: athena-framework/framework
   description: A web framework comprised of reusable, independent components
   mirrors:
+  - github: athena-framework/athena
+    role: legacy
   - github: blacksmoke16/athena
     role: legacy
 - github: ysbaddaden/frost
