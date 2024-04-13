@@ -1,6 +1,8 @@
 ---
 name: Time & Date
 shards:
+- github: athena-framework/clock
+  description: Decouples applications from the system clock
 - github: mamantoha/humanize_time
 - github: SuperPaintman/ms
   description: Library to easily convert various time formats to milliseconds and
