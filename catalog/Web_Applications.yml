@@ -25,6 +25,8 @@ shards:
     role: legacy
 - github: kindmetrics/kindmetrics
   description: Kind metrics analytics for your website
+- github: toddsundsted/ktistec
+  description: Single user ActivityPub server
 - github: hkalexling/Mango
   description: Mango is a self-hosted manga server and web reader
 - github: microgit-com/microgit
