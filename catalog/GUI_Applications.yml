@@ -1,0 +1,5 @@
+---
+name: GUI Applications
+shards:
+- github: GeopJr/Collision
+  description: A GUI tool to generate, compare and verify file hashes
