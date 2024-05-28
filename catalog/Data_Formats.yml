@@ -23,6 +23,9 @@ shards:
   description: Cron parser
 - github: repomaa/crystal-jsonapi
   description: JSON API serializing
+- github: amauryt/crystal-wkb
+  description: Decoding and encoding the Well-Known Binary (WKB) representation of
+    geometry objects, with limited support for well-known text (WKT) and GeoJSON
 - github: j8r/crystalizer
   description: (De)serialize any Crystal object; supporting JSON, YAML, and Byte formats
     out of the box
