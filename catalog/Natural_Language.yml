@@ -21,6 +21,8 @@ shards:
     Metaphone, Double Metaphone & White Similarity
 - github: cadmiumcr/transliterator
   description: transliterate UTF-8 strings into pure ASCII
+- github: bendangelo/whichlang.cr
+  description: Crystal bindings for Whichlang language detection library
 - github: spalladino/wit-crystal
   description: Crystal SDK for wit.ai
 - github: luckyframework/wordsmith
