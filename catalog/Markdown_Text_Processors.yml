@@ -19,6 +19,8 @@ shards:
 - github: icyleaf/markd
   description: Yet another markdown parser built for speed, Compliant to CommonMark
     specification
+- git: https://codeberg.org/CampineComputing/pandocr.git
+  description: Pandoc wrapper for Crystal
 - github: huacnlee/remarkdown
   description: extends Markdown lib from Stdlib for Markdown GFM
   state: archived
