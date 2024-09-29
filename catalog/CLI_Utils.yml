@@ -5,6 +5,8 @@ shards:
   description: ANSI escape codes for manipulating the terminal
 - github: Sija/climate.cr
   description: Tiny tool to make your CLI output coloured
+- git: https://codeberg.org/CampineComputing/command_wrapper.git
+  description: Wrap command-line programs in Crystal
 - github: j8r/cride
   description: A light CLI text editor/IDE
 - github: azukiapp-labs/crystal-chalk-box
