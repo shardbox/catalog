@@ -16,7 +16,7 @@ build: ## Build the application binary
 build: $(BUILD_TARGET)
 
 $(BUILD_TARGET): $(SRC_SOURCES) $(LIB_SOURCES) lib
-	mkdir -p $(shell dirname $(@))
+	mkdir -p $(@D)
 	$(CRYSTAL) build src/cli.cr -o $(@)
 
 .PHONY: test
