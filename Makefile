@@ -1,22 +1,22 @@
 -include Makefile.local # for optional local options
 
-BUILD_TARGET ::= bin/catalog_tools
+BUILD_TARGET := bin/catalog_tools
 
 # The shards command to use
 SHARDS ?= shards
 # The crystal command to use
 CRYSTAL ?= crystal
 
-SRC_SOURCES ::= $(shell find src -name '*.cr' 2>/dev/null)
-LIB_SOURCES ::= $(shell find lib -name '*.cr' 2>/dev/null)
-SPEC_SOURCES ::= $(shell find spec -name '*.cr' 2>/dev/null)
+SRC_SOURCES := $(shell find src -name '*.cr' 2>/dev/null)
+LIB_SOURCES := $(shell find lib -name '*.cr' 2>/dev/null)
+SPEC_SOURCES := $(shell find spec -name '*.cr' 2>/dev/null)
 
 .PHONY: build
 build: ## Build the application binary
 build: $(BUILD_TARGET)
 
 $(BUILD_TARGET): $(SRC_SOURCES) $(LIB_SOURCES) lib
-	mkdir -p $(shell dirname $(@))
+	mkdir -p $(@D)
 	$(CRYSTAL) build src/cli.cr -o $(@)
 
 .PHONY: test
