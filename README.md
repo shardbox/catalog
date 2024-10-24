@@ -42,7 +42,7 @@ namespace on GitHub.
 
 A shard is eligible to be listed in this catalog if it fits this description:
 
-* Provides some usefulness and reusable features. It doesn't need ot be a
+* Provides some usefulness and reusable features. It doesn't need to be a
   library or provide a specific API.
 * It is meant to be continuously available. There don't need to be any
   guarantee to be updated or maintained, but it should not simply vanish.
