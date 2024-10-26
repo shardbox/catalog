@@ -48,6 +48,8 @@ shards:
   description: Immutable classes whose main purpose is to hold data
 - github: drujensen/delimiter_tree
   description: A tree structure that is built using a delimiter
+- git: https://codeberg.org/Sylphrena/Ed2k.cr
+  description: A pure crystal implementation of the ed2k (and MD4) hash algorithms for file hashing.
 - github: tcrouch/edits.cr
   description: Collection of edit distance algorithms
 - github: acoustep/fuzzy_match.cr
