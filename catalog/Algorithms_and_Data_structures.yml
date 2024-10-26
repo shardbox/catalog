@@ -108,3 +108,5 @@ shards:
   description: Ternary Search Tree
 - github: krthr/uuix
   description: A tiny (<1KB) and fast UUID (v4) generator
+- git: https://codeberg.org/Sylphrena/xxHash.cr
+  description: Pure crystal implementation of the xxHash algorithms
