@@ -56,6 +56,8 @@ shards:
   description: Crystal lib with different useful stuff
 - github: toddsundsted/iterm2
   description: Display images within the terminal using the ITerm2 Inline Images Protocol
+- github: crystal-lang/json_mapping.cr
+  description: Provides the legacy JSON.mapping macro method
 - github: eltanin-engine/lirith
   description: Graphics engine
   mirrors:
