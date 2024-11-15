@@ -61,6 +61,8 @@ shards:
 - github: konovod/monocypher.cr
 - github: konovod/nlopt.cr
   description: Bindings for [NLOpt](https://nlopt.readthedocs.io/en/latest/)
+- github: spider-gazelle/openssl_ext
+  description: Crystal bindings for OpenSSL RSA
 - github: maiha/pcap.cr
   description: Bindings for libpcap
 - github: chris-huxtable/pledge.cr
