@@ -38,6 +38,8 @@ shards:
   description: Mocking library for Crystal
 - github: rf-/roadshow
   description: A language-agnostic tool for testing code in different environments
+- github: crystal-loot/selenium.cr
+  description: Selenium library for Crystal
 - github: matthewmcgarvey/selenium.cr
   description: Library for controlling and interacting with browsers for testing
 - github: athena-framework/spec
