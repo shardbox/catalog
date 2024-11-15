@@ -17,3 +17,5 @@ shards:
   description: A setupless terminal based SQL query runner
 - github: maiha/redis-cluster-benchmark.cr
   description: Benchmark utils for Redis Cluster
+- github: jgaskins/redis
+  description: Pure-Crystal Redis client, supporting clustering, RedisJSON, RediSearch, RedisGraph, and RedisTimeSeries
