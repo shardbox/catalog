@@ -33,6 +33,8 @@ shards:
 - github: fridgerator/crystal_talib
   description: Bindings for TA-lib, which performs technical analysis of financial
     market data
+- github: naqvis/crystal-vips
+  description: Crystal bindings for the libvips image processing library.
 - github: blocknotes/curl-crystal
   description: Bindings for [libcurl](https://curl.haxx.se/libcurl/)
 - github: jessedoyle/duktape.cr
