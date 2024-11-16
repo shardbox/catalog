@@ -46,6 +46,8 @@ shards:
   description: Bindings for the [ICU](http://site.icu-project.org/) library
 - github: petoem/inotify.cr
   description: Bindings for libinotify
+- github: GeopJr/libadwaita.cr
+  description: libadwaita bindings for Crystal
 - github: crystal-git/libgit2
   description: Manipulate Git repositories in an object-oriented way
 - github: smacker/libgit2.cr
