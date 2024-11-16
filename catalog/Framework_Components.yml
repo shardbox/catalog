@@ -68,3 +68,5 @@ shards:
     by Shrine for Ruby
 - github: kemalcr/spec-kemal
   description: Easy testing for Kemal
+- github: crystal-loot/webdrivers.cr
+  description: Manage your Selenium Webdrivers with Crystal
