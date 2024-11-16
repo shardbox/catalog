@@ -9,6 +9,8 @@ shards:
 - github: spider-gazelle/bindata
   description: Binary data parser helper with an [ASN.1](https://en.wikipedia.org/wiki/Abstract_Syntax_Notation_One)
     parser
+- github: elbywan/bson.cr
+  description: A pure Crystal Implementation of the BSON Specification.  🐃
 - github: Papierkorb/cannon
   description: Lightning fast data serialization and RPC
 - github: j8r/con
