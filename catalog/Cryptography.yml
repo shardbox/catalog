@@ -28,6 +28,8 @@ shards:
   description: Crystal bindings for OpenSSL RSA
 - github: stakach/openssl_ext
   description: Crystal bindings for OpenSSL RSA
+- github: ysbaddaden/random.cr
+  description: Collection of Pseudo Random Number Generators (PRNGs)
 - github: watzon/ROT26
   description: Pure Crystal implementation of the ROT26 encryption algorithm
 - github: ysbaddaden/scrypt-crystal
