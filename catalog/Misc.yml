@@ -3,6 +3,8 @@ name: Misc
 shards:
 - github: veelenga/aasm.cr
   description: Easy to use finite state machine for Crystal classes
+- git: https://codeberg.org/Sylphrena/AnimeTitleParser.git
+  description: Simple and fast title parser for anime releases.
 - github: Sija/any_hash.cr
   description: Recursive Hash with better JSON::Any included
 - github: chris-huxtable/atomic_write.cr
