@@ -4,6 +4,8 @@ shards:
 - github: nin93/alea
   description: Repeatable sampling, CDF and other utilities to work with probability
     distributions
+- github: watzon/apatite
+  description: Apatite is a fundamental package for scientific computing with Crystal
 - github: crystal-data/aquaplot
   description: Data visualization library
 - github: crystal-data/bottle

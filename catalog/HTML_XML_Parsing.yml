@@ -6,6 +6,8 @@ shards:
     Ruby gem
 - github: naqvis/crystal-html5
   description: HTML5-compliant Parser and Tokenizer with XPath2 support
+- github: naqvis/crystal-xpath2
+  description: XPath implemenation in Pure Crystal
 - github: aristotelesbr/docx_cr_converter
   description: parse DOCX Word
 - github: aristotelesbr2014/docx_cr_converter

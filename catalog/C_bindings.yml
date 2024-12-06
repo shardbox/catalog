@@ -33,6 +33,8 @@ shards:
 - github: fridgerator/crystal_talib
   description: Bindings for TA-lib, which performs technical analysis of financial
     market data
+- github: naqvis/crystal-vips
+  description: Crystal bindings for the libvips image processing library.
 - github: blocknotes/curl-crystal
   description: Bindings for [libcurl](https://curl.haxx.se/libcurl/)
 - github: jessedoyle/duktape.cr
@@ -46,6 +48,8 @@ shards:
   description: Bindings for the [ICU](http://site.icu-project.org/) library
 - github: petoem/inotify.cr
   description: Bindings for libinotify
+- github: GeopJr/libadwaita.cr
+  description: libadwaita bindings for Crystal
 - github: crystal-git/libgit2
   description: Manipulate Git repositories in an object-oriented way
 - github: smacker/libgit2.cr
@@ -61,6 +65,8 @@ shards:
 - github: konovod/monocypher.cr
 - github: konovod/nlopt.cr
   description: Bindings for [NLOpt](https://nlopt.readthedocs.io/en/latest/)
+- github: spider-gazelle/openssl_ext
+  description: Crystal bindings for OpenSSL RSA
 - github: maiha/pcap.cr
   description: Bindings for libpcap
 - github: chris-huxtable/pledge.cr
