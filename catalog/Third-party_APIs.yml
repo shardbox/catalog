@@ -103,6 +103,8 @@ shards:
     API
 - github: DmarshalTU/openai
   description: Client interface to interact with various OpenAI services
+- github: petterthowsen/openrouter
+  description: Client interface to interact with LLMs via [OpenRouter API](https://openrouter.ai)
 - github: oz/pinboard.cr
   description: '[Pinboard](https://pinboard.in) API'
 - github: Hentioe/policr
