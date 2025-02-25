@@ -55,6 +55,8 @@ shards:
   description: Provide XPath support on JSON document
 - github: anykeyh/json_on_steroids
   description: Handle and mutate JSON documents easily
+- github: danini-the-panini/kdl-cr
+  description: Implementation of the KDL Document Language
 - github: delef/maxminddb.cr
   description: MaxMindDB reader
 - github: denysvitali/megadecrypter
