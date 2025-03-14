@@ -58,6 +58,8 @@ shards:
   description: libmpg123 bindings
 - github: splattael/libnotify.cr
   description: Bindings for Libnotify
+- github: zuf/libraw.cr
+  description: Bindings for libraw
 - github: thechampagne/liburlencoding-crystal
   description: Bindings for liburlencoding a URL percentage encoding library
 - github: veelenga/lua.cr
