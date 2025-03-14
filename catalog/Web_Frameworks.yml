@@ -85,7 +85,8 @@ shards:
 - github: luckyframework/lucky
   description: Full-featured Crystal web framework
 - github: luckyframework/lucky_template
-  description: A simple, yet versatile, library for creating file and folder structures as code templates.
+  description: A simple, yet versatile, library for creating file and folder structures
+    as code templates
 - github: martenframework/marten
   description: A web framework that makes building web applications easy, productive,
     and fun

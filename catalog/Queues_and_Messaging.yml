@@ -45,4 +45,3 @@ shards:
   description: Dead simple task runner with concurrent support, ideal for local CI
 - github: crystal-community/zeromq-crystal
   description: Bindings for [ZeroMQ](http://zero.mq)
-
