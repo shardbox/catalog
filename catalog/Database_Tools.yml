@@ -16,6 +16,7 @@ shards:
 - github: hugopl/queryit
   description: A setupless terminal based SQL query runner
 - github: jgaskins/redis
-  description: Pure-Crystal Redis client, supporting clustering, RedisJSON, RediSearch, RedisGraph, and RedisTimeSeries
+  description: Pure-Crystal Redis client, supporting clustering, RedisJSON, RediSearch,
+    RedisGraph, and RedisTimeSeries
 - github: maiha/redis-cluster-benchmark.cr
   description: Benchmark utils for Redis Cluster

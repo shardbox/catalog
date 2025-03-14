@@ -7,9 +7,9 @@ shards:
   description: A non-reliable in-memory key-value store
 - github: samueleaton/cache-hash
   description: A key/value store where entries expire after a specified interval
-- github: luckyframework/lucky_cache
-  description: Caching library for the Lucky Framework
 - github: comandeo/crystal-memcached
   description: Implementation of a memcached client
+- github: luckyframework/lucky_cache
+  description: Caching library for the Lucky Framework
 - github: CodeSteak/Nuummite
   description: A tiny persistent embedded key-value store

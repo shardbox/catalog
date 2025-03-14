@@ -4,10 +4,11 @@ shards:
 - github: oprypin/crystal-imgui
   description: Bindings to [Dear ImGui](https://github.com/ocornut/imgui), an immediate-mode
     graphical UI library
+- github: hugopl/gi-crystal
+  description: Tool to generate Crystal bindings for gobject-based libraries (i.e.
+    GTK)
 - github: hugopl/gtk4.cr
   description: Bindings for [GTK4](https://docs.gtk.org/gtk4/overview.html)
 - github: grkek/iu
   description: UI framework based on the [Fusion/libui.cr](https://github.com/Fusion/libui.cr)
     library, with custom elements and modified bindings from [hedron-crystal/hedron](https://github.com/hedron-crystal/hedron)
-- github: hugopl/gi-crystal
-  description: Tool to generate Crystal bindings for gobject-based libraries (i.e. GTK)

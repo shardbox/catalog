@@ -6,7 +6,7 @@ shards:
 - github: crystal-i18n/i18n
   description: An internationalization library inspired by Ruby-I18n
 - github: crimson-knight/i18n.cr
-  description: Internationalization API ( i18n ) for Crystal!
+  description: Internationalization API ( i18n ) for Crystal
 - github: TechMagister/i18n.cr
   description: Internationalization API
 - github: vladfaust/i18n.cr

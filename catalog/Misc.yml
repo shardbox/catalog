@@ -111,6 +111,6 @@ shards:
 - github: artworx/yakut
   description: Dynamically configure your Kubernetes manifests with Jinja2 templates
 - github: crystal-lang/yaml_mapping.cr
-  description: Provides the legacy YAML.mapping macro method.
+  description: Provides the legacy YAML.mapping macro method
 - github: szTheory/zaru_crystal
   description: Filename sanitization
