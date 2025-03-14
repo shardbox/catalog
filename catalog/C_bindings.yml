@@ -84,6 +84,8 @@ shards:
 - github: andrewsuzuki/termbox-crystal
   description: Bindings and extension library for [termbox](https://github.com/nsf/termbox)
     (terminal UI library)
+- github: zuf/turbojpeg.cr
+  description: Bindings for the libjpeg-turbo (turpojpeg C API)
 - github: naqvis/wasmer-crystal
   description: Bindings for the `wasmer` WebAssembly runtime
 - github: TamasSzekeres/x11-cr
