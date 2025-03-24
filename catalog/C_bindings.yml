@@ -88,6 +88,8 @@ shards:
   description: Bindings for the libjpeg-turbo (turpojpeg C API)
 - github: naqvis/wasmer-crystal
   description: Bindings for the `wasmer` WebAssembly runtime
+- github: mjblack/win32cr
+  description: Bindings for Windows API
 - github: TamasSzekeres/x11-cr
   description: X11 bindings
 - github: woodruffw/x_do.cr
