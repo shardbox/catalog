@@ -8,8 +8,12 @@ shards:
     role: legacy
 - github: bcardiff/crystal-ast-helper
   description: Helper tool to debug parser and formatter
+- github: ralsina/hansa
+  description: Detect programming language from code
 - github: microgit-com/linguist.cr
   description: Using multiple ways to find programming language used in files, based
     on Github's Linguist
+- github: ralsina/tartrazine
+  description: Multi-purpose syntax highlighting (port of Pygments)
 - github: Groogy/trashman
   description: A simple memory profiler for Crystal applications

@@ -14,9 +14,13 @@ shards:
 - github: askn/fikri
   description: Simple CLI To-Do App
 - github: jhass/github_desktop_notifications
+- github: ralsina/hace
+  description: Build automation and task runner, similar to `make`
 - github: cooperhammond/irs
   description: Downloads audio and metadata from Spotify in order to package an mp3
     with both
+- github: ralsina/jrsl
+  description: Markdown-based presentation software for the terminal
 - github: straight-shoota/md2pdf
   description: Convert markdown files to PDF with flexible template and stylesheet
 - github: ryanprior/meet
@@ -32,6 +36,7 @@ shards:
 - github: sferik/spellout
   description: A command-line tool that converts input into the International Radiotelephony
     Spelling Alphabet
+- github: ralsina/tartrazine
 - github: porras/tlcr
   description: Simple terminal-based client for TLDR
 - github: geolessel/trello-cli
