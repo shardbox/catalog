@@ -84,6 +84,8 @@ shards:
   description: An implementation of "K-Dimensional Tree" and "N-Nearest Neighbors"
 - github: Sija/ksuid.cr
   description: K-Sortable Globally Unique IDs
+- git: https://codeberg.org/bendangelo/marisa.cr
+  description: Marisa Trie for storing and searching strings efficiently
 - github: mccallofthewild/markov
   description: Build Markov Chains and run Markov Processes
 - github: tcrouch/multiset.cr
