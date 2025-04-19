@@ -89,5 +89,7 @@ shards:
     role: legacy
 - github: d1ceward/xlsx-parser
   description: Crystal wrapper for parsing .xlsx spreadsheets
+- github: yaml/yamlscript-crystal
+  description: YAML loader with functional capabilities
 - github: colstrom/zq
   description: Command-line ZPL processor
