@@ -90,6 +90,6 @@ shards:
 - github: d1ceward/xlsx-parser
   description: Crystal wrapper for parsing .xlsx spreadsheets
 - github: yaml/yamlscript-crystal
-  description: YAML loader with functional capabilities
+  description: Add Logic to Your YAML Files
 - github: colstrom/zq
   description: Command-line ZPL processor
