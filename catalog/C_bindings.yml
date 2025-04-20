@@ -48,6 +48,8 @@ shards:
   description: Bindings for the [ICU](http://site.icu-project.org/) library
 - github: petoem/inotify.cr
   description: Bindings for libinotify
+- github: yxhuvud/ior
+  description: Bindings for liburing. No eventloop integration
 - github: GeopJr/libadwaita.cr
   description: libadwaita bindings for Crystal
 - github: crystal-git/libgit2
