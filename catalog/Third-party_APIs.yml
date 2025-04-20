@@ -147,6 +147,8 @@ shards:
   mirrors:
   - github: watzon/tourmaline
     role: legacy
+- github: telegant/telegant
+  description: Modern, elegant Telegram bot framework
 - github: sferik/twitter-crystal
   description: A library to access the Twitter API
 - github: toddsundsted/web_finger
