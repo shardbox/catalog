@@ -138,6 +138,8 @@ shards:
   description: Stripe API Wrapper
 - github: vladfaust/tele.cr
   description: A convenient Telegram Bot framework
+- github: telegant/telegant
+  description: Modern, elegant Telegram bot framework
 - github: hangyas/telegram_bot
   description: A wrapper for the Telegram Bot API
 - github: mmacia/tmdb.cr
