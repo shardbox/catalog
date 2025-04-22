@@ -44,3 +44,5 @@ shards:
   description: Qt5 bindings for Crystal, based on Bindgen
 - github: hugopl/textui
   description: A simple UI framework for terminal interfaces backed by termbox
+- github: yxhuvud/wayland_client
+  description: Bindings and thin integration for building wayland clients
