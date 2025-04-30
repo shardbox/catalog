@@ -3,6 +3,8 @@ name: Database Tools
 shards:
 - github: Crecto/crecto-admin
   description: Admin dashboard for Crecto and your database
+- github: luislavena/drift
+  description: SQL-driven schema migration tool and library
 - github: amberframework/micrate
   description: Database migration tool
   mirrors:
