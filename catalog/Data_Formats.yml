@@ -42,7 +42,8 @@ shards:
 - github: NeuraLegion/har
   description: HAR (HTTP Archive) parser
 - github: yxhuvud/hdrhistogram
-  description: Fixed allocation size recording of histograms with dynamic range, port of [HdrHistogram](https://hdrhistogram.github.io/HdrHistogram/).
+  description: Fixed allocation size recording of histograms with dynamic range, port
+    of [HdrHistogram](https://hdrhistogram.github.io/HdrHistogram/)
 - github: straight-shoota/hrx
   description: Parser for the [Human Readable Archive (HRX)](https://github.com/google/hrx)
     format
