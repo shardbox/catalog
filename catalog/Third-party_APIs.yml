@@ -62,8 +62,11 @@ shards:
   description: Google Text-To-Speech API client
 - github: mccallofthewild/gdax
   description: GDAX REST and WebSocket API Wrapper with request signing
-- github: arnavb/github-cr
+- github: straight-shoota/github-cr
   description: Wrapper to GitHub API
+  mirrors:
+  - github: arnavb/github-cr
+    role: legacy
 - github: jhass/github_desktop_notifications
   description: Display your Github notifications via libnotify
 - github: icyleaf/gitlab.cr
