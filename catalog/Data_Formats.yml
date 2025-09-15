@@ -96,3 +96,5 @@ shards:
   description: Add Logic to Your YAML Files
 - github: colstrom/zq
   description: Command-line ZPL processor
+- github: support-crystal/package
+  description: A collection of useful utilities for Crystal projects.
