@@ -26,7 +26,7 @@ shards:
 - github: geppetto-apps/crow
   description: Transpile/compile Crystal to [Flow](https://flow.org/)
 - github: crystal-lang/crystal
-  description: The Crystal Programming Language 
+  description: The Crystal Programming Language
 - github: jrester/EBNF.cr
   description: Parse and work with Context free Grammar
 - github: LinCAS-lang/LinCAS
