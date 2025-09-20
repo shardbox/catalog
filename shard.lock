@@ -6,18 +6,18 @@ shards:
 
   backtracer:
     git: https://github.com/sija/backtracer.cr.git
-    version: 1.2.2
+    version: 1.2.4
 
   db:
     git: https://github.com/crystal-lang/crystal-db.git
-    version: 0.11.0
+    version: 0.13.1
 
   git:
     git: https://github.com/smacker/libgit2.cr.git
     version: 0.1.0+git.commit.6267162e7d9e16edace62f942d08565518bc73d9
 
   github-cr:
-    git: https://github.com/arnavb/github-cr.git
+    git: https://github.com/straight-shoota/github-cr.git
     version: 0.1.0+git.commit.119df4c747a81260b37af0878b24eab9345a94f4
 
   molinillo:
@@ -26,17 +26,17 @@ shards:
 
   pg:
     git: https://github.com/will/crystal-pg.git
-    version: 0.26.0
+    version: 0.29.0
 
   raven:
     git: https://github.com/sija/raven.cr.git
-    version: 1.9.3
+    version: 1.9.4
 
   shardbox-core:
     git: https://github.com/shardbox/shardbox-core.git
-    version: 0.2.0+git.commit.f6feed28afe49bccf7b018c7dc46940c15f00071
+    version: 0.2.0+git.commit.228f0403a725e93147c69b7e9dd1712b7ce9ba7b
 
   shards:
     git: https://github.com/crystal-lang/shards.git
-    version: 0.17.3
+    version: 0.19.1
 
