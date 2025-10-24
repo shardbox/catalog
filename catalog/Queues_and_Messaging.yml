@@ -22,6 +22,8 @@ shards:
   description: '[Faktory](https://github.com/contribsys/faktory) worker client'
 - github: maiha/kafka.cr
   description: kafka utilities
+- github: cloudamqp/lavinmq
+  description: Ultra quick message queue and streaming server
 - github: mosquito-cr/mosquito
   description: Redis backed periodic and ad hoc job processing
   mirrors:
