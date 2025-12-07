@@ -93,3 +93,5 @@ shards:
   description: Watch files and run commands on changes from a crystal script
 - github: faustinoaq/watcher
   description: Watch file changes using File.stat
+- gitlab: SunP04/drigger
+  description: Transform Lua into pluggable commands!
