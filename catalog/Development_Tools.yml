@@ -39,6 +39,8 @@ shards:
     environment
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
+- gitlab: SunP04/drigger
+  description: Transform Lua into pluggable commands!
 - github: imdrasil/factory
   description: Library for factorizing objects
 - github: ne-sachirou/git-cleanup-branch
@@ -93,5 +95,3 @@ shards:
   description: Watch files and run commands on changes from a crystal script
 - github: faustinoaq/watcher
   description: Watch file changes using File.stat
-- gitlab: SunP04/drigger
-  description: Transform Lua into pluggable commands!
