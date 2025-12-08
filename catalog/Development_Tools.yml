@@ -40,7 +40,7 @@ shards:
 - github: aca-labs/docker-crystal
   description: Docker wrapper for the Crystal CLI
 - gitlab: SunP04/drigger
-  description: Transform Lua into pluggable commands!
+  description: Transform Lua into pluggable commands
 - github: imdrasil/factory
   description: Library for factorizing objects
 - github: ne-sachirou/git-cleanup-branch
