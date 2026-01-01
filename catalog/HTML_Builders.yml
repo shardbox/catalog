@@ -10,3 +10,5 @@ shards:
   description: DSL for creating HTML
 - github: amberframework/jasper-helpers
   description: A library of helpers for working with html for apps
+- github: sbsoftware/to_html.cr
+  description: Very fast, macro-based HTML builder engine
