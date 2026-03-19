@@ -11,6 +11,8 @@ shards:
   description: A standalone router
 - github: repomaa/crouter
   description: A standalone router
+- github: threez/mux.cr
+  description: A simple HTTP router
 - github: obsidian/orion
   description: A minimal, rails-esque routing library
 - github: tbrand/router.cr

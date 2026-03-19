@@ -44,6 +44,8 @@ shards:
   description: Bindings for [FFTW](https://fftw.org/) library
 - github: Sija/gphoto2.cr
   description: Bindings for the [libgphoto2](http://www.gphoto.org/) library
+- github: threez/hpdf.cr
+  description: Create PDF documents using libhpdf (libharu)
 - github: olbat/icu.cr
   description: Bindings for the [ICU](http://site.icu-project.org/) library
 - github: petoem/inotify.cr

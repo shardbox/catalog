@@ -83,6 +83,8 @@ shards:
   description: A [Hunter.io](https://hunter.io) API wrapper
 - github: spoved/k8s.cr
   description: A Kubernetes lib containing definitions for Crystal-lang
+- github: threez/keycloak.cr
+  description: Access the Keycloak admin API
 - github: spoved/kube-client.cr
   description: Crystal client library for the Kubernetes (1.11+) API
 - github: petoem/mixpanel-crystal

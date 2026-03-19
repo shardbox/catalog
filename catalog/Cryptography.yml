@@ -18,6 +18,9 @@ shards:
   description: An SHA-3 implementation written in Crystal
 - github: spider-gazelle/ed25519
   description: the Ed25519 elliptic curve public-key signature system
+- github: threez/jose.cr
+  description: JSON Object Signing and Encryption (JOSE) — JWS, JWE, JWT, and JWKS
+    backed by OpenSSL
 - github: konovod/monocypher.cr
   description: Crystal wrapper for the Monocypher crypto library
 - github: marcobellaccini/nanvault
@@ -30,6 +33,9 @@ shards:
   description: Crystal bindings for OpenSSL RSA
 - github: ysbaddaden/random.cr
   description: Collection of Pseudo Random Number Generators (PRNGs)
+- github: threez/rfc8439.cr
+  description: Crystal implementation of ChaCha20, Poly1305 authenticator, and AEAD
+    mode (RFC 8439)
 - github: watzon/ROT26
   description: Pure Crystal implementation of the ROT26 encryption algorithm
 - github: ysbaddaden/scrypt-crystal
