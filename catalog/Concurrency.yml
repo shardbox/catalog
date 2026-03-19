@@ -4,7 +4,7 @@ shards:
 - github: didactic-drunk/concurrent.cr
   description: Modern concurrency tools
 - github: threez/context.cr
-  description: The missing context shard for crystal
+  description: Scoped key-value store for each `Fiber` instance
 - github: firejox/CrSignals
   description: Signals/slots notification library
 - github: firejox/crystal-async_await
