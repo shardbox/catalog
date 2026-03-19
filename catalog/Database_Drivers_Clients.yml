@@ -9,6 +9,9 @@ shards:
   description: A key/value store where pairs can expire after a specified interval
 - github: TechMagister/couchdb.cr
   description: CouchDB client
+- github: threez/couchdb.cr
+  description: Local-first CouchDB storage backed by SQLite3 that replicates to/from
+    a remote CouchDB server
 - github: aisrael/cql
   description: A SQL toolkit for Crystal, inspired by Java's jOOQ and Ruby's Sequel
     gem

@@ -5,3 +5,5 @@ shards:
   description: It is a minimalist feature toggle/flag for crystal based on yaml
 - github: metaware/flipper
   description: Feature flipping/flags/rollouts. Supports multiple backends
+- github: threez/openfeature.cr
+  description: Implements the OpenFeature specification for feature flag management

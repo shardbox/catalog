@@ -55,6 +55,8 @@ shards:
   mirrors:
   - github: benoist/msgpack-crystal
     role: legacy
+- github: threez/oidc.cr
+  description: OIDC (OpenID Connect) client
 - github: picatz/packetz
   description: Packet capturing library built with LibPcap
 - github: dtcristo/phoenix.cr
