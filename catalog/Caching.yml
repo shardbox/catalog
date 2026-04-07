@@ -9,6 +9,8 @@ shards:
   description: A key/value store where entries expire after a specified interval
 - github: comandeo/crystal-memcached
   description: Implementation of a memcached client
+- github: kemalcr/kemal-cache
+  description: Powerful Caching for Kemal Applications
 - github: luckyframework/lucky_cache
   description: Caching library for the Lucky Framework
 - github: CodeSteak/Nuummite
