@@ -80,6 +80,9 @@ shards:
 - github: hahwul/purl.cr
   description: '[Package URL (purl)](https://github.com/package-url/purl-spec) specification
     implementation'
+- github: hahwul/sarif.cr
+  description: '[SARIF 2.1.0](https://docs.oasis-open.org/sarif/sarif/v2.1.0/sarif-v2.1.0.html)
+    (Static Analysis Results Interchange Format) library'
 - github: athena-framework/serializer
   description: Flexible object (de)serialization library
 - github: kostya/simple_rpc
