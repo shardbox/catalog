@@ -1,6 +1,9 @@
 ---
 name: Network Protocols
 shards:
+- github: hahwul/acp.cr
+  description: Client for the Agent Client Protocol (ACP), a JSON-RPC 2.0 protocol
+    for communicating with AI coding agents over stdio
 - github: nilsding/AgentSmith
   description: IRC server that is actually a Matrix client. Use your favourite IRC
     client to communicate with the Matrix
