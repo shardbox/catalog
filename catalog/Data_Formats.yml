@@ -77,6 +77,9 @@ shards:
   description: Command-line tool to encode and decode arbitrary protobuf data
 - github: teodor-pripoae/protokol
   description: Protocol buffers
+- github: hahwul/purl.cr
+  description: '[Package URL (purl)](https://github.com/package-url/purl-spec) specification
+    implementation'
 - github: athena-framework/serializer
   description: Flexible object (de)serialization library
 - github: kostya/simple_rpc
