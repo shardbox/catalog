@@ -163,3 +163,5 @@ shards:
   description: A WebFinger (https://tools.ietf.org/html/rfc7033) client
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data
+- github: hahwul/zap.cr
+  description: Client library for the [ZAP](https://www.zaproxy.org/) API
