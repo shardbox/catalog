@@ -86,6 +86,8 @@ shards:
 - github: athena-framework/serializer
   description: Flexible object (de)serialization library
 - github: kostya/simple_rpc
+- github: hahwul/spdx.cr
+  description: SPDX license expression parser and SPDX 2.3 document toolkit
 - github: spider-gazelle/tokenizer
   description: Simplified binary stream tokenization
 - github: crystal-community/toml.cr
