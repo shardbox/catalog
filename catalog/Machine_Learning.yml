@@ -8,6 +8,9 @@ shards:
   description: FANN (Fast Artifical Neural Network) binding
 - github: pbrusco/crystal-learn
   description: Sklearn-like machine-learning library
+- github: hahwul/fm.cr
+  description: Bindings for Apple's [FoundationModels](https://developer.apple.com/documentation/foundationmodels)
+    framework for on-device AI (macOS 26+)
 - github: sherjilozair/jet
   description: Tensor library powered by CUDA and CuDNN
 - github: mathieulaporte/machine

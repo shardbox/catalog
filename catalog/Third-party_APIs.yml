@@ -22,6 +22,9 @@ shards:
   description: Bitcoin RPC client
 - github: gewo/bugsnag.cr
   description: Bugsnag exception notifier and sidekiq middleware
+- github: hahwul/caido.cr
+  description: Client library for [Caido](https://caido.io/) web security auditing
+    toolkit
 - github: erdnaxeli/caridina
   description: A Matrix client for Crystal
 - github: dgodd/concourse-summary
@@ -160,3 +163,5 @@ shards:
   description: A WebFinger (https://tools.ietf.org/html/rfc7033) client
 - github: jaredsmithse/ynab.cr
   description: A library to interact with your YNAB data
+- github: hahwul/zap.cr
+  description: Client library for the [ZAP](https://www.zaproxy.org/) API

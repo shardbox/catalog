@@ -7,6 +7,9 @@ shards:
   description: Version and git tag manager that makes shard releases easy
 - github: crystalshards/crystalshards
   description: Shards discovery website
+- github: hahwul/cyclonedx-cr
+  description: '[CycloneDX](https://cyclonedx.org/) Software Bill of Materials (SBOM)
+    generator for Crystal shard projects'
 - github: DFabric/dppm
   description: Dedicated Platform Package Manager for server applications
 - github: devnote-dev/geode
@@ -19,6 +22,9 @@ shards:
   description: Web application powering [shardbox.org](https://shardbox.org)
 - github: crystal-lang/shards
   description: Dependency manager for the Crystal
+- github: hahwul/shards-audit
+  description: Security vulnerability scanner for shard dependencies using OSV and
+    GitHub Security Advisories
 - github: mamantoha/shards-info
   description: View of all repositories on GitHub that have Crystal code in them
 - github: nedpals/sharn

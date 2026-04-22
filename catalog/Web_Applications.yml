@@ -48,3 +48,6 @@ shards:
   description: The Lucky website
 - github: Nephos/wikicr
   description: Wiki in crystal, using Markdown and Git, inspired by dokuwiki
+- github: hahwul/xssmaze
+  description: Intentionally vulnerable web app for measuring and improving XSS detection
+    in security testing tools
