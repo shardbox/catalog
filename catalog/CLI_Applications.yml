@@ -32,6 +32,8 @@ shards:
     alternative to ss or netstat
 - github: tbrand/mssh
   description: Simple and powerful job executor on remote nodes
+- github: hahwul/mzap
+  description: Multi-target ZAP scanning CLI with multi-host dispatch and report generation
 - github: snipline/snipcli
   description: Command-line tool for Snipline
 - github: mjago/sonicri
