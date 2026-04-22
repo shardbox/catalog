@@ -22,6 +22,9 @@ shards:
   description: Bitcoin RPC client
 - github: gewo/bugsnag.cr
   description: Bugsnag exception notifier and sidekiq middleware
+- github: hahwul/caido.cr
+  description: Client library for [Caido](https://caido.io/) web security auditing
+    toolkit
 - github: erdnaxeli/caridina
   description: A Matrix client for Crystal
 - github: dgodd/concourse-summary
