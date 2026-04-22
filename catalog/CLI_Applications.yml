@@ -9,6 +9,8 @@ shards:
     [Fixer API](https://fixer.io)
 - github: crystallabs/crystime
   description: Advanced time, calendar, schedule, and remind library for Crystal
+- github: hahwul/deadfinder
+  description: Finds dead links (broken links) in web pages, sitemaps, and files
 - github: PercussiveElbow/docker-escape-tool
   description: Tool to test if you're in a Docker container and attempt simple breakouts
 - github: askn/fikri
