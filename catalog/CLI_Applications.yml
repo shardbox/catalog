@@ -34,6 +34,9 @@ shards:
   description: Simple and powerful job executor on remote nodes
 - github: hahwul/mzap
   description: Multi-target ZAP scanning CLI with multi-host dispatch and report generation
+- github: owasp-noir/noir
+  description: Analyzes source code to find endpoints, expose shadow APIs, and map
+    the attack surface
 - github: snipline/snipcli
   description: Command-line tool for Snipline
 - github: mjago/sonicri
