@@ -46,6 +46,8 @@ shards:
 - github: ralsina/tartrazine
 - github: porras/tlcr
   description: Simple terminal-based client for TLDR
+- github: Morantron/tmux-fingers
+  description: copy pasting in terminal with vimium/vimperator like hints
 - github: geolessel/trello-cli
   description: It's Trello, but snappy
 - github: mamantoha/zipstream
