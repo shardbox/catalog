@@ -1,5 +1,7 @@
 ---
 name: GUI Applications
 shards:
+- github: phil294/AHK_X11
+  description: AutoHotkey for Linux (X11-based systems)
 - github: GeopJr/Collision
   description: A GUI tool to generate, compare and verify file hashes
