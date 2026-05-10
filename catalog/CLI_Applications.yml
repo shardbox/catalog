@@ -37,6 +37,9 @@ shards:
 - github: owasp-noir/noir
   description: Analyzes source code to find endpoints, expose shadow APIs, and map
     the attack surface
+- github: crystal-china/procodile
+  description: A Procfile-based process manager for Mac & Linux, supporting foreground/background
+    modes, .env files, and scheduled tasks
 - github: snipline/snipcli
   description: Command-line tool for Snipline
 - github: mjago/sonicri
