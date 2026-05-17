@@ -67,7 +67,7 @@ shards:
   description: A proof of concept tool to help porting gems to shards
 - github: crystal-lang-tools/scry
   description: Code analysis server for Crystal
-  state: archive
+  state: archived
 - github: samueleaton/sentry
   description: Watches src files, rebuilds/reruns application on file changes
   mirrors:
