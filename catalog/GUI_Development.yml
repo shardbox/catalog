@@ -1,6 +1,9 @@
 ---
 name: GUI Development
 shards:
+- github: wolfgang371/crymbleui
+  description: A nice and fast GUI framework for Crystal. Declarative DSL, Reactive
+    State, Performant, Rich Widget Set including VirtualMatrix and RecursiveGrid
 - github: oprypin/crystal-imgui
   description: Bindings to [Dear ImGui](https://github.com/ocornut/imgui), an immediate-mode
     graphical UI library
