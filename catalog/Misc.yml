@@ -114,3 +114,5 @@ shards:
   description: Provides the legacy YAML.mapping macro method
 - github: szTheory/zaru_crystal
   description: Filename sanitization
+- github: slick-lab/native.cr
+  description: cross-platform framework for building native apps
