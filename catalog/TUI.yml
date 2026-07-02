@@ -1,5 +1,0 @@
----
-name: TUI
-shards:
-- github: omarluq/termisu
-  description: Minimalistic API for writing text-based user interfaces
