@@ -49,6 +49,8 @@ shards:
   description: A highly flexible Crystal CLI builder in the style of OptionParser
 - github: icyleaf/terminal-ui.cr
   description: Terminal output styling with intuitive, clean and easy API
+- github: omarluq/termisu
+  description: Minimalistic API for writing text-based user interfaces
 - github: Papierkorb/toka
   description: A type-safe, object-oriented option parser using the mapping-pattern
 - github: crystallabs/tput
