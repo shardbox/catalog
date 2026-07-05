@@ -26,3 +26,5 @@ shards:
   - gitlab: tijn/xdg_base_directory
 - github: shmibs/xdg_basedir
   description: A simple, spec-compliant crystal interface to the XDG base directories
+- github: ysbaddaden/dirs.cr
+  description: Cross-platform base and user directories (UNIX, macOS, Windows)
