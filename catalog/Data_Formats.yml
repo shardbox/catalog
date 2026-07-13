@@ -103,6 +103,7 @@ shards:
 - github: yaml/yamlscript-crystal
   description: Add Logic to Your YAML Files
 - github: yaml/yamlstar-crystal
-  description: Bindings for YAMLStar library, a framework for loading and dumping YAML
+  description: Bindings for YAMLStar library, a framework for loading and dumping
+    YAML
 - github: colstrom/zq
   description: Command-line ZPL processor
