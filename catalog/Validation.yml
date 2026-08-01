@@ -6,6 +6,8 @@ shards:
 - github: blacksmoke16/assert
   description: Extensible annotation based object validation library
   state: archived
+- github: GroophyLifefor/ata-validator-crystal
+  description: Fast Schema validation library bindings for ata-validator
 - github: blacksmoke16/CrSerializer
   description: Extensible annotation based serialization/deserialization/validation
     library
