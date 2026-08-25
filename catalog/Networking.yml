@@ -6,6 +6,11 @@ shards:
     best practices in networking applications and platforms
 - github: Sija/ipaddress.cr
   description: Library to handle IPv4 and IPv6 addresses
+- gitlab: renich/ipconv
+  description: Parse, convert, validate, and classify IPv4 and IPv6 addresses, calculate
+    CIDR subnets, and enumerate ranges
+  mirrors:
+  - github: renich/ipconv
 - github: automatico/mac-address
   description: Library for working with MAC addresses
 - github: noraj/miniss
