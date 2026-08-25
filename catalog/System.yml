@@ -26,6 +26,9 @@ shards:
   description: A small Crystal library for capturing standard I/O streams
 - github: kubo39/syscall.cr
   description: syscall interface
+- github: 84codes/systemd.cr
+  description: systemd integration supporting notifications, socket activation, watchdog,
+    and FD storage
 - github: j8r/tail.cr
   description: Tailing library to get and/or follow the end of a file/IO
 - github: tbrand/tokoroten

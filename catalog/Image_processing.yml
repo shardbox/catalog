@@ -5,6 +5,8 @@ shards:
   description: Create SVG images using a DSL
   mirrors:
   - github: redcodefinal/celestine
+- github: naqvis/crimage
+  description: Comprehensive image processing library with no external dependencies
 - github: imdrasil/crymagick
   description: Wrapper for ImageMagick command line
 - github: obskyr/dazzlie

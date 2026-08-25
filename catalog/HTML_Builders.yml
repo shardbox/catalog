@@ -1,8 +1,11 @@
 ---
 name: HTML Builders
 shards:
-- github: gunbolt/blueprint
-  description: Write reusable and testable HTML templates in plain Crystal
+- github: stephannv/blueprint
+  description: Type-safe, component-based HTML DSL
+  mirrors:
+  - github: gunbolt/blueprint
+    role: legacy
 - github: westonganger/form_builder.cr
   description: Dead simple HTML form builder for Crystal with built-in support for
     many popular UI libraries such as Bootstrap
