@@ -41,8 +41,11 @@ shards:
 - github: wyhaines/serf-handler.cr
   description: Framework for building Serf handlers, with a suite of useful builtin
     capabilities
-- github: mperham/sidekiq.cr
+- github: hugopl/sidekiq.cr
   description: Simple, efficient job processing
+  mirrors:
+  - github: mperham/sidekiq.cr
+    role: legacy
 - github: marghidanu/werk
   description: Dead simple task runner with concurrent support, ideal for local CI
 - github: crystal-community/zeromq-crystal
