@@ -40,6 +40,8 @@ shards:
 - github: crystal-china/procodile
   description: A Procfile-based process manager for Mac & Linux, supporting foreground/background
     modes, .env files, and scheduled tasks
+- github: ralsina/sixteen
+  description: Access Base16 theme data and render Tinted Themes templates
 - github: snipline/snipcli
   description: Command-line tool for Snipline
 - github: mjago/sonicri
