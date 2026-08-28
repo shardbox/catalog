@@ -31,6 +31,9 @@ shards:
   description: Crystal bindings for OpenSSL RSA
 - github: stakach/openssl_ext
   description: Crystal bindings for OpenSSL RSA
+- gitlab: renich/pyrite
+  description: Hardware-bound and cloud-gated binary execution with anti-tamper envelope
+    sealing
 - github: ysbaddaden/random.cr
   description: Collection of Pseudo Random Number Generators (PRNGs)
 - github: threez/rfc8439.cr
