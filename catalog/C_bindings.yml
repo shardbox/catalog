@@ -52,6 +52,8 @@ shards:
   description: Bindings for libinotify
 - github: yxhuvud/ior
   description: Bindings for liburing. No eventloop integration
+- github: AB-KeyNub/KeyNub-SDK
+  description: Bindings for KeyNub USB license dongles
 - github: GeopJr/libadwaita.cr
   description: libadwaita bindings for Crystal
 - github: crystal-git/libgit2
