@@ -36,6 +36,8 @@ shards:
   description: Allows for the creation of CLI based commands
 - github: chenkovsky/docopt.cr
   description: docopt for crystal-lang
+- github: ralsina/docopt.cr
+  description: Conformant docopt parsing plus compile-time parsing, shell completions, a config layer and subcommand dispatch
 - github: robacarp/keimeno
   description: A lightweight text user interface library in Crystal
 - github: luckyframework/lucky_cli
