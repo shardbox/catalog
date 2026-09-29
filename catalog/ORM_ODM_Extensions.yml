@@ -18,6 +18,9 @@ shards:
   mirrors:
   - github: drujensen/kemalyst-model
     role: legacy
+- github: crimson-knight/grant
+  description: Active Record pattern ORM with feature parity with Active Record from
+    Ruby/Rails
 - github: imdrasil/jennifer.cr
   description: Active Record pattern implementation with flexible query chainable
     builder and migration system
