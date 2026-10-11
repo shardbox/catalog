@@ -15,3 +15,5 @@ shards:
 - github: grkek/iu
   description: UI framework based on the [Fusion/libui.cr](https://github.com/Fusion/libui.cr)
     library, with custom elements and modified bindings from [hedron-crystal/hedron](https://github.com/hedron-crystal/hedron)
+- github: threez/tui.cr
+  description: 'Minimal TUI primitives: a diffing screen compositor and widgets'

@@ -21,6 +21,9 @@ shards:
     role: legacy
 - github: unn4m3d/cppize
   description: Crystal-to-C++ transpiler
+- github: threez/creme
+  description: A small, practical [Scheme](https://www.scheme.org/) implementation
+    following R7RS-small, with a self-hosting C11 VM backend (icecreme)
 - github: rhysd/Crisp
   description: Lisp dialect implemented with Crystal
 - github: geppetto-apps/crow

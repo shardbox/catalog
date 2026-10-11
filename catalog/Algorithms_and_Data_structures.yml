@@ -98,6 +98,9 @@ shards:
   description: Priority Queue and Heap implementation
 - github: luislavena/radix
   description: Radix Tree implementation
+- github: threez/raft.cr
+  description: An implementation of the [Raft consensus algorithm](https://raft.github.io/raft.pdf)
+    for building distributed systems with strong consistency guarantees
 - github: z64/rate_limiter
   description: A rate limiter implementation
 - github: spider-gazelle/s2_cells

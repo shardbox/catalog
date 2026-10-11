@@ -7,3 +7,5 @@ shards:
   description: Shard aiming to assist with parsing backtraces into a structured form
 - github: Sija/debug.cr
   description: '`debug!(…)` macro for `pp`-style debugging'
+- github: threez/prof.cr
+  description: A sampling CPU profiler using a SIGPROF handler
