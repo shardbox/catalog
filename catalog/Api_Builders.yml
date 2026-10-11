@@ -3,3 +3,5 @@ name: Api Builders
 shards:
 - github: blocknotes/kemal-rest-api
   description: A library to create RESTful API with Kemal
+- github: threez/openapi.cr
+  description: Generates idiomatic source code from an OpenAPI 3.x spec

@@ -34,6 +34,8 @@ shards:
   description: An extension of the Crystal standard library
 - github: elbywan/crystalline
   description: A Language Server Protocol implementation for Crystal
+- github: threez/crystina.cr
+  description: A fluent DSL for generating Crystal source code
 - github: wyhaines/defined.cr
   description: Conditional compilation based on constants, version requirements, and
     environment
@@ -46,6 +48,9 @@ shards:
 - github: ne-sachirou/git-cleanup-branch
   description: Cleanup Git merged branches interactively at both local and remote
   state: archived
+- github: threez/git.cr
+  description: 'A pure implementation of the Git client protocol: clone and pull repositories
+    over HTTP(S), SSH, or local paths'
 - github: f/guardian
   description: File change watcher for Crystal and Non-Crystal libs
 - github: crystal-community/icr

@@ -30,6 +30,8 @@ shards:
   description: Object-hash mapping library for Redis
 - github: maiha/pon.cr
   description: Maiha's private ORM
+- github: threez/prostore.cr
+  description: A declarative ORM targeting SQLite and PostgreSQL
 - github: luckyframework/record
   description: Type safe querying, saving and updating
   mirrors:

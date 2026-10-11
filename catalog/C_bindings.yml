@@ -42,6 +42,9 @@ shards:
     engine
 - github: firejox/fftw.cr
   description: Bindings for [FFTW](https://fftw.org/) library
+- github: threez/freebsd.cr
+  description: Bindings for FreeBSD system libraries (libpkg, Capsicum, libcasper,
+    libnv), opt-in by sub-library
 - github: Sija/gphoto2.cr
   description: Bindings for the [libgphoto2](http://www.gphoto.org/) library
 - github: threez/hpdf.cr
@@ -93,6 +96,9 @@ shards:
     (terminal UI library)
 - github: zuf/turbojpeg.cr
   description: Bindings for the libjpeg-turbo (turpojpeg C API)
+- github: threez/ucl.cr
+  description: Bindings to libucl, the Universal Configuration Language used extensively
+    in FreeBSD (pkg, jail.conf, etc.)
 - github: naqvis/wasmer-crystal
   description: Bindings for the `wasmer` WebAssembly runtime
 - github: mjblack/win32cr

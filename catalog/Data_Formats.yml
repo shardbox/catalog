@@ -107,3 +107,6 @@ shards:
     YAML
 - github: colstrom/zq
   description: Command-line ZPL processor
+- github: threez/zugpferd.cr
+  description: Generates and parses ZUGFeRD 2.x (Factur-X) e-invoices, the structured
+    XML format mandated by EU Directive 2014/55/EU and German GoBD
