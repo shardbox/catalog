@@ -12,10 +12,25 @@ shards:
     dependencies
 - github: sushichain/crystal-argon2
   description: bindings for argon2 hashing library
+- gitlab: renich/crystal-ecc-constant
+  description: Constant-time Ed25519 digital signatures and X25519 ECDH key agreement
+    backed by libsodium guarded memory
+  mirrors:
+  - github: renich/crystal-ecc-constant
 - github: sushichain/crystal-ecdsa
   description: C bindings for OpenSSL ECDSA
+- gitlab: renich/crystal-pqc-constant
+  description: Constant-time Post-Quantum Cryptography (NIST FIPS 203 ML-KEM and FIPS
+    204 ML-DSA) backed by OpenSSL 3.5+ and libsodium guarded memory
+  mirrors:
+  - github: renich/crystal-pqc-constant
 - github: OscarBarrett/crystal-sha3
   description: An SHA-3 implementation written in Crystal
+- gitlab: renich/crystal-tpm2-tss
+  description: Native TPM 2.0 Software Stack with NV persistence, FIDO2 P-256 credentials,
+    and KDFa parameter encryption
+  mirrors:
+  - github: renich/crystal-tpm2-tss
 - github: spider-gazelle/ed25519
   description: the Ed25519 elliptic curve public-key signature system
 - github: threez/jose.cr

@@ -23,6 +23,10 @@ shards:
   description: Class based json renderer
 - github: kostya/cron_parser
   description: Cron parser
+- gitlab: renich/crystal-cbor-fido
+  description: Deterministic Canonical CBOR (RFC 8949/CTAP2) encoder and decoder
+  mirrors:
+  - github: renich/crystal-cbor-fido
 - github: repomaa/crystal-jsonapi
   description: JSON API serializing
 - github: amauryt/crystal-wkb
