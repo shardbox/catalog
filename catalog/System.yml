@@ -5,6 +5,11 @@ shards:
   description: Virtual file system implementation
   mirrors:
   - github: mperham/baked_file_system
+- gitlab: renich/crystal-dbus-native
+  description: Native, zero-dependency D-Bus wire protocol with SASL EXTERNAL authentication
+    and UNIX FD passing
+  mirrors:
+  - github: renich/crystal-dbus-native
 - github: DougEverly/daemonize.cr
   description: Daemonize a crystal process
 - github: j8r/exec.cr
