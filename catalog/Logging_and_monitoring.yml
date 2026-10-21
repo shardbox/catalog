@@ -28,6 +28,9 @@ shards:
   description: A structured logger for [Fluentd](https://www.fluentd.org/)
 - github: guvencenanguvenal/katip
   description: JSONbase logger
+- github: jochenseeber/logbuch
+  description: Annotate a method, and logbuch logs each call to it, with the arguments
+    on entry, the result and the duration on exit, or any exception
 - github: miketheman/statsd.cr
   description: '[Statsd](https://github.com/etsy/statsd) client library'
 - github: hydecr/strange
