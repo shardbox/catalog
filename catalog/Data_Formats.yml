@@ -72,7 +72,7 @@ shards:
   description: MIME multipart and multipart/form-data support
   state: archived
 - gitlab: renich/odf
-  description: OASIS OpenDocument Format 1.3 (.ods spreadsheet) reader and writer
+  description: OASIS OpenDocument Format 1.3 (`.ods` spreadsheet) reader and writer
     with OpenFormula support and zero dependencies
 - github: marceloboeira/pdf.cr
   description: PDF writer
