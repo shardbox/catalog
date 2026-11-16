@@ -116,6 +116,8 @@ shards:
     modularity & performance
 - github: jwoertink/sitemapper
   description: Sitemap generator for Crystal apps
+- github: eyszu/spectre
+  description: An extremely fast, Express.js-style web microframework for Crystal
 - github: spider-gazelle/spider-gazelle
   description: Rails-esque web framework with a focus on speed and extensibility
 - github: icyleaf/swagger
