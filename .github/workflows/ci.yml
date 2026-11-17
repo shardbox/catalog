@@ -6,7 +6,7 @@ on:
     - cron: '0 6 * * 6'  # Every Saturday 6 AM
 jobs:
   build:
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     env:
       SHARDS_OPTS: "--ignore-crystal-version"
     steps:
