@@ -19,7 +19,7 @@ shards:
 - github: soya-daizu/goban
   description: A fast and efficient QR Code implementation
 - github: eyszu/immagini
-  description: Image processing for Crystal inspired by ImageMagick for .NET.
+  description: Image processing for Crystal inspired by ImageMagick for .NET
 - github: libpixel/libpixel.cr
 - github: blocknotes/magickwand-crystal
   description: Bindings for [MagickWand](https://www.imagemagick.org/script/magick-wand.php),
