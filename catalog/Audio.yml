@@ -8,6 +8,8 @@ shards:
 - github: mjago/libao
   description: Bindings for [Xiph.org libao](https://www.xiph.org/ao/) cross platform
     audio library
+- github: Lurcast/lurcast
+  description: Internet radio streaming server compatible with Icecast and SHOUTcast
 - github: mjago/sonicri
   description: Audio Player
 - github: mjago/soundfile
